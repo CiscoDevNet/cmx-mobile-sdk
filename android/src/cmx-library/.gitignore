@@ -1,0 +1,6 @@
+bin/
+res/
+libs/cmx-*
+.settings/
+.classpath
+.project

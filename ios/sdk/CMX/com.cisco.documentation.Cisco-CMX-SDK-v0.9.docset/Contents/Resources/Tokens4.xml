@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXClient</TokenIdentifier>
+			<Abstract type="html">Client that manages data loading &amp;amp; network connexions with CMX server.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The client configuration.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) CMXClientConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/configuration</TokenIdentifier>
+			<Abstract type="html">The client configuration.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) CMXClientConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXClient/configuration</TokenIdentifier>
+			<Abstract type="html">The client configuration.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) CMXClientConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/setClientLocation:</TokenIdentifier>
+			<Abstract type="html">Latest indoor client location.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXClientLocation *clientLocation</Declaration>
+			
+			
+			<Anchor>//api/name/clientLocation</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/clientLocation</TokenIdentifier>
+			<Abstract type="html">Latest indoor client location.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXClientLocation *clientLocation</Declaration>
+			
+			
+			<Anchor>//api/name/clientLocation</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXClient/clientLocation</TokenIdentifier>
+			<Abstract type="html">Latest indoor client location.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXClientLocation *clientLocation</Declaration>
+			
+			
+			<Anchor>//api/name/clientLocation</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXClient/instance</TokenIdentifier>
+			<Abstract type="html">Return the shared instance of the CMX client.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>+ (CMXClient *)instance</Declaration>
+			
+			<ReturnValue><Abstract type="html">The shared instance of the CMX client.</Abstract></ReturnValue>
+			<Anchor>//api/name/instance</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/isRegistered</TokenIdentifier>
+			<Abstract type="html">Return boolean indicating if client has been registered to receive geolocation data.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isRegistered</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if client has already been registered, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/isRegistered</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/registerForNetworks:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Register the device to given servers to receive geolocation data.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)registerForNetworks:(NSArray *)networks completion:(void ( ^ ) ( ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>networks</Name>
+					<Abstract type="html">A list of networks.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerForNetworks:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/isRegisteredForRemoteNotifications</TokenIdentifier>
+			<Abstract type="html">Return boolean indicating if client has already been registered to receive remote notifications or not.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isRegisteredForRemoteNotifications</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if client has already been registered to receive remote notifications, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/isRegisteredForRemoteNotifications</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/registerForRemoteNotifications</TokenIdentifier>
+			<Abstract type="html">Register the app for remote notifications.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)registerForRemoteNotifications</Declaration>
+			
+			
+			<Anchor>//api/name/registerForRemoteNotifications</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/unregisterForRemoteNotifications</TokenIdentifier>
+			<Abstract type="html">Unregister the app for remote notifications.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)unregisterForRemoteNotifications</Declaration>
+			
+			
+			<Anchor>//api/name/unregisterForRemoteNotifications</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/registerDeviceToken:</TokenIdentifier>
+			<Abstract type="html">Register the device token used to receive push notification.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)registerDeviceToken:(NSData *)deviceToken</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deviceToken</Name>
+					<Abstract type="html">The token that identifies the device to APS, got from application:didRegisterForRemoteNotificationsWithDeviceToken: method</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerDeviceToken:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/handleNotification:applicationState:</TokenIdentifier>
+			<Abstract type="html">Handle incoming push notifications.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)handleNotification:(NSDictionary *)notification applicationState:(UIApplicationState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">The notification payload, as passed to your application delegate.</Abstract>
+				</Parameter><Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The application state at the time the notification was received.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleNotification:applicationState:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadUserLocationWithCompletion:failure:</TokenIdentifier>
+			<Abstract type="html">Load user location.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadUserLocationWithCompletion:(void ( ^ ) ( CMXClientLocation *clientLocation ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument : the user location.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadUserLocationWithCompletion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/startUserLocationPollingWithInterval:update:</TokenIdentifier>
+			<Abstract type="html">Start indoor user location.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)startUserLocationPollingWithInterval:(NSUInteger)interval update:(void ( ^ ) ( CMXClientLocation *clientLocation ))update</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>interval</Name>
+					<Abstract type="html">Interval in seconds between updates.</Abstract>
+				</Parameter><Parameter>
+					<Name>update</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument : the user location.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startUserLocationPollingWithInterval:update:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/stopUserLocationPolling</TokenIdentifier>
+			<Abstract type="html">Stop indoor user location.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)stopUserLocationPolling</Declaration>
+			
+			
+			<Anchor>//api/name/stopUserLocationPolling</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/postLocationFeedback:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Post location feedback.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)postLocationFeedback:(CGPoint)location start:(StartBlock)start completion:(void ( ^ ) ( void ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>location</Name>
+					<Abstract type="html">location of the user (X, Y in image space)</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postLocationFeedback:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadVenuesWithStart:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Get informations about all venues.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadVenuesWithStart:(StartBlock)start completion:(void ( ^ ) ( NSArray *venues ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the array of venues created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadVenuesWithStart:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadVenue:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load informations for a given venue.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadVenue:(NSString *)venueId start:(StartBlock)start completion:(void ( ^ ) ( CMXVenue *venue ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue to load.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the venue created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadVenue:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadImageOfVenue:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load image of the given venue.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadImageOfVenue:(NSString *)venueId start:(StartBlock)start completion:(void ( ^ ) ( UIImage *image ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the image created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadImageOfVenue:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadFloorsOfVenue:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load all floors for a given venue.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadFloorsOfVenue:(NSString *)venueId start:(StartBlock)start completion:(void ( ^ ) ( NSArray *floors ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">id of the venue.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the array of floors created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadFloorsOfVenue:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadFloor:ofVenue:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load floor.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadFloor:(NSString *)floorId ofVenue:(NSString *)venueId start:(StartBlock)start completion:(void ( ^ ) ( CMXFloor *floor ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>floorId</Name>
+					<Abstract type="html">Id of the floor.</Abstract>
+				</Parameter><Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the floor created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadFloor:ofVenue:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadImageOfFloor:ofVenue:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load image of the given floor.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadImageOfFloor:(NSString *)floorId ofVenue:(NSString *)venueId start:(StartBlock)start completion:(void ( ^ ) ( UIImage *image ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>floorId</Name>
+					<Abstract type="html">Id of the floor.</Abstract>
+				</Parameter><Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the image created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadImageOfFloor:ofVenue:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadPoisOfVenue:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load all pois of the venue.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadPoisOfVenue:(NSString *)venueId start:(StartBlock)start completion:(void ( ^ ) ( NSArray *pois ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the array of pois created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadPoisOfVenue:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadPoisOfFloor:ofVenue:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load pois for a given floor.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadPoisOfFloor:(NSString *)floorId ofVenue:(NSString *)venueId start:(StartBlock)start completion:(void ( ^ ) ( NSArray *pois ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>floorId</Name>
+					<Abstract type="html">Id of the floor.</Abstract>
+				</Parameter><Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the array of pois created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadPoisOfFloor:ofVenue:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadImageOfPoi:ofVenue:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load image for a given poi.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadImageOfPoi:(NSString *)poiId ofVenue:(NSString *)venueId start:(StartBlock)start completion:(void ( ^ ) ( UIImage *poiImage ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>poiId</Name>
+					<Abstract type="html">Id of the poi.</Abstract>
+				</Parameter><Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the image of pois created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadImageOfPoi:ofVenue:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadPathForPoi:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load path for a given poi.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadPathForPoi:(NSString *)poiId start:(StartBlock)start completion:(void ( ^ ) ( CMXPath *path ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>poiId</Name>
+					<Abstract type="html">Id of the poi.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the path object created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadPathForPoi:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadQueryForKeywords:ofVenue:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Search pois for given keywords.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadQueryForKeywords:(NSString *)keywords ofVenue:(NSString *)venueId start:(StartBlock)start completion:(void ( ^ ) ( NSMutableArray *pois ))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keywords</Name>
+					<Abstract type="html">keywords.</Abstract>
+				</Parameter><Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the array of pois created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadQueryForKeywords:ofVenue:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadBannersForZone:ofVenue:floor:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load all banners for a given zone.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadBannersForZone:(NSString *)zoneId ofVenue:(NSString *)venueId floor:(NSString *)floorId start:(StartBlock)start completion:(void ( ^ ) ( NSArray *))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zoneId</Name>
+					<Abstract type="html">Id of the zone.</Abstract>
+				</Parameter><Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue.</Abstract>
+				</Parameter><Parameter>
+					<Name>floorId</Name>
+					<Abstract type="html">Od of the floor.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the array of CMXBanner objects created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadBannersForZone:ofVenue:floor:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadBannerImageForImage:ofVenue:floor:zone:start:completion:failure:</TokenIdentifier>
+			<Abstract type="html">Load image for a given banner.</Abstract>
+			<DeclaredIn>CMXClient.h</DeclaredIn>
+			
+			<Declaration>- (void)loadBannerImageForImage:(NSString *)imageId ofVenue:(NSString *)venueId floor:(NSString *)floorId zone:(NSString *)zoneId start:(StartBlock)start completion:(void ( ^ ) ( UIImage *))completion failure:(FailureBlock)failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>imageId</Name>
+					<Abstract type="html">Id of the banner&apos;s image.</Abstract>
+				</Parameter><Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the banner&apos;s venue.</Abstract>
+				</Parameter><Parameter>
+					<Name>floorId</Name>
+					<Abstract type="html">Id of the banner&apos;s floor.</Abstract>
+				</Parameter><Parameter>
+					<Name>zoneId</Name>
+					<Abstract type="html">Id of the banner&apos;s zone.</Abstract>
+				</Parameter><Parameter>
+					<Name>start</Name>
+					<Abstract type="html">A block object to be executed when the request operation starts. This block has no return value and takes no argument.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes successfully. This block has no return value and takes one argument: the image of banner created from the response data of request.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the request operation finishes unsuccessfully, or that finishes successfully, but encountered an error while parsing the response data. This block has no return value and takes one argument: the NSError object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadBannerImageForImage:ofVenue:floor:zone:start:completion:failure:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

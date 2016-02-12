@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXBanner.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXBanner</TokenIdentifier>
+			<Abstract type="html">Class that holds information of a banner.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBanner/setImageId:</TokenIdentifier>
+			<Abstract type="html">Id of the banner&apos;s image.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBanner/imageId</TokenIdentifier>
+			<Abstract type="html">Id of the banner&apos;s image.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXBanner/imageId</TokenIdentifier>
+			<Abstract type="html">Id of the banner&apos;s image.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBanner/setImageType:</TokenIdentifier>
+			<Abstract type="html">Image type.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *imageType</Declaration>
+			
+			
+			<Anchor>//api/name/imageType</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBanner/imageType</TokenIdentifier>
+			<Abstract type="html">Image type.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *imageType</Declaration>
+			
+			
+			<Anchor>//api/name/imageType</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXBanner/imageType</TokenIdentifier>
+			<Abstract type="html">Image type.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *imageType</Declaration>
+			
+			
+			<Anchor>//api/name/imageType</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBanner/setVenueId:</TokenIdentifier>
+			<Abstract type="html">Id of the venue.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *venueId</Declaration>
+			
+			
+			<Anchor>//api/name/venueId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBanner/venueId</TokenIdentifier>
+			<Abstract type="html">Id of the venue.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *venueId</Declaration>
+			
+			
+			<Anchor>//api/name/venueId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXBanner/venueId</TokenIdentifier>
+			<Abstract type="html">Id of the venue.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *venueId</Declaration>
+			
+			
+			<Anchor>//api/name/venueId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBanner/setZoneId:</TokenIdentifier>
+			<Abstract type="html">Id of the zone.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *zoneId</Declaration>
+			
+			
+			<Anchor>//api/name/zoneId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBanner/zoneId</TokenIdentifier>
+			<Abstract type="html">Id of the zone.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *zoneId</Declaration>
+			
+			
+			<Anchor>//api/name/zoneId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXBanner/zoneId</TokenIdentifier>
+			<Abstract type="html">Id of the zone.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *zoneId</Declaration>
+			
+			
+			<Anchor>//api/name/zoneId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXBanner/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Alloc and init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>+ (CMXBanner *)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new object.</Abstract></ReturnValue>
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBanner/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current instance object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBanner/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html">Returns The dictionary representation of the current object.</Abstract>
+			<DeclaredIn>CMXBanner.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			<ReturnValue><Abstract type="html">The dictionary representation of the current object.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

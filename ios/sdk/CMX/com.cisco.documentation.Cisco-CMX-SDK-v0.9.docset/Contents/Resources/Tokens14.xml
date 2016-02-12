@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXMenuViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXMenuViewController</TokenIdentifier>
+			<Abstract type="html">Controller used to display menu (left panel)</Abstract>
+			<DeclaredIn>CMXMenuViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMenuViewController/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Menu delegate</Abstract>
+			<DeclaredIn>CMXMenuViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXMenuViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMenuViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Menu delegate</Abstract>
+			<DeclaredIn>CMXMenuViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXMenuViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXMenuViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Menu delegate</Abstract>
+			<DeclaredIn>CMXMenuViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXMenuViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMenuViewController/setupWithVenues:floors:userLocation:</TokenIdentifier>
+			<Abstract type="html">Initialize the controller with data.</Abstract>
+			<DeclaredIn>CMXMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setupWithVenues:(NSArray *)venues floors:(NSDictionary *)floorsByVenueId userLocation:(CMXClientLocation *)userLocation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>venues</Name>
+					<Abstract type="html">Array of venues</Abstract>
+				</Parameter><Parameter>
+					<Name>floorsByVenueId</Name>
+					<Abstract type="html">Dictionary of arrays of floors (key = venue id).</Abstract>
+				</Parameter><Parameter>
+					<Name>userLocation</Name>
+					<Abstract type="html">current user location if known, nil otherwise.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setupWithVenues:floors:userLocation:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMenuViewController/updateMenuItemsWithNewCurrentFloor:</TokenIdentifier>
+			<Abstract type="html">Update menu items with the new current floor.</Abstract>
+			<DeclaredIn>CMXMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)updateMenuItemsWithNewCurrentFloor:(CMXFloor *)floor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>floor</Name>
+					<Abstract type="html">Current floor where user is located.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateMenuItemsWithNewCurrentFloor:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

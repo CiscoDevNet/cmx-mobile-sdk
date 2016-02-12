@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cmx_floor_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/cmx_main_root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <com.cisco.cmx.ui.CMXFloorView
+            android:id="@+id/cmx_floor_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+
+        <ProgressBar
+            android:id="@+id/cmx_floor_view_progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/cmx_floor_banner_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

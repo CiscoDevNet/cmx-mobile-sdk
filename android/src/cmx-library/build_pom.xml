@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="cmx-library" default="help">
+    <property name="target.dir" location="target"/>
+    <property name="cmxLibrary.file" location="target/cmx-library-${project.version}.zip"/>
+  
+    <target name="init" description="setup project directories and version information">
+        <copy file="AndroidManifest.xml" tofile="AndroidManifest.xml_tmp" preservelastmodified="true" overwrite="false"/>
+        <replaceregexp file="AndroidManifest.xml" match="android:versionName=(.*)" replace='android:versionName="${project.version}" >' />
+    </target>
+    <target name="clean">
+        <delete dir="${target.dir}"/>
+        <delete dir="./assests"/>
+        <delete dir="./bin"/>
+        <delete dir="./gen"/>
+        <delete dir="./res"/>
+        <delete dir="./src"/>
+        <delete dir="./libs"/>
+    </target>
+    <target name="finish" description="finish reverting changes">
+    </target>
+    <target name="compile-debug">
+        <copy file="../cmx-core/bin/classes.jar" tofile="libs/cmx-core-${project.version}.jar" overwrite="true"/>
+        <copy file="../cmx-ui/bin/classes.jar" tofile="libs/cmx-ui-${project.version}.jar" overwrite="true"/>
+        <copydir src="../cmx-ui/libs" dest="libs" forceoverwrite="true"/>
+        <copydir src="../cmx-ui/res" dest="res" forceoverwrite="true"/>
+        <mkdir dir="src"/>
+    </target>
+    <target name="compile-release">
+        <copy file="../cmx-core/bin/classes.jar" tofile="libs/cmx-core-${project.version}.jar" overwrite="true"/>
+        <copy file="../cmx-ui/bin/classes.jar" tofile="libs/cmx-ui-${project.version}.jar" overwrite="true"/>
+        <copydir src="../cmx-ui/libs" dest="libs" forceoverwrite="true"/>
+        <copydir src="../cmx-ui/res" dest="res" forceoverwrite="true"/>
+        <mkdir dir="src"/>
+    </target>
+    <target name="debug" depends="init,compile-debug" description="generate documentation">
+        <move file="AndroidManifest.xml_tmp" tofile="AndroidManifest.xml" overwrite="true"/>
+    </target>
+    <target name="release" depends="init,compile-release" description="generate documentation">
+        <move file="AndroidManifest.xml_tmp" tofile="AndroidManifest.xml" overwrite="true"/>
+    </target>
+    
+</project>

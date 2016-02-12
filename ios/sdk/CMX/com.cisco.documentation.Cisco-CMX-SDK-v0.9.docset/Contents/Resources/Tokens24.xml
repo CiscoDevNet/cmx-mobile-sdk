@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CMXMapViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CMXMapViewDelegate</TokenIdentifier>
+			<Abstract type="html">Map view delegate protocol.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CMXMapViewDelegate/mapView:didSelectPoi:</TokenIdentifier>
+			<Abstract type="html">Method called when a poi has been selected.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)mapView:(CMXMapView *)mapView didSelectPoi:(NSString *)poiId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mapView</Name>
+					<Abstract type="html">Map view instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>poiId</Name>
+					<Abstract type="html">Id of the selected poi.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/mapView:didSelectPoi:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CMXMapViewDelegate/mapView:didDisclosePoi:</TokenIdentifier>
+			<Abstract type="html">Method called when a disclosure button of a callout has been pressed.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)mapView:(CMXMapView *)mapView didDisclosePoi:(NSString *)poiId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mapView</Name>
+					<Abstract type="html">Map view instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>poiId</Name>
+					<Abstract type="html">Id of the selected poi.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/mapView:didDisclosePoi:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CMXMapViewDelegate/mapView:didSetLocationFeedback:</TokenIdentifier>
+			<Abstract type="html">Method called when location feedback has been set.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)mapView:(CMXMapView *)mapView didSetLocationFeedback:(CGPoint)location</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mapView</Name>
+					<Abstract type="html">Map view instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>location</Name>
+					<Abstract type="html">Location of the feedback.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/mapView:didSetLocationFeedback:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

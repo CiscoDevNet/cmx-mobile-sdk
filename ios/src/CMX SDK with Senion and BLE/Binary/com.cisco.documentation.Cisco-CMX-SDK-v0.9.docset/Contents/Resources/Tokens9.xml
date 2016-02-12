@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXFloorViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXFloorViewController</TokenIdentifier>
+			<Abstract type="html">Controller that displays floor map</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/setMapView:</TokenIdentifier>
+			<Abstract type="html">View used to display map.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXMapView *mapView</Declaration>
+			
+			
+			<Anchor>//api/name/mapView</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/mapView</TokenIdentifier>
+			<Abstract type="html">View used to display map.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXMapView *mapView</Declaration>
+			
+			
+			<Anchor>//api/name/mapView</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXFloorViewController/mapView</TokenIdentifier>
+			<Abstract type="html">View used to display map.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXMapView *mapView</Declaration>
+			
+			
+			<Anchor>//api/name/mapView</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/setBannerViewController:</TokenIdentifier>
+			<Abstract type="html">Banner controller.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXBannerViewController *bannerViewController</Declaration>
+			
+			
+			<Anchor>//api/name/bannerViewController</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/bannerViewController</TokenIdentifier>
+			<Abstract type="html">Banner controller.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXBannerViewController *bannerViewController</Declaration>
+			
+			
+			<Anchor>//api/name/bannerViewController</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXFloorViewController/bannerViewController</TokenIdentifier>
+			<Abstract type="html">Banner controller.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXBannerViewController *bannerViewController</Declaration>
+			
+			
+			<Anchor>//api/name/bannerViewController</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Floor controller delegate.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXFloorViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Floor controller delegate.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXFloorViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXFloorViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Floor controller delegate.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXFloorViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/initWithFloor:ofVenue:</TokenIdentifier>
+			<Abstract type="html">Initialize the controller with an object containing floor informations and an object containing venue informations.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFloor:(CMXFloor *)floor ofVenue:(CMXVenue *)venue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>floor</Name>
+					<Abstract type="html">Object containing floor informations.</Abstract>
+				</Parameter><Parameter>
+					<Name>venue</Name>
+					<Abstract type="html">Object containing venue informations.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current object instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithFloor:ofVenue:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/updateControllerWithFloor:ofVenue:</TokenIdentifier>
+			<Abstract type="html">Update the controller and the map with an object containing floor informations and an object containing venue informations.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)updateControllerWithFloor:(CMXFloor *)floor ofVenue:(CMXVenue *)venue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>floor</Name>
+					<Abstract type="html">Object containing floor informations.</Abstract>
+				</Parameter><Parameter>
+					<Name>venue</Name>
+					<Abstract type="html">Object containing venue informations.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateControllerWithFloor:ofVenue:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/setTargetDestination:</TokenIdentifier>
+			<Abstract type="html">Set the target destination. It will display on map the path from the current client location to the target destionation.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setTargetDestination:(NSString *)poiId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>poiId</Name>
+					<Abstract type="html">Poi&apos;s id of the destination.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTargetDestination:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/setClientLocation:</TokenIdentifier>
+			<Abstract type="html">Update client location on map and path to target destination if set.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setClientLocation:(CMXClientLocation *)location</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>location</Name>
+					<Abstract type="html">New client location.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setClientLocation:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/poiWithId:</TokenIdentifier>
+			<Abstract type="html">Returns a poi given an id, or nil if not available</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>- (CMXPoi *)poiWithId:(NSString *)poiId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>poiId</Name>
+					<Abstract type="html">Id of the poi.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A poi object if found, nil otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/poiWithId:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloorViewController/imageOfPoi:</TokenIdentifier>
+			<Abstract type="html">Returns the image of the corresponding poi id.</Abstract>
+			<DeclaredIn>CMXFloorViewController.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)imageOfPoi:(NSString *)poiId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>poiId</Name>
+					<Abstract type="html">Id of the poi.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An image object if found, nil otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageOfPoi:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,114 @@
+<html>
+<head>
+<style type="text/css">
+a:link {color:#FFFFFF;}    /* unvisited link */
+a:visited {color:#BDBDBD;} /* visited link */
+a:hover {color:#0000FF;}   /* mouse over link */
+a:active {color:#BDBDBD;}  /* selected link */
+
+/* pushes the page to the full capacity of the viewing area */
+html {height:100%;}
+body {height:100%; margin:0; padding:0;}
+/* prepares the background image to full capacity of the viewing area */
+#bg {position:fixed; top:0; left:0; width:100%; height:100%;}
+/* places the content ontop of the background image */
+#content {position:relative; z-index:1;}
+</style>
+<!--[if IE 6]>
+<style type="text/css">
+/* some css fixes for IE browsers */
+html {overflow-y:hidden;}
+body {overflow-y:auto;}
+#bg {position:absolute; z-index:-1;}
+#content {position:static;}
+</style>
+<![endif]-->
+<script language="JavaScript">
+var xmlhttp;
+if (window.XMLHttpRequest) {
+  xmlhttp=new XMLHttpRequest();
+} else {
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+xmlhttp.onreadystatechange=function() {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+  }
+}
+
+function setLocation(event){
+    var enterVenuePushNotification = false;
+    if (document.mapForm.xPosition.value === "") {
+        enterVenuePushNotification = true;
+    }
+    pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("locationDiv").offsetLeft;
+    pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("locationDiv").offsetTop;
+    document.getElementById("locationPointer").style.left = (pos_x-1) ;
+    document.getElementById("locationPointer").style.top = (pos_y-15) ;
+    document.getElementById("locationPointer").style.visibility = "visible" ;
+    document.mapForm.xPosition.value = pos_x/%CMX_OFFSET_RATIO%;
+    document.mapForm.yPosition.value = pos_y/%CMX_OFFSET_RATIO%;
+    
+    xmlhttp.open("POST","%CMX_WEB_APP%/api/cmxmobile/v1/location/update/%CMX_DEVICE_ID%",true);
+    xmlhttp.setRequestHeader("Content-type","application/json");
+    var messageBody = '{';
+    messageBody += '"deviceId":"%CMX_DEVICE_ID%",';
+    messageBody += '"venueId":"%CMX_VENUE_ID%",';
+    messageBody += '"floorId":"%CMX_FLOOR_ID%",';
+    messageBody += '"zoneId":"000",';
+    messageBody += '"mapCoordinate":{"x":"'+document.mapForm.xPosition.value+'","y":"'+document.mapForm.yPosition.value+'"}';
+    messageBody += '}';
+    xmlhttp.send(messageBody);
+    if (enterVenuePushNotification) {
+        xmlhttp.open("POST","%CMX_WEB_APP%/api/cmxmobile/v1/clients/notification/%CMX_DEVICE_ID%",true);
+        xmlhttp.setRequestHeader("Content-type","application/json");
+        var messageBody = '{';
+        messageBody += '"message" : "' + document.mapForm.enterVenuePushNotificationMessage.value + '",';
+        messageBody += '"ssid" : "' + document.mapForm.enterVenueSsid.value + '",';
+        messageBody += '"ssidPassword" : "' + document.mapForm.enterVenueSsidPassword.value + '"';
+        messageBody += '}';
+        xmlhttp.send(messageBody);        
+    }
+}
+
+function sendPushNotification(event){
+    xmlhttp.open("POST","%CMX_WEB_APP%/api/cmxmobile/v1/clients/notification/%CMX_DEVICE_ID%",true);
+    xmlhttp.setRequestHeader("Content-type","application/json");
+    var messageBody = '{';
+    messageBody += '"message" : "' + document.mapForm.manuelPushNotificationMessage.value + '",';
+    messageBody += '"ssid" : "' + document.mapForm.manuelSsid.value + '",';
+    messageBody += '"ssidPassword" : "' + document.mapForm.manuelSsidPassword.value + '"';
+    messageBody += '}';
+    xmlhttp.send(messageBody);
+}
+</script>
+</head>
+<body>
+<div id="bg"><img src="%CMX_WEB_APP%/api/cmxmobile/v1/demo/image/page_background.png" width="100%" height="100%" alt=""></div>
+<div id="content">
+<div id="banner-title" style="background:url('%CMX_WEB_APP%/api/cmxmobile/v1/demo/image/cisco_banner.png') no-repeat;height:80px;background-size:600px 80px">
+<div id="banner-right" style="position:absolute;left:150;top:25;color:white;font-size:30pt">CMX Mobile SDK Map</div>
+</div>
+    <form name="mapForm" method="post" onsubmit="return false;">
+	<p style="color:white;">
+        <img src="%CMX_WEB_APP%/api/cmxmobile/v1/demo/image/question_mark.png" width="17" height="17" title="The push notification message will be sent on the first click of the map.
+This simulates a user entering a venue and receiving a push notification to launch application.">
+		Enter Venue Notification Message: <input type="text" name="enterVenuePushNotificationMessage" size="40" value="%CMX_DEFAULT_PUSH_NOTIFICATION_MESSAGE%" onblur="if (this.value == '') { this.value = '%CMX_DEFAULT_PUSH_NOTIFICATION_MESSAGE%'; }" onfocus="if (this.value == '%CMX_DEFAULT_PUSH_NOTIFICATION_MESSAGE%') { this.value = ''; }"/>
+            SSID: <input type="text" name="enterVenueSsid" size="10" />
+            Password: <input type="password" name="enterVenueSsidPassword" size="10" /></p>
+			<p align="center" style="color:white;font-size:20px;">
+			Click on map to set client location</p>
+        <div id="locationDiv" onclick="setLocation(event)" style="background-image: url('%CMX_WEB_APP%/api/cmxmobile/v1/maps/image/%CMX_VENUE_ID%/%CMX_FLOOR_ID%'); width: %CMX_MAP_WIDTH%px; height: %CMX_MAP_LENGTH%px;">
+            <img src="%CMX_WEB_APP%/api/cmxmobile/v1/demo/image/arrow_location.png" id="locationPointer" style="position: relative; visibility: hidden; z-index: 2;">
+        </div>
+		<p style="color:white;">
+        Current Location (X:<input type="text" name="xPosition" size="4" disabled/>, Y:<input type="text" name="yPosition" size="4" disabled/>)</br> Push
+        Notification Message: <input type="text" name="manuelPushNotificationMessage" size="40" value="%CMX_DEFAULT_PUSH_NOTIFICATION_MESSAGE%" onblur="if (this.value == '') { this.value = '%CMX_DEFAULT_PUSH_NOTIFICATION_MESSAGE%'; }" onfocus="if (this.value == '%CMX_DEFAULT_PUSH_NOTIFICATION_MESSAGE%') { this.value = ''; }"/>
+            SSID: <input type="text" name="manuelSsid" size="10" />
+            Password: <input type="password" name="manuelSsidPassword" size="10" />
+            <button onclick="sendPushNotification()">Send</button>
+			</p>
+    </form>
+</div>
+</body>
+</html>

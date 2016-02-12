@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXVenue.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXVenue</TokenIdentifier>
+			<Abstract type="html">Define a venue</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">Unique identifier of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/identifier</TokenIdentifier>
+			<Abstract type="html">Unique identifier of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXVenue/identifier</TokenIdentifier>
+			<Abstract type="html">Unique identifier of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/setName:</TokenIdentifier>
+			<Abstract type="html">Name of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/name</TokenIdentifier>
+			<Abstract type="html">Name of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXVenue/name</TokenIdentifier>
+			<Abstract type="html">Name of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/setStreetAddress:</TokenIdentifier>
+			<Abstract type="html">Street address of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *streetAddress</Declaration>
+			
+			
+			<Anchor>//api/name/streetAddress</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/streetAddress</TokenIdentifier>
+			<Abstract type="html">Street address of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *streetAddress</Declaration>
+			
+			
+			<Anchor>//api/name/streetAddress</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXVenue/streetAddress</TokenIdentifier>
+			<Abstract type="html">Street address of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *streetAddress</Declaration>
+			
+			
+			<Anchor>//api/name/streetAddress</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/setPreferredNetworks:</TokenIdentifier>
+			<Abstract type="html">Preferred networks of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *preferredNetworks</Declaration>
+			
+			
+			<Anchor>//api/name/preferredNetworks</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/preferredNetworks</TokenIdentifier>
+			<Abstract type="html">Preferred networks of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *preferredNetworks</Declaration>
+			
+			
+			<Anchor>//api/name/preferredNetworks</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXVenue/preferredNetworks</TokenIdentifier>
+			<Abstract type="html">Preferred networks of the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *preferredNetworks</Declaration>
+			
+			
+			<Anchor>//api/name/preferredNetworks</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/setLocationUpdateInterval:</TokenIdentifier>
+			<Abstract type="html">Location update interval (in seconds).</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSUInteger locationUpdateInterval</Declaration>
+			
+			
+			<Anchor>//api/name/locationUpdateInterval</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/locationUpdateInterval</TokenIdentifier>
+			<Abstract type="html">Location update interval (in seconds).</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSUInteger locationUpdateInterval</Declaration>
+			
+			
+			<Anchor>//api/name/locationUpdateInterval</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXVenue/locationUpdateInterval</TokenIdentifier>
+			<Abstract type="html">Location update interval (in seconds).</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSUInteger locationUpdateInterval</Declaration>
+			
+			
+			<Anchor>//api/name/locationUpdateInterval</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/setWifiMode:</TokenIdentifier>
+			<Abstract type="html">Wifi connection mode used for the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CMXWifiConnectionMode wifiMode</Declaration>
+			
+			
+			<Anchor>//api/name/wifiMode</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/wifiMode</TokenIdentifier>
+			<Abstract type="html">Wifi connection mode used for the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CMXWifiConnectionMode wifiMode</Declaration>
+			
+			
+			<Anchor>//api/name/wifiMode</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXVenue/wifiMode</TokenIdentifier>
+			<Abstract type="html">Wifi connection mode used for the venue.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CMXWifiConnectionMode wifiMode</Declaration>
+			
+			
+			<Anchor>//api/name/wifiMode</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXVenue/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Alloc and init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>+ (CMXVenue *)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new object.</Abstract></ReturnValue>
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current instance object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXVenue/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html">Returns The dictionary representation of the current object.</Abstract>
+			<DeclaredIn>CMXVenue.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			<ReturnValue><Abstract type="html">The dictionary representation of the current object.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

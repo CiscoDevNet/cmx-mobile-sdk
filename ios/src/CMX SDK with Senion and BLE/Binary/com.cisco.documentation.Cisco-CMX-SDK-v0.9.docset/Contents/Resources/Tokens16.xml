@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXPath.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXPath</TokenIdentifier>
+			<Abstract type="html">Define a navigation path made of 2D points.</Abstract>
+			<DeclaredIn>CMXPath.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPath/setPoints:</TokenIdentifier>
+			<Abstract type="html">Array of points (CMXPoint representing the path.</Abstract>
+			<DeclaredIn>CMXPath.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *points</Declaration>
+			
+			
+			<Anchor>//api/name/points</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPath/points</TokenIdentifier>
+			<Abstract type="html">Array of points (CMXPoint representing the path.</Abstract>
+			<DeclaredIn>CMXPath.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *points</Declaration>
+			
+			
+			<Anchor>//api/name/points</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPath/points</TokenIdentifier>
+			<Abstract type="html">Array of points (CMXPoint representing the path.</Abstract>
+			<DeclaredIn>CMXPath.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *points</Declaration>
+			
+			
+			<Anchor>//api/name/points</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPath/initWithPoints:</TokenIdentifier>
+			<Abstract type="html">Init a path object from an array of points (CMXPoint.</Abstract>
+			<DeclaredIn>CMXPath.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithPoints:(NSArray *)points</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>points</Name>
+					<Abstract type="html">Array of points (CMXPoint</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithPoints:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

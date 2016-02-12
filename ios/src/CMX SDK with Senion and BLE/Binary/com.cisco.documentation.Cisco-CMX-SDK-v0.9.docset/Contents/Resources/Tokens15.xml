@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXNetwork.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXNetwork</TokenIdentifier>
+			<Abstract type="html">Define a network.</Abstract>
+			<DeclaredIn>CMXNetwork.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXNetwork/setSsid:</TokenIdentifier>
+			<Abstract type="html">SSID of the network.</Abstract>
+			<DeclaredIn>CMXNetwork.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *ssid</Declaration>
+			
+			
+			<Anchor>//api/name/ssid</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXNetwork/ssid</TokenIdentifier>
+			<Abstract type="html">SSID of the network.</Abstract>
+			<DeclaredIn>CMXNetwork.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *ssid</Declaration>
+			
+			
+			<Anchor>//api/name/ssid</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXNetwork/ssid</TokenIdentifier>
+			<Abstract type="html">SSID of the network.</Abstract>
+			<DeclaredIn>CMXNetwork.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *ssid</Declaration>
+			
+			
+			<Anchor>//api/name/ssid</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXNetwork/setPassword:</TokenIdentifier>
+			<Abstract type="html">Password of the network.</Abstract>
+			<DeclaredIn>CMXNetwork.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXNetwork/password</TokenIdentifier>
+			<Abstract type="html">Password of the network.</Abstract>
+			<DeclaredIn>CMXNetwork.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXNetwork/password</TokenIdentifier>
+			<Abstract type="html">Password of the network.</Abstract>
+			<DeclaredIn>CMXNetwork.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXNetwork/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Alloc and init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXNetwork.h</DeclaredIn>
+			
+			<Declaration>+ (CMXNetwork *)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new object.</Abstract></ReturnValue>
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXNetwork/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXNetwork.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current instance object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXNetwork/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html">Returns The dictionary representation of the current object.</Abstract>
+			<DeclaredIn>CMXNetwork.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			<ReturnValue><Abstract type="html">The dictionary representation of the current object.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

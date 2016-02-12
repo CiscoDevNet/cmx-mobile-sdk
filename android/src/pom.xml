@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.cisco.cmx-mobile-sdk</groupId>
+    <artifactId>cmx-mobile-sdk-android-parent-pom</artifactId>
+    <packaging>pom</packaging>
+    <name>CMX Mobile SDK Android Parent POM</name>
+    <version>1.0.19-SNAPSHOT</version>
+    <description>CMX Mobile SDK Android Parent POM</description>
+
+    <!--
+    To build locally on desktop you change change the location of the Adnroid SDK directory by using the -Dandroid.sdk.dir
+    option. For example:
+    mvn clean install -Dandroid.sdk.dir=C:\Users\hdelery\Documents\Data\android-sdks
+    -->
+
+    <scm>
+        <connection>scm:git:http://cmx-code-review-01.cisco.com:8080/gerrit/mobile-apps</connection>
+        <developerConnection>scm:git:http://cmx-code-review-01.cisco.com:8080/gerrit/mobile-apps</developerConnection>
+        <tag>cmx-mobile-sdk-android-parent-pom-1.0.16</tag>
+    </scm>
+
+    <repositories>
+        <repository>
+            <id>WNBU Repo</id>
+            <url>http://nmtg-maven.cisco.com:9081/nexus/content/groups/wnbu-group/</url>
+        </repository>
+        <repository>
+            <id>NMTG Repo</id>
+            <url>http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-release-only-group/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>wnbu</id>
+            <url>http://nmtg-maven.cisco.com:9081/nexus/content/repositories/wnbu</url>
+        </repository>
+        <snapshotRepository>
+            <id>wnbu-snapshots</id>
+            <url>http://nmtg-maven.cisco.com:9081/nexus/content/repositories/wnbu-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <profiles>
+        <profile>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+                <property>
+                    <name>!android.sdk.dir</name>
+                </property>
+            </activation>
+            <properties>
+                <android.sdk.dir>/usr/android-sdk-linux</android.sdk.dir>
+            </properties>
+        </profile>
+    </profiles>
+
+    <properties>
+        <project.version.major>${major.version}</project.version.major>
+        <project.version.minor>${minor.version}</project.version.minor>
+        <project.version.incremental>${incremental.version}</project.version.incremental>
+    </properties>
+
+    <modules>
+        <module>cmx-core</module>
+        <module>cmx-ui</module>
+        <module>cmx-library</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>regex-property-major</id>
+                        <goals>
+                            <goal>regex-property</goal>
+                        </goals>
+                        <configuration>
+                            <name>major.version</name>
+                            <value>${project.version}</value>
+                            <regex>^([0-9]+)\.([0-9]+)\.([0-9]+)(-SNAPSHOT)?$</regex>
+                            <replacement>$1</replacement>
+                            <failIfNoMatch>true</failIfNoMatch>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>regex-property-minor</id>
+                        <goals>
+                            <goal>regex-property</goal>
+                        </goals>
+                        <configuration>
+                            <name>minor.version</name>
+                            <value>${project.version}</value>
+                            <regex>^([0-9]+)\.([0-9]+)\.([0-9]+)(-SNAPSHOT)?$</regex>
+                            <replacement>$2</replacement>
+                            <failIfNoMatch>true</failIfNoMatch>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>regex-property-incremental</id>
+                        <goals>
+                            <goal>regex-property</goal>
+                        </goals>
+                        <configuration>
+                            <name>incremental.version</name>
+                            <value>${project.version}</value>
+                            <regex>^([0-9]+)\.([0-9]+)\.([0-9]+)(-SNAPSHOT)?$</regex>
+                            <replacement>$3</replacement>
+                            <failIfNoMatch>true</failIfNoMatch>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

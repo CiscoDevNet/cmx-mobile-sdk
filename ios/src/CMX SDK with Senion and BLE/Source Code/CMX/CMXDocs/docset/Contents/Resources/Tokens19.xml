@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXPoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXPoint</TokenIdentifier>
+			<Abstract type="html">Class that defines a 2 dimensional point.</Abstract>
+			<DeclaredIn>CMXPoint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoint/setX:</TokenIdentifier>
+			<Abstract type="html">X coordinate of the point.</Abstract>
+			<DeclaredIn>CMXPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoint/x</TokenIdentifier>
+			<Abstract type="html">X coordinate of the point.</Abstract>
+			<DeclaredIn>CMXPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoint/x</TokenIdentifier>
+			<Abstract type="html">X coordinate of the point.</Abstract>
+			<DeclaredIn>CMXPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoint/setY:</TokenIdentifier>
+			<Abstract type="html">Y coordinate of the point.</Abstract>
+			<DeclaredIn>CMXPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoint/y</TokenIdentifier>
+			<Abstract type="html">Y coordinate of the point.</Abstract>
+			<DeclaredIn>CMXPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoint/y</TokenIdentifier>
+			<Abstract type="html">Y coordinate of the point.</Abstract>
+			<DeclaredIn>CMXPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXPoint/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Alloc and init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXPoint.h</DeclaredIn>
+			
+			<Declaration>+ (CMXPoint *)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new object.</Abstract></ReturnValue>
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoint/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXPoint.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current instance object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

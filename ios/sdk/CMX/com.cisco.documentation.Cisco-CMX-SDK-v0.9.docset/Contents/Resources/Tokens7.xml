@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXDimension.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXDimension</TokenIdentifier>
+			<Abstract type="html">Defines 3D dimensions.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/setHeight:</TokenIdentifier>
+			<Abstract type="html">Height.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/height</TokenIdentifier>
+			<Abstract type="html">Height.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXDimension/height</TokenIdentifier>
+			<Abstract type="html">Height.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/setLength:</TokenIdentifier>
+			<Abstract type="html">Length.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/length</TokenIdentifier>
+			<Abstract type="html">Length.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXDimension/length</TokenIdentifier>
+			<Abstract type="html">Length.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/setWidth:</TokenIdentifier>
+			<Abstract type="html">Width.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/width</TokenIdentifier>
+			<Abstract type="html">Width.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXDimension/width</TokenIdentifier>
+			<Abstract type="html">Width.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/setOffsetX:</TokenIdentifier>
+			<Abstract type="html">X offset in the map image.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float offsetX</Declaration>
+			
+			
+			<Anchor>//api/name/offsetX</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/offsetX</TokenIdentifier>
+			<Abstract type="html">X offset in the map image.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float offsetX</Declaration>
+			
+			
+			<Anchor>//api/name/offsetX</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXDimension/offsetX</TokenIdentifier>
+			<Abstract type="html">X offset in the map image.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float offsetX</Declaration>
+			
+			
+			<Anchor>//api/name/offsetX</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/setOffsetY:</TokenIdentifier>
+			<Abstract type="html">Y offset in the map image.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float offsetY</Declaration>
+			
+			
+			<Anchor>//api/name/offsetY</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/offsetY</TokenIdentifier>
+			<Abstract type="html">Y offset in the map image.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float offsetY</Declaration>
+			
+			
+			<Anchor>//api/name/offsetY</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXDimension/offsetY</TokenIdentifier>
+			<Abstract type="html">Y offset in the map image.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float offsetY</Declaration>
+			
+			
+			<Anchor>//api/name/offsetY</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/setUnit:</TokenIdentifier>
+			<Abstract type="html">Unit of height/length/width.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CMXUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/unit</TokenIdentifier>
+			<Abstract type="html">Unit of height/length/width.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CMXUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXDimension/unit</TokenIdentifier>
+			<Abstract type="html">Unit of height/length/width.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CMXUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXDimension/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Alloc and init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>+ (CMXDimension *)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new object.</Abstract></ReturnValue>
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current instance object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXDimension/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html">Returns The dictionary representation of the current object.</Abstract>
+			<DeclaredIn>CMXDimension.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			<ReturnValue><Abstract type="html">The dictionary representation of the current object.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

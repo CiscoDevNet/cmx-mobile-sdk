@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#FFFFFF"
+	android:minHeight="50dp"
+	android:id="@+id/cmx_list_group_root_layout">
+	
+    <ImageView 
+        android:id="@+id/cmx_list_group_image" 
+        android:layout_width="40dp" 
+        android:layout_height="40dp"  
+        android:src="@drawable/list_map_icon" 
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        tools:ignore="ContentDescription" >
+    </ImageView>
+    
+	<TextView
+	    android:id="@+id/cmx_list_group_title"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center_vertical"
+	    android:layout_marginLeft="6dp"
+	    android:layout_weight="1"
+	    android:textColor="#0099cc"
+	    android:textSize="16sp"
+	    android:textStyle="normal"
+	    android:gravity="center_vertical" />
+		
+	<ImageView 
+        android:id="@+id/cmx_list_group_accessory" 
+        android:layout_width="20dp" 
+        android:layout_height="20dp"  
+        android:src="@drawable/arrow_down" 
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="8dp"
+        android:scaleType="fitXY" 
+        tools:ignore="ContentDescription">
+    </ImageView>
+</LinearLayout>
+   

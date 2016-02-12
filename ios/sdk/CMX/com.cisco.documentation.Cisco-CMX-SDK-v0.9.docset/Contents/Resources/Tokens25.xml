@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CMXMenuViewControllerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CMXMenuViewControllerDelegate</TokenIdentifier>
+			<Abstract type="html">Delegate of menu view controller.</Abstract>
+			<DeclaredIn>CMXMenuViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CMXMenuViewControllerDelegate/menuViewController:didSelectFloorMenuItem:ofVenue:</TokenIdentifier>
+			<Abstract type="html">Method called when a floor item has been selected in the menu.</Abstract>
+			<DeclaredIn>CMXMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)menuViewController:(CMXMenuViewController *)controller didSelectFloorMenuItem:(NSString *)floorId ofVenue:(NSString *)venueId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controller</Name>
+					<Abstract type="html">Menu controller.</Abstract>
+				</Parameter><Parameter>
+					<Name>floorId</Name>
+					<Abstract type="html">Id of the selected floor.</Abstract>
+				</Parameter><Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Venue&apos;s id of the floor.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/menuViewController:didSelectFloorMenuItem:ofVenue:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CMXMenuViewControllerDelegate/menuViewControllerDidSelectSettingsMenuItem:</TokenIdentifier>
+			<Abstract type="html">Method called when settings item has been selected in the menu.</Abstract>
+			<DeclaredIn>CMXMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)menuViewControllerDidSelectSettingsMenuItem:(CMXMenuViewController *)controller</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controller</Name>
+					<Abstract type="html">Menu controller.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/menuViewControllerDidSelectSettingsMenuItem:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CMXMenuViewControllerDelegate/menuViewControllerDidSelectUserLocationMenuItem:</TokenIdentifier>
+			<Abstract type="html">Method called when user location item has been selected in the menu.</Abstract>
+			<DeclaredIn>CMXMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)menuViewControllerDidSelectUserLocationMenuItem:(CMXMenuViewController *)controller</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controller</Name>
+					<Abstract type="html">Menu controller.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/menuViewControllerDidSelectUserLocationMenuItem:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

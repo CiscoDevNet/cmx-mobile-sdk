@@ -1,0 +1,9 @@
+{
+"mapHierarchyString":"Interop>Main Floor",
+"name" : "Main Floor", 
+"floorId":"aa7297895206518938",
+"venueid" : "aa7309123536",
+"dimension":{"length":"1154","width":"895","height":"10.0","offsetX":"0.0","offsetY":"0.0","unit":"FEET"},
+"demo":{"length":"1154","width":"895","offsetRatio":"1"}
+
+}

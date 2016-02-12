@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/CMXUnit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/CMXUnit</TokenIdentifier>
+			<Abstract type="html">Defines unit type.</Abstract>
+			<DeclaredIn>CMXUnit.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/FEET</TokenIdentifier>
+            <Abstract type="html">Feet unit type.
+     </Abstract>
+            <Declaration>FEET</Declaration>
+            
+            <DeclaredIn>CMXUnit.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+	</File>
+</Tokens>

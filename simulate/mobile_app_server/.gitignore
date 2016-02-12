@@ -1,0 +1,8 @@
+/bin/
+/dist/
+/node_modules/
+/target/
+/src/*.pem
+/*.pem
+/.project
+/.settings/

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cmx_list_header_root_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+	 <LinearLayout 
+		android:orientation="horizontal"
+		android:id="@+id/cmx_list_header_current_location_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:drawable/list_selector_background"
+		android:clickable="true">
+		
+	    <ImageView
+	        android:id="@+id/cmx_list_header_current_location_imageView"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:adjustViewBounds="true"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/list_location_icon"
+	        tools:ignore="ContentDescription" >
+
+	    </ImageView>
+	    
+		<TextView
+		    android:id="@+id/cmx_list_header_current_location_title"
+			android:layout_width="0dp"
+			android:layout_weight="0.8" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:textSize="16sp"
+			android:textStyle="normal"
+			android:textColor="#000000"
+			android:text="@string/cmx_list_current_location_title"
+			android:layout_marginLeft="6dp" />		
+			
+		<ImageView
+		    android:id="@+id/cmx_list_header_current_location_accessory"
+		    android:layout_width="0dp"
+		    android:layout_height="45dp"
+		    android:layout_gravity="center_vertical"
+		    android:layout_marginRight="8dp"
+		    android:layout_weight="0.2"
+		    android:adjustViewBounds="true"
+		    android:scaleType="centerInside"
+		    android:src="@drawable/arrow_right"
+		    tools:ignore="ContentDescription" >
+
+	    </ImageView>
+	</LinearLayout>
+	  
+    <TextView
+        android:id="@+id/cmx_list_header_section_title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:textColor="#000"
+		android:background="#DDD"
+		android:text="@string/cmx_list_venues_floors_title"
+		android:paddingLeft="6dp" />
+</LinearLayout>

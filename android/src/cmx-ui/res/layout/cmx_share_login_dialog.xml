@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.cisco.cmx.ui.CMXShareActivity" >
+
+    
+    <com.facebook.widget.LoginButton
+        android:id="@+id/cmx_share_dialog_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        facebook:confirm_logout="false"
+        facebook:fetch_user_info="false"
+        android:visibility="visible"
+        />
+     
+     
+
+</RelativeLayout>

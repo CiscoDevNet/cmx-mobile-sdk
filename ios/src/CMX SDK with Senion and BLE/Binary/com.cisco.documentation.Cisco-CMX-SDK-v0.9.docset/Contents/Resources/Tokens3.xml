@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXBannerViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXBannerViewController</TokenIdentifier>
+			<Abstract type="html">Controller that manages banners</Abstract>
+			<DeclaredIn>CMXBannerViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBannerViewController/setImageView:</TokenIdentifier>
+			<Abstract type="html">Image view that displays banners.</Abstract>
+			<DeclaredIn>CMXBannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) IBOutlet UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBannerViewController/imageView</TokenIdentifier>
+			<Abstract type="html">Image view that displays banners.</Abstract>
+			<DeclaredIn>CMXBannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) IBOutlet UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXBannerViewController/imageView</TokenIdentifier>
+			<Abstract type="html">Image view that displays banners.</Abstract>
+			<DeclaredIn>CMXBannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) IBOutlet UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXBannerViewController/setBannerImages:imageDuration:</TokenIdentifier>
+			<Abstract type="html">Set banner images to display.</Abstract>
+			<DeclaredIn>CMXBannerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setBannerImages:(NSArray *)images imageDuration:(CGFloat)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>images</Name>
+					<Abstract type="html">Array of UIImage representing the banners.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">Duration in seconds of each image.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBannerImages:imageDuration:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cmx_search_root_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="0dp">
+
+	<android.support.v7.widget.SearchView
+	    android:id="@+id/cmx_search_view"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/cmx_search_list_view"
+        android:layout_below="@+id/cmx_search_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:dividerHeight="1dp"/>
+    
+	<ProgressBar
+        android:id="@+id/cmx_search_progressbar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_below="@+id/cmx_search_view"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+		android:indeterminate="true" />
+
+</RelativeLayout>

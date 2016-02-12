@@ -1,0 +1,80 @@
+<resources>
+
+    <string name="app_name">CMX</string>
+    
+    <!-- Simulation -->
+    <string name="cmx_simulation_mac_address">00:00:00:00:00:01</string>
+    
+    <!-- Menu item -->
+    <string name="cmx_menu_search">Search</string>
+    <string name="cmx_menu_refresh">Refresh</string>
+    
+	<!-- List entries title -->
+	<string name="cmx_list_current_location_title">Current location:&#160;</string>
+	<string name="cmx_list_no_current_location_title">Unknown location</string>
+	<string name="cmx_list_venues_floors_title">Venues &amp; Floors</string>
+	<string name="cmx_list_miscellaneous_title">Miscellaneous</string>
+	<string name="cmx_list_miscellaneous_settings_title">Settings</string>
+	
+    <!-- Dialog title -->
+    <string name="cmx_error_dialog_title">Error</string>
+    <string name="cmx_warning_dialog_title">Warning</string>
+    <string name="cmx_information_dialog_title">Information</string>
+    <string name="cmx_poi_share_title">Share via</string>
+    <string name="action_feedback">Feedback</string>
+    
+    <!-- Dialog button -->
+    <string name="cmx_ok_dialog_bt">OK</string>
+    <string name="cmx_cancel_dialog_bt">Cancel</string>
+    <string name="cmx_yes_dialog_bt">Yes</string>
+    <string name="cmx_no_dialog_bt">No</string>
+    
+    <!-- Dialog message -->
+    <string name="cmx_wifi_network">Network:&#160;</string>
+    <string name="cmx_wifi_network_password">Password:&#160;</string>
+    <string name="cmx_no_venue_data_configured">No venue data has been configured.</string>
+    <string name="cmx_connect_to_venue_wifi_dialog_msg">Venue\'s Wi-Fi is available. Would you like to connect to this Wi-Fi ?</string>
+    <string name="cmx_connect_manually_to_venue_wifi_dialog_msg">Venue\'s Wi-Fi&#60;br&#62;%1$sWould you like to open Wi-Fi settings ?</string>
+    <string name="cmx_no_venue_wifi_use_google_maps_dialog_msg">Venue\'s Wi-Fi not found, geolocalisation is disabled. Would you like to use Google Maps to go to the venue ?</string>
+    <string name="cmx_registration_failed_dialog_msg">Registration has failed. Notifications are disabled. A new attempt will be done later.</string>
+    <string name="cmx_wifi_disabled_dialog_msg">Wi-Fi is disabled. Without Wi-Fi, geolocalisation won\'t work. Do you want to enable it ?</string>
+    <string name="cmx_no_geolocalisation_available_direction_disabled_dialog_msg">This feature is not available because geolocalisation is disabled</string>
+    <string name="cmx_confirm_feedback_view">Are you sure is this the right position ?</string>
+    <string name="cmx_posting_new_user_location">Posting new user location</string>
+    <string name="cmx_posting_new_user_location_success">New location posted successfully</string>
+    <string name="cmx_posting_new_user_location_failed">Posting new location failed</string>
+    
+    
+    <!-- Exception -->
+    <string name="cmx_gcm_registration_failed_exception">Google Cloud Message registration has failed.</string>
+    <string name="cmx_cmx_registration_failed_exception">Registration to CMX server has failed.</string>
+												
+    <!-- Poi Layout -->
+    <string name="cmx_poi_share_button">Share</string>
+    <string name="cmx_poi_goto_button">Go to</string>
+    <string name="cmx_poi_description">Description&#8230;</string>
+    <string name="cmx_poi_more_info">More info&#8230;</string>
+    
+    <!-- Settings -->
+    <string name="cmx_settings_push_notification_enabled">Push notifications</string>
+    <string name="cmx_default_settings_push_notification_enabled">true</string>    
+
+    <!-- Share -->
+    <string name="cmx_poi_share_facebook">Facebook</string>
+    <string name="cmx_poi_share_twitter">Twitter</string>
+    <string name="cmx_share_dialog_title">Share via facebook</string>
+    <string name="cmx_checkin_twitter_message">I was here</string>  
+    <string name="cmx_poi_share_facebook_app_id"></string>
+    <string name="cmx_poi_share_twitter_consummer_key"></string>
+    <string name="cmx_poi_share_twitter_consummer_secret"></string>
+    <string name="cmx_poi_share_start_publish">Start to publish</string>
+    <string name="cmx_poi_share_facebook_succeed">Post on your facebook wall succeeded!</string>
+    <string name="cmx_poi_share_facebook_failed">Post on your facebook wall failed:</string>
+    <string name="cmx_poi_share_twitter_succeed">Status tweeted successfully</string>
+    <string name="cmx_poi_share_twitter_failed">Status tweeted failed:</string>
+    
+    <!-- Search -->
+    <string name="cmx_search_query_hint">Search on %1$s</string>
+    
+    
+</resources>

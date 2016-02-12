@@ -1,0 +1,8 @@
+{
+"mapHierarchyString":"System Campus>SJC-14>3rd Floor",
+"name" : "3rd Floor", 
+"floorId":"730297895206518935",
+"venueid" : "782309123536",
+"dimension":{"length":"185.8","width":"295.8","height":"10.0","offsetX":"0.0","offsetY":"0.0","unit":"FEET"},
+"demo":{"length":"546","width":"789","offsetRatio":"2.67"}
+}

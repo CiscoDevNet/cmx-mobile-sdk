@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXClientConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXClientConfiguration</TokenIdentifier>
+			<Abstract type="html">Client configuration</Abstract>
+			<DeclaredIn>CMXClientConfiguration.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClientConfiguration/setServerURL:</TokenIdentifier>
+			<Abstract type="html">URL of a CMX server.</Abstract>
+			<DeclaredIn>CMXClientConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSURL *serverURL</Declaration>
+			
+			
+			<Anchor>//api/name/serverURL</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXClientConfiguration/serverURL</TokenIdentifier>
+			<Abstract type="html">URL of a CMX server.</Abstract>
+			<DeclaredIn>CMXClientConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSURL *serverURL</Declaration>
+			
+			
+			<Anchor>//api/name/serverURL</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXClientConfiguration/serverURL</TokenIdentifier>
+			<Abstract type="html">URL of a CMX server.</Abstract>
+			<DeclaredIn>CMXClientConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSURL *serverURL</Declaration>
+			
+			
+			<Anchor>//api/name/serverURL</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXClientConfiguration/defaultConfiguration</TokenIdentifier>
+			<Abstract type="html">Creates an instance using the values set in the file named configuration.plist.</Abstract>
+			<DeclaredIn>CMXClientConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (CMXClientConfiguration *)defaultConfiguration</Declaration>
+			
+			<ReturnValue><Abstract type="html">An initialized configuration object or nil if the object couldn&apos;t be created.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultConfiguration</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXClientConfiguration/configurationWithContentsOfFile:</TokenIdentifier>
+			<Abstract type="html">Creates an instance using the values found in the specified .plist file.</Abstract>
+			<DeclaredIn>CMXClientConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (CMXClientConfiguration *)configurationWithContentsOfFile:(NSString *)path</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>path</Name>
+					<Abstract type="html">The path of the specified file.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized configuration object or nil if the object couldn&apos;t be created.</Abstract></ReturnValue>
+			<Anchor>//api/name/configurationWithContentsOfFile:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

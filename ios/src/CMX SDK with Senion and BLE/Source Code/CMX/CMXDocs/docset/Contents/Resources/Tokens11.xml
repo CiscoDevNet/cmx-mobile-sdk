@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXMainViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXMainViewController</TokenIdentifier>
+			<Abstract type="html">Main controller. It holds data (venues, floors, ...), displays the map and manages left (menu) &amp;amp; right (search) panels.</Abstract>
+			<DeclaredIn>CMXMainViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMainViewController/setCurrentVenueId:</TokenIdentifier>
+			<Abstract type="html">Current venue id or nil if none.</Abstract>
+			<DeclaredIn>CMXMainViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *currentVenueId</Declaration>
+			
+			
+			<Anchor>//api/name/currentVenueId</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMainViewController/currentVenueId</TokenIdentifier>
+			<Abstract type="html">Current venue id or nil if none.</Abstract>
+			<DeclaredIn>CMXMainViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *currentVenueId</Declaration>
+			
+			
+			<Anchor>//api/name/currentVenueId</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXMainViewController/currentVenueId</TokenIdentifier>
+			<Abstract type="html">Current venue id or nil if none.</Abstract>
+			<DeclaredIn>CMXMainViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *currentVenueId</Declaration>
+			
+			
+			<Anchor>//api/name/currentVenueId</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMainViewController/setCurrentFloorId:</TokenIdentifier>
+			<Abstract type="html">Current floor id or nil if none.</Abstract>
+			<DeclaredIn>CMXMainViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *currentFloorId</Declaration>
+			
+			
+			<Anchor>//api/name/currentFloorId</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMainViewController/currentFloorId</TokenIdentifier>
+			<Abstract type="html">Current floor id or nil if none.</Abstract>
+			<DeclaredIn>CMXMainViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *currentFloorId</Declaration>
+			
+			
+			<Anchor>//api/name/currentFloorId</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXMainViewController/currentFloorId</TokenIdentifier>
+			<Abstract type="html">Current floor id or nil if none.</Abstract>
+			<DeclaredIn>CMXMainViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *currentFloorId</Declaration>
+			
+			
+			<Anchor>//api/name/currentFloorId</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMainViewController/initWithVenues:floorsByVenueId:userLocation:</TokenIdentifier>
+			<Abstract type="html">Initialize this controller with data.</Abstract>
+			<DeclaredIn>CMXMainViewController.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithVenues:(NSArray *)venues floorsByVenueId:(NSDictionary *)floorsByVenueId userLocation:(CMXClientLocation *)userLocation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>venues</Name>
+					<Abstract type="html">Array of venues.</Abstract>
+				</Parameter><Parameter>
+					<Name>floorsByVenueId</Name>
+					<Abstract type="html">Dictionary of arrays of floors (key = venue id).</Abstract>
+				</Parameter><Parameter>
+					<Name>userLocation</Name>
+					<Abstract type="html">current user location if known, nil otherwise.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current controller instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithVenues:floorsByVenueId:userLocation:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMainViewController/venueWithId:</TokenIdentifier>
+			<Abstract type="html">Returns the CMXVenue object for the given venue id.</Abstract>
+			<DeclaredIn>CMXMainViewController.h</DeclaredIn>
+			
+			<Declaration>- (CMXVenue *)venueWithId:(NSString *)venueId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A venue object if matching, nil otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/venueWithId:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMainViewController/floorWithId:ofVenue:</TokenIdentifier>
+			<Abstract type="html">Returns the CMXFloor object for the given floor &amp;amp; venue ids.</Abstract>
+			<DeclaredIn>CMXMainViewController.h</DeclaredIn>
+			
+			<Declaration>- (CMXFloor *)floorWithId:(NSString *)floorId ofVenue:(NSString *)venueId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>floorId</Name>
+					<Abstract type="html">Id of the floor</Abstract>
+				</Parameter><Parameter>
+					<Name>venueId</Name>
+					<Abstract type="html">Id of the venue</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A floor object if matching, nil otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/floorWithId:ofVenue:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

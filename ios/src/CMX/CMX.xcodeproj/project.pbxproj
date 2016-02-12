@@ -1,0 +1,1023 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8F7252BB187FAC7A007B6271 /* CMX.framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8F7252BC187FAC7A007B6271 /* Build configuration list for PBXAggregateTarget "CMX.framework" */;
+			buildPhases = (
+				8F7252BF187FAD7D007B6271 /* ShellScript */,
+				8F7252C0187FADA8007B6271 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CMX.framework;
+			productName = CMX.framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8F0881E61890929B006DC916 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA417EF188CD88900850DE0 /* FacebookSDK.framework */; };
+		8F118FB817F9155100DAFBBF /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F118FB317F9155100DAFBBF /* NSString+URLEncoding.m */; };
+		8F118FB917F9155100DAFBBF /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F118FB317F9155100DAFBBF /* NSString+URLEncoding.m */; };
+		8F16CCEF17E9109D0039D8AE /* CMXLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F16CCED17E9109D0039D8AE /* CMXLoadingView.m */; };
+		8F16CCF017E9109D0039D8AE /* CMXLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F16CCED17E9109D0039D8AE /* CMXLoadingView.m */; };
+		8F459120185D8CB6006C9AA4 /* CMXAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F45911E185D8CB6006C9AA4 /* CMXAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F459121185D8CB6006C9AA4 /* CMXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45911F185D8CB6006C9AA4 /* CMXAppDelegate.m */; };
+		8F459122185D8CB6006C9AA4 /* CMXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45911F185D8CB6006C9AA4 /* CMXAppDelegate.m */; };
+		8F5229A4187A1122008F83C0 /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5229A0187A1122008F83C0 /* SMXMLDocument.m */; };
+		8F5229A5187A1122008F83C0 /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5229A0187A1122008F83C0 /* SMXMLDocument.m */; };
+		8F5229A7187A1122008F83C0 /* SvgToUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5229A2187A1122008F83C0 /* SvgToUIImage.m */; };
+		8F5229A8187A1122008F83C0 /* SvgToUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5229A2187A1122008F83C0 /* SvgToUIImage.m */; };
+		8F5229C3187A4BB1008F83C0 /* Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F113D4B181A1BCF00A947FF /* Controller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229C4187A4BB1008F83C0 /* CMXLaunchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B529EB7018325488007828DA /* CMXLaunchViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229C5187A4BB1008F83C0 /* CMXMenuViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D627C6183A2F6A005E0F3C /* CMXMenuViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229C6187A4BB1008F83C0 /* CMXSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B56386BA17C39C2300982331 /* CMXSearchViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229C7187A4BB1008F83C0 /* CMXBannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5CD35F41844F7CB00712B92 /* CMXBannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229C8187A4BB1008F83C0 /* CMXNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA12360185FEEB80048EE83 /* CMXNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229C9187A4BB1008F83C0 /* UI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F113D4C181A1C4200A947FF /* UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229CA187A4BB1008F83C0 /* CMXMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5DDA5DE17CBB2F600C7F3CA /* CMXMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229CB187A4BB1008F83C0 /* Network.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F113D4D181A1CE400A947FF /* Network.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229CC187A4BB1008F83C0 /* CMXBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = B5CD35F11844D8E800712B92 /* CMXBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229CD187A4BB1008F83C0 /* Model.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F113D4E181A1D3300A947FF /* Model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229CE187A4BB1008F83C0 /* CMXNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D7C21D18040CDA00410E48 /* CMXNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229D0187A4DD0008F83C0 /* CMX.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F113D4F181A1DCC00A947FF /* CMX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229D1187A4DF0008F83C0 /* CMXVenue.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D7C21B18040CDA00410E48 /* CMXVenue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229D2187A4DFC008F83C0 /* CMXUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA12363185FFBF50048EE83 /* CMXUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229D3187A4DFC008F83C0 /* CMXDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6D405717E7D58800BFA03D /* CMXDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5229D9187A516D008F83C0 /* CMXLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B529EB7118325488007828DA /* CMXLaunchViewController.m */; };
+		8F5229DA187A5172008F83C0 /* CMXMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D627C7183A2F6A005E0F3C /* CMXMenuViewController.m */; };
+		8F5229DB187A517A008F83C0 /* CMXBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD35F51844F7CB00712B92 /* CMXBannerViewController.m */; };
+		8F5229DC187A517C008F83C0 /* CMXNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA12361185FEEB80048EE83 /* CMXNotifications.m */; };
+		8F5229DD187A5180008F83C0 /* CMXMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D627CA183A2F87005E0F3C /* CMXMenuItem.m */; };
+		8F5229DE187A5195008F83C0 /* CMXBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD35F21844D8E800712B92 /* CMXBanner.m */; };
+		8F5229DF187A51A2008F83C0 /* CMXNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D7C21E18040CDA00410E48 /* CMXNetwork.m */; };
+		8F5229E0187A51A5008F83C0 /* CMXVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D7C21C18040CDA00410E48 /* CMXVenue.m */; };
+		8F57D4ED17E1435500CC0960 /* CMXMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DDA5DF17CBB2F600C7F3CA /* CMXMapView.m */; };
+		8F57D4EF17E1435500CC0960 /* CMXSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56386BB17C39C2300982331 /* CMXSearchViewController.m */; };
+		8F57D4FD17E1435500CC0960 /* CMXClientLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2FA8217BA20D800C150AD /* CMXClientLocation.m */; };
+		8F57D50017E1435500CC0960 /* CMXPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B595EA8617D482B4002ED04D /* CMXPath.m */; };
+		8F57D50417E1435500CC0960 /* CMXMapCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F905C17C264D500C4786F /* CMXMapCoordinate.m */; };
+		8F57D50617E1435500CC0960 /* CMXDimension.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F906217C2652000C4786F /* CMXDimension.m */; };
+		8F57D50817E1435500CC0960 /* CMXFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F906417C2652000C4786F /* CMXFloor.m */; };
+		8F57D50A17E1435500CC0960 /* CMXPoi.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F906817C2655D00C4786F /* CMXPoi.m */; };
+		8F57D50C17E1435500CC0960 /* CMXPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F906E17C265D000C4786F /* CMXPoint.m */; };
+		8FA12362185FEEB80048EE83 /* CMXNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA12361185FEEB80048EE83 /* CMXNotifications.m */; };
+		8FA3A32A17E6B78F0003BC2F /* CMXClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA3A32417E6B78F0003BC2F /* CMXClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA3A32B17E6B78F0003BC2F /* CMXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A32517E6B78F0003BC2F /* CMXClient.m */; };
+		8FA3A32C17E6B78F0003BC2F /* CMXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A32517E6B78F0003BC2F /* CMXClient.m */; };
+		8FA3A32D17E6B78F0003BC2F /* CMXFloorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA3A32617E6B78F0003BC2F /* CMXFloorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA3A32E17E6B78F0003BC2F /* CMXFloorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A32717E6B78F0003BC2F /* CMXFloorViewController.m */; };
+		8FA3A32F17E6B78F0003BC2F /* CMXFloorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A32717E6B78F0003BC2F /* CMXFloorViewController.m */; };
+		8FA3A33517E6BA0A0003BC2F /* CMXUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA3A33317E6BA0A0003BC2F /* CMXUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA3A33617E6BA0A0003BC2F /* CMXUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A33417E6BA0A0003BC2F /* CMXUnit.m */; };
+		8FA3A33717E6BA0A0003BC2F /* CMXUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A33417E6BA0A0003BC2F /* CMXUnit.m */; };
+		8FA417F0188CD88900850DE0 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA417EF188CD88900850DE0 /* FacebookSDK.framework */; };
+		8FB2CB8817E18B7000B6CA9A /* CMXClientLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C2FA8117BA20D800C150AD /* CMXClientLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB2CB8917E18B7000B6CA9A /* CMXMapCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = B53F905B17C264D500C4786F /* CMXMapCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB2CB8A17E18B7000B6CA9A /* CMXDimension.h in Headers */ = {isa = PBXBuildFile; fileRef = B53F906117C2652000C4786F /* CMXDimension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB2CB8B17E18B7000B6CA9A /* CMXFloor.h in Headers */ = {isa = PBXBuildFile; fileRef = B53F906317C2652000C4786F /* CMXFloor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB2CB8C17E18B7000B6CA9A /* CMXPoi.h in Headers */ = {isa = PBXBuildFile; fileRef = B53F906717C2655D00C4786F /* CMXPoi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB2CB8D17E18B7000B6CA9A /* CMXPath.h in Headers */ = {isa = PBXBuildFile; fileRef = B595EA8517D482B4002ED04D /* CMXPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB2CB8E17E18B7000B6CA9A /* CMXPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = B53F906D17C265D000C4786F /* CMXPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD6AA1817E6889700CD4020 /* CMXShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6AA1617E6889700CD4020 /* CMXShapeView.m */; };
+		8FD6AA1917E6889700CD4020 /* CMXShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6AA1617E6889700CD4020 /* CMXShapeView.m */; };
+		8FFB343218149E2B006B0753 /* CMXWifiConnectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFB343018149E2B006B0753 /* CMXWifiConnectionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FFB343318149E2B006B0753 /* CMXWifiConnectionMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFB343118149E2B006B0753 /* CMXWifiConnectionMode.m */; };
+		8FFB343418149E2B006B0753 /* CMXWifiConnectionMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFB343118149E2B006B0753 /* CMXWifiConnectionMode.m */; };
+		8FFB343D1814AC5E006B0753 /* CMXClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFB343B1814AC5E006B0753 /* CMXClientConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FFB343E1814AC5E006B0753 /* CMXClientConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFB343C1814AC5E006B0753 /* CMXClientConfiguration.m */; };
+		8FFB343F1814AC5E006B0753 /* CMXClientConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFB343C1814AC5E006B0753 /* CMXClientConfiguration.m */; };
+		B529EB7218325488007828DA /* CMXLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B529EB7118325488007828DA /* CMXLaunchViewController.m */; };
+		B53F905E17C264D500C4786F /* CMXMapCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F905C17C264D500C4786F /* CMXMapCoordinate.m */; };
+		B53F906517C2652000C4786F /* CMXDimension.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F906217C2652000C4786F /* CMXDimension.m */; };
+		B53F906617C2652000C4786F /* CMXFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F906417C2652000C4786F /* CMXFloor.m */; };
+		B53F906917C2655D00C4786F /* CMXPoi.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F906817C2655D00C4786F /* CMXPoi.m */; };
+		B53F906F17C265D000C4786F /* CMXPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F906E17C265D000C4786F /* CMXPoint.m */; };
+		B56386BD17C39C2300982331 /* CMXSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56386BB17C39C2300982331 /* CMXSearchViewController.m */; };
+		B595EA8717D482B4002ED04D /* CMXPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B595EA8617D482B4002ED04D /* CMXPath.m */; };
+		B5AEB74F183BA83E00F85F9E /* CMXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AEB74E183BA83E00F85F9E /* CMXMainViewController.m */; };
+		B5C2F9C817B8F6A100C150AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C2F9C717B8F6A100C150AD /* Foundation.framework */; };
+		B5C2FA3517B9026C00C150AD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C2FA3417B9026C00C150AD /* MobileCoreServices.framework */; };
+		B5C2FA3717B9027300C150AD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C2FA3617B9027300C150AD /* SystemConfiguration.framework */; };
+		B5C2FA3917B9027800C150AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C2FA3817B9027800C150AD /* CoreLocation.framework */; };
+		B5C2FA3B17B9028A00C150AD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C2FA3A17B9028A00C150AD /* Security.framework */; };
+		B5C2FA8317BA20D800C150AD /* CMXClientLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2FA8217BA20D800C150AD /* CMXClientLocation.m */; };
+		B5CBD664183B60D5007F25B6 /* CMXSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5CBD661183B60D5007F25B6 /* CMXSettingsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5CBD665183B60D5007F25B6 /* CMXSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CBD662183B60D5007F25B6 /* CMXSettingsViewController.m */; };
+		B5CBD669183B6355007F25B6 /* CMXSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CBD662183B60D5007F25B6 /* CMXSettingsViewController.m */; };
+		B5CBD66D183B7857007F25B6 /* CMXPoiViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5CBD66A183B7857007F25B6 /* CMXPoiViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5CBD66E183B7857007F25B6 /* CMXPoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CBD66B183B7857007F25B6 /* CMXPoiViewController.m */; };
+		B5CBD66F183B7857007F25B6 /* CMXPoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CBD66B183B7857007F25B6 /* CMXPoiViewController.m */; };
+		B5CD35F31844D8E800712B92 /* CMXBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD35F21844D8E800712B92 /* CMXBanner.m */; };
+		B5CD35F71844F7CB00712B92 /* CMXBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD35F51844F7CB00712B92 /* CMXBannerViewController.m */; };
+		B5D627C8183A2F6A005E0F3C /* CMXMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D627C7183A2F6A005E0F3C /* CMXMenuViewController.m */; };
+		B5D627CB183A2F87005E0F3C /* CMXMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D627CA183A2F87005E0F3C /* CMXMenuItem.m */; };
+		B5D7C21F18040CDA00410E48 /* CMXVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D7C21C18040CDA00410E48 /* CMXVenue.m */; };
+		B5D7C22018040CDA00410E48 /* CMXNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D7C21E18040CDA00410E48 /* CMXNetwork.m */; };
+		B5DDA5E017CBB2F600C7F3CA /* CMXMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DDA5DF17CBB2F600C7F3CA /* CMXMapView.m */; };
+		B5F6BCBF183BB1910033A6FD /* CMXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AEB74E183BA83E00F85F9E /* CMXMainViewController.m */; };
+		B5F6BCC0183BB19D0033A6FD /* CMXMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5AEB74D183BA83E00F85F9E /* CMXMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FD4D6417FB30F300E61592 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FD4D6017FB30B700E61592 /* libxml2.dylib */; };
+		B5FD4D6817FB334300E61592 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FD4D6717FB334300E61592 /* CoreText.framework */; };
+		B5FD4D6A17FB337700E61592 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FD4D6917FB337700E61592 /* CoreImage.framework */; };
+		B5FD4D6C17FB338700E61592 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FD4D6B17FB338700E61592 /* QuartzCore.framework */; };
+		B5FD4D6E17FB338D00E61592 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FD4D6D17FB338C00E61592 /* CoreGraphics.framework */; };
+		B5FD4D7017FB339600E61592 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FD4D6F17FB339600E61592 /* UIKit.framework */; };
+		DA6B683D19A550F6006ED171 /* CMXBleBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6B683B19A550F6006ED171 /* CMXBleBeacon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA6B683E19A550F6006ED171 /* CMXBleBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B683C19A550F6006ED171 /* CMXBleBeacon.m */; };
+		DA6B683F19A550F6006ED171 /* CMXBleBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B683C19A550F6006ED171 /* CMXBleBeacon.m */; };
+		DA6B684219A5533D006ED171 /* CMXGeoCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6B684019A5533D006ED171 /* CMXGeoCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA6B684319A5533D006ED171 /* CMXGeoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B684119A5533D006ED171 /* CMXGeoCoordinate.m */; };
+		DA6B684419A5533D006ED171 /* CMXGeoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B684119A5533D006ED171 /* CMXGeoCoordinate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5C2F9C217B8F6A100C150AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F04C520186C0C8100D00C27 /* readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.markdown; sourceTree = SOURCE_ROOT; };
+		8F113D4B181A1BCF00A947FF /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		8F113D4C181A1C4200A947FF /* UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
+		8F113D4D181A1CE400A947FF /* Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		8F113D4E181A1D3300A947FF /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		8F113D4F181A1DCC00A947FF /* CMX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMX.h; sourceTree = SOURCE_ROOT; };
+		8F118FB217F9155100DAFBBF /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		8F118FB317F9155100DAFBBF /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		8F16CCEC17E9109D0039D8AE /* CMXLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXLoadingView.h; sourceTree = "<group>"; };
+		8F16CCED17E9109D0039D8AE /* CMXLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXLoadingView.m; sourceTree = "<group>"; };
+		8F45911E185D8CB6006C9AA4 /* CMXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXAppDelegate.h; sourceTree = "<group>"; };
+		8F45911F185D8CB6006C9AA4 /* CMXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXAppDelegate.m; sourceTree = "<group>"; };
+		8F52299F187A1122008F83C0 /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
+		8F5229A0187A1122008F83C0 /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
+		8F5229A1187A1122008F83C0 /* SvgToUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvgToUIImage.h; sourceTree = "<group>"; };
+		8F5229A2187A1122008F83C0 /* SvgToUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvgToUIImage.m; sourceTree = "<group>"; };
+		8F6D405717E7D58800BFA03D /* CMXDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMXDebug.h; sourceTree = "<group>"; };
+		8FA12360185FEEB80048EE83 /* CMXNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXNotifications.h; sourceTree = "<group>"; };
+		8FA12361185FEEB80048EE83 /* CMXNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXNotifications.m; sourceTree = "<group>"; };
+		8FA12363185FFBF50048EE83 /* CMXUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMXUtils.h; sourceTree = "<group>"; };
+		8FA3A32417E6B78F0003BC2F /* CMXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXClient.h; sourceTree = "<group>"; };
+		8FA3A32517E6B78F0003BC2F /* CMXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXClient.m; sourceTree = "<group>"; };
+		8FA3A32617E6B78F0003BC2F /* CMXFloorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXFloorViewController.h; sourceTree = "<group>"; };
+		8FA3A32717E6B78F0003BC2F /* CMXFloorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXFloorViewController.m; sourceTree = "<group>"; };
+		8FA3A33317E6BA0A0003BC2F /* CMXUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXUnit.h; sourceTree = "<group>"; };
+		8FA3A33417E6BA0A0003BC2F /* CMXUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXUnit.m; sourceTree = "<group>"; };
+		8FA417EF188CD88900850DE0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../3rdParty/Facebook/FacebookSDK.framework; sourceTree = "<group>"; };
+		8FD6AA1517E6889700CD4020 /* CMXShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXShapeView.h; sourceTree = "<group>"; };
+		8FD6AA1617E6889700CD4020 /* CMXShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXShapeView.m; sourceTree = "<group>"; };
+		8FE1B0CF17E13DAA0072985B /* CMX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE1B0D317E13DAA0072985B /* CMXKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMXKit-Info.plist"; sourceTree = "<group>"; };
+		8FE1B0D517E13DAA0072985B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FE1B0D717E13DAA0072985B /* CMXKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMXKit-Prefix.pch"; sourceTree = "<group>"; };
+		8FE7113C17E1361D002B9AB8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8FFB343018149E2B006B0753 /* CMXWifiConnectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXWifiConnectionMode.h; sourceTree = "<group>"; };
+		8FFB343118149E2B006B0753 /* CMXWifiConnectionMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXWifiConnectionMode.m; sourceTree = "<group>"; };
+		8FFB343B1814AC5E006B0753 /* CMXClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXClientConfiguration.h; sourceTree = "<group>"; };
+		8FFB343C1814AC5E006B0753 /* CMXClientConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXClientConfiguration.m; sourceTree = "<group>"; };
+		B529EB7018325488007828DA /* CMXLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXLaunchViewController.h; sourceTree = "<group>"; };
+		B529EB7118325488007828DA /* CMXLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXLaunchViewController.m; sourceTree = "<group>"; };
+		B53F905B17C264D500C4786F /* CMXMapCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXMapCoordinate.h; sourceTree = "<group>"; };
+		B53F905C17C264D500C4786F /* CMXMapCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXMapCoordinate.m; sourceTree = "<group>"; };
+		B53F906117C2652000C4786F /* CMXDimension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXDimension.h; sourceTree = "<group>"; };
+		B53F906217C2652000C4786F /* CMXDimension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXDimension.m; sourceTree = "<group>"; };
+		B53F906317C2652000C4786F /* CMXFloor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXFloor.h; sourceTree = "<group>"; };
+		B53F906417C2652000C4786F /* CMXFloor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXFloor.m; sourceTree = "<group>"; };
+		B53F906717C2655D00C4786F /* CMXPoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXPoi.h; sourceTree = "<group>"; };
+		B53F906817C2655D00C4786F /* CMXPoi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXPoi.m; sourceTree = "<group>"; };
+		B53F906D17C265D000C4786F /* CMXPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXPoint.h; sourceTree = "<group>"; };
+		B53F906E17C265D000C4786F /* CMXPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXPoint.m; sourceTree = "<group>"; };
+		B56386BA17C39C2300982331 /* CMXSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXSearchViewController.h; sourceTree = "<group>"; };
+		B56386BB17C39C2300982331 /* CMXSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXSearchViewController.m; sourceTree = "<group>"; };
+		B595EA8517D482B4002ED04D /* CMXPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXPath.h; sourceTree = "<group>"; };
+		B595EA8617D482B4002ED04D /* CMXPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXPath.m; sourceTree = "<group>"; };
+		B5AEB74D183BA83E00F85F9E /* CMXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXMainViewController.h; sourceTree = "<group>"; };
+		B5AEB74E183BA83E00F85F9E /* CMXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXMainViewController.m; sourceTree = "<group>"; };
+		B5C2F9C417B8F6A100C150AD /* libCMX_dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCMX_dev.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C2F9C717B8F6A100C150AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5C2F9CB17B8F6A100C150AD /* CMX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMX-Prefix.pch"; sourceTree = "<group>"; };
+		B5C2FA3417B9026C00C150AD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B5C2FA3617B9027300C150AD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B5C2FA3817B9027800C150AD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B5C2FA3A17B9028A00C150AD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B5C2FA8117BA20D800C150AD /* CMXClientLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXClientLocation.h; sourceTree = "<group>"; };
+		B5C2FA8217BA20D800C150AD /* CMXClientLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXClientLocation.m; sourceTree = "<group>"; };
+		B5CBD661183B60D5007F25B6 /* CMXSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXSettingsViewController.h; sourceTree = "<group>"; };
+		B5CBD662183B60D5007F25B6 /* CMXSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXSettingsViewController.m; sourceTree = "<group>"; };
+		B5CBD66A183B7857007F25B6 /* CMXPoiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXPoiViewController.h; sourceTree = "<group>"; };
+		B5CBD66B183B7857007F25B6 /* CMXPoiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXPoiViewController.m; sourceTree = "<group>"; };
+		B5CD35F11844D8E800712B92 /* CMXBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXBanner.h; sourceTree = "<group>"; };
+		B5CD35F21844D8E800712B92 /* CMXBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXBanner.m; sourceTree = "<group>"; };
+		B5CD35F41844F7CB00712B92 /* CMXBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXBannerViewController.h; sourceTree = "<group>"; };
+		B5CD35F51844F7CB00712B92 /* CMXBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXBannerViewController.m; sourceTree = "<group>"; };
+		B5D627C6183A2F6A005E0F3C /* CMXMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXMenuViewController.h; sourceTree = "<group>"; };
+		B5D627C7183A2F6A005E0F3C /* CMXMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXMenuViewController.m; sourceTree = "<group>"; };
+		B5D627C9183A2F87005E0F3C /* CMXMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXMenuItem.h; sourceTree = "<group>"; };
+		B5D627CA183A2F87005E0F3C /* CMXMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXMenuItem.m; sourceTree = "<group>"; };
+		B5D7C21B18040CDA00410E48 /* CMXVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXVenue.h; sourceTree = "<group>"; };
+		B5D7C21C18040CDA00410E48 /* CMXVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXVenue.m; sourceTree = "<group>"; };
+		B5D7C21D18040CDA00410E48 /* CMXNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXNetwork.h; sourceTree = "<group>"; };
+		B5D7C21E18040CDA00410E48 /* CMXNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXNetwork.m; sourceTree = "<group>"; };
+		B5DDA5DE17CBB2F600C7F3CA /* CMXMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXMapView.h; sourceTree = "<group>"; };
+		B5DDA5DF17CBB2F600C7F3CA /* CMXMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXMapView.m; sourceTree = "<group>"; };
+		B5FD4D6017FB30B700E61592 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B5FD4D6217FB30C900E61592 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		B5FD4D6717FB334300E61592 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B5FD4D6917FB337700E61592 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		B5FD4D6B17FB338700E61592 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B5FD4D6D17FB338C00E61592 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5FD4D6F17FB339600E61592 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA6B683B19A550F6006ED171 /* CMXBleBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXBleBeacon.h; sourceTree = "<group>"; };
+		DA6B683C19A550F6006ED171 /* CMXBleBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXBleBeacon.m; sourceTree = "<group>"; };
+		DA6B684019A5533D006ED171 /* CMXGeoCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXGeoCoordinate.h; sourceTree = "<group>"; };
+		DA6B684119A5533D006ED171 /* CMXGeoCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXGeoCoordinate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FE1B0CC17E13DAA0072985B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0881E61890929B006DC916 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C2F9C117B8F6A100C150AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA417F0188CD88900850DE0 /* FacebookSDK.framework in Frameworks */,
+				B5FD4D7017FB339600E61592 /* UIKit.framework in Frameworks */,
+				B5FD4D6E17FB338D00E61592 /* CoreGraphics.framework in Frameworks */,
+				B5FD4D6C17FB338700E61592 /* QuartzCore.framework in Frameworks */,
+				B5FD4D6A17FB337700E61592 /* CoreImage.framework in Frameworks */,
+				B5FD4D6817FB334300E61592 /* CoreText.framework in Frameworks */,
+				B5FD4D6417FB30F300E61592 /* libxml2.dylib in Frameworks */,
+				B5C2FA3B17B9028A00C150AD /* Security.framework in Frameworks */,
+				B5C2FA3917B9027800C150AD /* CoreLocation.framework in Frameworks */,
+				B5C2FA3717B9027300C150AD /* SystemConfiguration.framework in Frameworks */,
+				B5C2FA3517B9026C00C150AD /* MobileCoreServices.framework in Frameworks */,
+				B5C2F9C817B8F6A100C150AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F52299E187A1105008F83C0 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				8F52299F187A1122008F83C0 /* SMXMLDocument.h */,
+				8F5229A0187A1122008F83C0 /* SMXMLDocument.m */,
+				8F5229A1187A1122008F83C0 /* SvgToUIImage.h */,
+				8F5229A2187A1122008F83C0 /* SvgToUIImage.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		8F6D405617E7D55C00BFA03D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8FA12363185FFBF50048EE83 /* CMXUtils.h */,
+				8F6D405717E7D58800BFA03D /* CMXDebug.h */,
+				8F118FB217F9155100DAFBBF /* NSString+URLEncoding.h */,
+				8F118FB317F9155100DAFBBF /* NSString+URLEncoding.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8F6D405817E7FCF500BFA03D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FB3EE531861768B00AA28F1 /* Private */,
+				8F113D4B181A1BCF00A947FF /* Controller.h */,
+				B529EB7018325488007828DA /* CMXLaunchViewController.h */,
+				B529EB7118325488007828DA /* CMXLaunchViewController.m */,
+				B5AEB74D183BA83E00F85F9E /* CMXMainViewController.h */,
+				B5AEB74E183BA83E00F85F9E /* CMXMainViewController.m */,
+				B5D627C6183A2F6A005E0F3C /* CMXMenuViewController.h */,
+				B5D627C7183A2F6A005E0F3C /* CMXMenuViewController.m */,
+				8FA3A32617E6B78F0003BC2F /* CMXFloorViewController.h */,
+				8FA3A32717E6B78F0003BC2F /* CMXFloorViewController.m */,
+				B56386BA17C39C2300982331 /* CMXSearchViewController.h */,
+				B56386BB17C39C2300982331 /* CMXSearchViewController.m */,
+				B5CBD661183B60D5007F25B6 /* CMXSettingsViewController.h */,
+				B5CBD662183B60D5007F25B6 /* CMXSettingsViewController.m */,
+				B5CBD66A183B7857007F25B6 /* CMXPoiViewController.h */,
+				B5CBD66B183B7857007F25B6 /* CMXPoiViewController.m */,
+				B5CD35F41844F7CB00712B92 /* CMXBannerViewController.h */,
+				B5CD35F51844F7CB00712B92 /* CMXBannerViewController.m */,
+				8FA12360185FEEB80048EE83 /* CMXNotifications.h */,
+				8FA12361185FEEB80048EE83 /* CMXNotifications.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8F969F2F187BC52B007A21E3 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				8FD6AA1517E6889700CD4020 /* CMXShapeView.h */,
+				8FD6AA1617E6889700CD4020 /* CMXShapeView.m */,
+				8F16CCEC17E9109D0039D8AE /* CMXLoadingView.h */,
+				8F16CCED17E9109D0039D8AE /* CMXLoadingView.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		8FB3EE531861768B00AA28F1 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				B5D627C9183A2F87005E0F3C /* CMXMenuItem.h */,
+				B5D627CA183A2F87005E0F3C /* CMXMenuItem.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		8FE1B0D117E13DAA0072985B /* CMXKit */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1B0D217E13DAA0072985B /* Supporting Files */,
+			);
+			path = CMXKit;
+			sourceTree = "<group>";
+		};
+		8FE1B0D217E13DAA0072985B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1B0D317E13DAA0072985B /* CMXKit-Info.plist */,
+				8FE1B0D417E13DAA0072985B /* InfoPlist.strings */,
+				8FE1B0D717E13DAA0072985B /* CMXKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5C2F9BB17B8F6A100C150AD = {
+			isa = PBXGroup;
+			children = (
+				8F6D405817E7FCF500BFA03D /* Controller */,
+				B5C2FA1117B8FFEB00C150AD /* UI */,
+				B5C2FA1017B8FFDC00C150AD /* Network */,
+				B5C2FA0F17B8FFD600C150AD /* Model */,
+				8F6D405617E7D55C00BFA03D /* Utils */,
+				B5C2F9C917B8F6A100C150AD /* CMX */,
+				8FE1B0D117E13DAA0072985B /* CMXKit */,
+				B5C2F9C617B8F6A100C150AD /* Frameworks */,
+				B5C2F9C517B8F6A100C150AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C2F9C517B8F6A100C150AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2F9C417B8F6A100C150AD /* libCMX_dev.a */,
+				8FE1B0CF17E13DAA0072985B /* CMX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C2F9C617B8F6A100C150AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA417EF188CD88900850DE0 /* FacebookSDK.framework */,
+				B5FD4D6F17FB339600E61592 /* UIKit.framework */,
+				B5FD4D6D17FB338C00E61592 /* CoreGraphics.framework */,
+				B5FD4D6B17FB338700E61592 /* QuartzCore.framework */,
+				B5FD4D6917FB337700E61592 /* CoreImage.framework */,
+				B5FD4D6717FB334300E61592 /* CoreText.framework */,
+				B5FD4D6217FB30C900E61592 /* libxml2.2.dylib */,
+				B5FD4D6017FB30B700E61592 /* libxml2.dylib */,
+				B5C2FA3A17B9028A00C150AD /* Security.framework */,
+				B5C2FA3817B9027800C150AD /* CoreLocation.framework */,
+				B5C2FA3617B9027300C150AD /* SystemConfiguration.framework */,
+				B5C2FA3417B9026C00C150AD /* MobileCoreServices.framework */,
+				B5C2F9C717B8F6A100C150AD /* Foundation.framework */,
+				8FE7113C17E1361D002B9AB8 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5C2F9C917B8F6A100C150AD /* CMX */ = {
+			isa = PBXGroup;
+			children = (
+				8F113D4F181A1DCC00A947FF /* CMX.h */,
+				B5C2F9CA17B8F6A100C150AD /* Supporting Files */,
+				8F04C520186C0C8100D00C27 /* readme.markdown */,
+			);
+			path = CMX;
+			sourceTree = "<group>";
+		};
+		B5C2F9CA17B8F6A100C150AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2F9CB17B8F6A100C150AD /* CMX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5C2FA0F17B8FFD600C150AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD35F11844D8E800712B92 /* CMXBanner.h */,
+				B5CD35F21844D8E800712B92 /* CMXBanner.m */,
+				8F113D4E181A1D3300A947FF /* Model.h */,
+				DA6B684019A5533D006ED171 /* CMXGeoCoordinate.h */,
+				DA6B684119A5533D006ED171 /* CMXGeoCoordinate.m */,
+				DA6B683B19A550F6006ED171 /* CMXBleBeacon.h */,
+				DA6B683C19A550F6006ED171 /* CMXBleBeacon.m */,
+				B5C2FA8117BA20D800C150AD /* CMXClientLocation.h */,
+				B5C2FA8217BA20D800C150AD /* CMXClientLocation.m */,
+				B53F905B17C264D500C4786F /* CMXMapCoordinate.h */,
+				B53F905C17C264D500C4786F /* CMXMapCoordinate.m */,
+				B53F906117C2652000C4786F /* CMXDimension.h */,
+				B53F906217C2652000C4786F /* CMXDimension.m */,
+				B53F906317C2652000C4786F /* CMXFloor.h */,
+				B53F906417C2652000C4786F /* CMXFloor.m */,
+				B53F906717C2655D00C4786F /* CMXPoi.h */,
+				B53F906817C2655D00C4786F /* CMXPoi.m */,
+				B595EA8517D482B4002ED04D /* CMXPath.h */,
+				B595EA8617D482B4002ED04D /* CMXPath.m */,
+				B53F906D17C265D000C4786F /* CMXPoint.h */,
+				B53F906E17C265D000C4786F /* CMXPoint.m */,
+				B5D7C21D18040CDA00410E48 /* CMXNetwork.h */,
+				B5D7C21E18040CDA00410E48 /* CMXNetwork.m */,
+				8FA3A33317E6BA0A0003BC2F /* CMXUnit.h */,
+				8FA3A33417E6BA0A0003BC2F /* CMXUnit.m */,
+				B5D7C21B18040CDA00410E48 /* CMXVenue.h */,
+				B5D7C21C18040CDA00410E48 /* CMXVenue.m */,
+				8FFB343018149E2B006B0753 /* CMXWifiConnectionMode.h */,
+				8FFB343118149E2B006B0753 /* CMXWifiConnectionMode.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B5C2FA1017B8FFDC00C150AD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8F52299E187A1105008F83C0 /* Private */,
+				8F113D4D181A1CE400A947FF /* Network.h */,
+				8FA3A32417E6B78F0003BC2F /* CMXClient.h */,
+				8FA3A32517E6B78F0003BC2F /* CMXClient.m */,
+				8FFB343B1814AC5E006B0753 /* CMXClientConfiguration.h */,
+				8FFB343C1814AC5E006B0753 /* CMXClientConfiguration.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		B5C2FA1117B8FFEB00C150AD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8F969F2F187BC52B007A21E3 /* Private */,
+				8F113D4C181A1C4200A947FF /* UI.h */,
+				8F45911E185D8CB6006C9AA4 /* CMXAppDelegate.h */,
+				8F45911F185D8CB6006C9AA4 /* CMXAppDelegate.m */,
+				B5DDA5DE17CBB2F600C7F3CA /* CMXMapView.h */,
+				B5DDA5DF17CBB2F600C7F3CA /* CMXMapView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8FF4911B17E13FE90044290C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA3A32A17E6B78F0003BC2F /* CMXClient.h in Headers */,
+				B5CBD66D183B7857007F25B6 /* CMXPoiViewController.h in Headers */,
+				8FFB343218149E2B006B0753 /* CMXWifiConnectionMode.h in Headers */,
+				B5F6BCC0183BB19D0033A6FD /* CMXMainViewController.h in Headers */,
+				B5CBD664183B60D5007F25B6 /* CMXSettingsViewController.h in Headers */,
+				8F5229C3187A4BB1008F83C0 /* Controller.h in Headers */,
+				8F5229C4187A4BB1008F83C0 /* CMXLaunchViewController.h in Headers */,
+				8F5229C5187A4BB1008F83C0 /* CMXMenuViewController.h in Headers */,
+				8F5229C6187A4BB1008F83C0 /* CMXSearchViewController.h in Headers */,
+				8F5229C7187A4BB1008F83C0 /* CMXBannerViewController.h in Headers */,
+				8F5229C8187A4BB1008F83C0 /* CMXNotifications.h in Headers */,
+				8F5229C9187A4BB1008F83C0 /* UI.h in Headers */,
+				8F5229CA187A4BB1008F83C0 /* CMXMapView.h in Headers */,
+				DA6B684219A5533D006ED171 /* CMXGeoCoordinate.h in Headers */,
+				8F5229CB187A4BB1008F83C0 /* Network.h in Headers */,
+				8F5229CC187A4BB1008F83C0 /* CMXBanner.h in Headers */,
+				8F5229CD187A4BB1008F83C0 /* Model.h in Headers */,
+				8F5229CE187A4BB1008F83C0 /* CMXNetwork.h in Headers */,
+				8FA3A32D17E6B78F0003BC2F /* CMXFloorViewController.h in Headers */,
+				8FFB343D1814AC5E006B0753 /* CMXClientConfiguration.h in Headers */,
+				8FA3A33517E6BA0A0003BC2F /* CMXUnit.h in Headers */,
+				8F459120185D8CB6006C9AA4 /* CMXAppDelegate.h in Headers */,
+				8FB2CB8817E18B7000B6CA9A /* CMXClientLocation.h in Headers */,
+				8FB2CB8917E18B7000B6CA9A /* CMXMapCoordinate.h in Headers */,
+				8FB2CB8A17E18B7000B6CA9A /* CMXDimension.h in Headers */,
+				8FB2CB8B17E18B7000B6CA9A /* CMXFloor.h in Headers */,
+				8FB2CB8C17E18B7000B6CA9A /* CMXPoi.h in Headers */,
+				8FB2CB8D17E18B7000B6CA9A /* CMXPath.h in Headers */,
+				8FB2CB8E17E18B7000B6CA9A /* CMXPoint.h in Headers */,
+				8F5229D0187A4DD0008F83C0 /* CMX.h in Headers */,
+				DA6B683D19A550F6006ED171 /* CMXBleBeacon.h in Headers */,
+				8F5229D1187A4DF0008F83C0 /* CMXVenue.h in Headers */,
+				8F5229D2187A4DFC008F83C0 /* CMXUtils.h in Headers */,
+				8F5229D3187A4DFC008F83C0 /* CMXDebug.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8FE1B0CE17E13DAA0072985B /* CMX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE1B0D817E13DAA0072985B /* Build configuration list for PBXNativeTarget "CMX" */;
+			buildPhases = (
+				8FE1B0CB17E13DAA0072985B /* Sources */,
+				8FE1B0CC17E13DAA0072985B /* Frameworks */,
+				8FE1B0CD17E13DAA0072985B /* Resources */,
+				8FF4911B17E13FE90044290C /* Headers */,
+				8F5229C2187A326D008F83C0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMX;
+			productName = CMXKit;
+			productReference = 8FE1B0CF17E13DAA0072985B /* CMX.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B5C2F9C317B8F6A100C150AD /* CMX_dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C2F9D217B8F6A100C150AD /* Build configuration list for PBXNativeTarget "CMX_dev" */;
+			buildPhases = (
+				B5C2F9C017B8F6A100C150AD /* Sources */,
+				B5C2F9C117B8F6A100C150AD /* Frameworks */,
+				B5C2F9C217B8F6A100C150AD /* CopyFiles */,
+				8FD72A0F186BFBDD00ED0A5F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMX_dev;
+			productName = CMX;
+			productReference = B5C2F9C417B8F6A100C150AD /* libCMX_dev.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C2F9BC17B8F6A100C150AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CMX;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Cisco;
+			};
+			buildConfigurationList = B5C2F9BF17B8F6A100C150AD /* Build configuration list for PBXProject "CMX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5C2F9BB17B8F6A100C150AD;
+			productRefGroup = B5C2F9C517B8F6A100C150AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C2F9C317B8F6A100C150AD /* CMX_dev */,
+				8FE1B0CE17E13DAA0072985B /* CMX */,
+				8F7252BB187FAC7A007B6271 /* CMX.framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FE1B0CD17E13DAA0072985B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F5229C2187A326D008F83C0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ${CONFIGURATION} == \"Release\" ]; then\nAPPLEDOC_PATH=`which appledoc`\nif [ $APPLEDOC_PATH ]; then\n$APPLEDOC_PATH \\\n--project-name \"Cisco CMX SDK v1.0.14\" \\\n--project-company \"Cisco\" \\\n--company-id \"com.cisco.documentation\" \\\n--docset-bundle-name \"Cisco CMX SDK v1.0.14\" \\\n--logformat xcode \\\n--merge-categories \\\n--docset-platform-family iphoneos \\\n--ignore .m \\\n--ignore \"CMXMenuItem.h\" \\\n--ignore \"CMXShapeView.h\" \\\n--ignore \"NSString+URLEncoding.h\" \\\n--ignore \"SvgToUIImage.h\" \\\n--ignore \"SMXMLDocument.h\" \\\n--ignore \"CMXLoadingView.h\" \\\n--output ${PRODUCT_NAME}Docs \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n--index-desc \"${PROJECT_DIR}/readme.markdown\" \\\n\"${PROJECT_DIR}\"\nfi;\nfi;";
+		};
+		8F7252BF187FAD7D007B6271 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "xcodebuild clean -target 'CMX' -sdk iphoneos\nxcodebuild clean -target 'CMX' -sdk iphonesimulator";
+		};
+		8F7252C0187FADA8007B6271 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "xcodebuild -configuration ${CONFIGURATION} -target CMX -sdk iphonesimulator -SYMROOT=${SYMROOT} -OBJROOT=${OBJROOT}\nxcodebuild -configuration ${CONFIGURATION} -target CMX -sdk iphoneos -SYMROOT=${SYMROOT} -OBJROOT=${OBJROOT}\n\n\nINSTALL_DIR=${SRCROOT}/../Distribution/CMX/${TARGET_NAME}\nBUILD_DIR=${SRCROOT}/build\n\n\nDEVICE_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}\nSIMULATOR_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}\n\n# Create and renews the final product folder.\n\nrm -rf \"${INSTALL_DIR}\"\n\nmkdir -p \"${INSTALL_DIR}\"\n\nmkdir -p \"${INSTALL_DIR}/Versions/A/Headers\"\n\nxcrun -sdk iphoneos lipo -create \"${SIMULATOR_DIR}/CMX\" \"${DEVICE_DIR}/CMX\" -o \"${INSTALL_DIR}/Versions/A/CMX\"\n\n# Copy the header files to the final product folder.\ncp -r \"${SIMULATOR_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/A/Headers/\"\n\nmkdir -p \"${INSTALL_DIR}/Versions/A/Resources\"\n\ncp -r \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/A/Resources/\"\n\n#create relative symbolic link.\ncd \"${INSTALL_DIR}\"\n\n#link\nln -s A Versions/Current\nln -s Versions/A/CMX CMX\nln -s Versions/A/Resources Resources\nln -s Versions/A/Headers Headers";
+		};
+		8FD72A0F186BFBDD00ED0A5F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ${CONFIGURATION} == \"Release\" ]; then\nAPPLEDOC_PATH=`which appledoc`\necho ${PROJECT_DIR}\nif [ $APPLEDOC_PATH ]; then\n$APPLEDOC_PATH \\\n--project-name \"Cisco CMX SDK development\" \\\n--project-company \"Cisco\" \\\n--company-id \"com.cisco.documentation\" \\\n--docset-bundle-name \"Cisco CMX SDK development\" \\\n--logformat xcode \\\n--merge-categories \\\n--docset-platform-family iphoneos \\\n--ignore .m \\\n--ignore \"CMXMenuItem.h\" \\\n--ignore \"CMXShapeView.h\" \\\n--ignore \"NSString+URLEncoding.h\" \\\n--ignore \"SvgToUIImage.h\" \\\n--ignore \"SMXMLDocument.h\" \\\n--ignore \"CMXLoadingView.h\" \\\n--output ${PRODUCT_NAME}Docs \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n--index-desc \"${PROJECT_DIR}/readme.markdown\" \\\n${PROJECT_DIR}\nfi;\nfi;";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FE1B0CB17E13DAA0072985B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F118FB917F9155100DAFBBF /* NSString+URLEncoding.m in Sources */,
+				8F5229DB187A517A008F83C0 /* CMXBannerViewController.m in Sources */,
+				DA6B684419A5533D006ED171 /* CMXGeoCoordinate.m in Sources */,
+				8F5229DC187A517C008F83C0 /* CMXNotifications.m in Sources */,
+				B5F6BCBF183BB1910033A6FD /* CMXMainViewController.m in Sources */,
+				8FA3A32F17E6B78F0003BC2F /* CMXFloorViewController.m in Sources */,
+				8F5229DF187A51A2008F83C0 /* CMXNetwork.m in Sources */,
+				8FA3A32C17E6B78F0003BC2F /* CMXClient.m in Sources */,
+				8F459122185D8CB6006C9AA4 /* CMXAppDelegate.m in Sources */,
+				8F5229DA187A5172008F83C0 /* CMXMenuViewController.m in Sources */,
+				B5CBD66F183B7857007F25B6 /* CMXPoiViewController.m in Sources */,
+				8F5229D9187A516D008F83C0 /* CMXLaunchViewController.m in Sources */,
+				8F5229A5187A1122008F83C0 /* SMXMLDocument.m in Sources */,
+				DA6B683F19A550F6006ED171 /* CMXBleBeacon.m in Sources */,
+				8FFB343F1814AC5E006B0753 /* CMXClientConfiguration.m in Sources */,
+				8F16CCF017E9109D0039D8AE /* CMXLoadingView.m in Sources */,
+				8FFB343418149E2B006B0753 /* CMXWifiConnectionMode.m in Sources */,
+				8F5229E0187A51A5008F83C0 /* CMXVenue.m in Sources */,
+				B5CBD665183B60D5007F25B6 /* CMXSettingsViewController.m in Sources */,
+				8FA3A33717E6BA0A0003BC2F /* CMXUnit.m in Sources */,
+				8F5229DD187A5180008F83C0 /* CMXMenuItem.m in Sources */,
+				8F57D4ED17E1435500CC0960 /* CMXMapView.m in Sources */,
+				8F57D4EF17E1435500CC0960 /* CMXSearchViewController.m in Sources */,
+				8F57D4FD17E1435500CC0960 /* CMXClientLocation.m in Sources */,
+				8F57D50017E1435500CC0960 /* CMXPath.m in Sources */,
+				8FD6AA1917E6889700CD4020 /* CMXShapeView.m in Sources */,
+				8F57D50417E1435500CC0960 /* CMXMapCoordinate.m in Sources */,
+				8F57D50617E1435500CC0960 /* CMXDimension.m in Sources */,
+				8F57D50817E1435500CC0960 /* CMXFloor.m in Sources */,
+				8F57D50A17E1435500CC0960 /* CMXPoi.m in Sources */,
+				8F5229A8187A1122008F83C0 /* SvgToUIImage.m in Sources */,
+				8F57D50C17E1435500CC0960 /* CMXPoint.m in Sources */,
+				8F5229DE187A5195008F83C0 /* CMXBanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C2F9C017B8F6A100C150AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F118FB817F9155100DAFBBF /* NSString+URLEncoding.m in Sources */,
+				B5CBD669183B6355007F25B6 /* CMXSettingsViewController.m in Sources */,
+				DA6B684319A5533D006ED171 /* CMXGeoCoordinate.m in Sources */,
+				B5D627CB183A2F87005E0F3C /* CMXMenuItem.m in Sources */,
+				8FA3A32E17E6B78F0003BC2F /* CMXFloorViewController.m in Sources */,
+				8FA3A32B17E6B78F0003BC2F /* CMXClient.m in Sources */,
+				B5AEB74F183BA83E00F85F9E /* CMXMainViewController.m in Sources */,
+				B5CD35F31844D8E800712B92 /* CMXBanner.m in Sources */,
+				B5CD35F71844F7CB00712B92 /* CMXBannerViewController.m in Sources */,
+				B5CBD66E183B7857007F25B6 /* CMXPoiViewController.m in Sources */,
+				8FFB343E1814AC5E006B0753 /* CMXClientConfiguration.m in Sources */,
+				8F5229A7187A1122008F83C0 /* SvgToUIImage.m in Sources */,
+				8FA12362185FEEB80048EE83 /* CMXNotifications.m in Sources */,
+				DA6B683E19A550F6006ED171 /* CMXBleBeacon.m in Sources */,
+				8FFB343318149E2B006B0753 /* CMXWifiConnectionMode.m in Sources */,
+				8F459121185D8CB6006C9AA4 /* CMXAppDelegate.m in Sources */,
+				8F16CCEF17E9109D0039D8AE /* CMXLoadingView.m in Sources */,
+				B5C2FA8317BA20D800C150AD /* CMXClientLocation.m in Sources */,
+				B53F905E17C264D500C4786F /* CMXMapCoordinate.m in Sources */,
+				B5D7C21F18040CDA00410E48 /* CMXVenue.m in Sources */,
+				8FA3A33617E6BA0A0003BC2F /* CMXUnit.m in Sources */,
+				B53F906517C2652000C4786F /* CMXDimension.m in Sources */,
+				B53F906617C2652000C4786F /* CMXFloor.m in Sources */,
+				B53F906917C2655D00C4786F /* CMXPoi.m in Sources */,
+				B53F906F17C265D000C4786F /* CMXPoint.m in Sources */,
+				B56386BD17C39C2300982331 /* CMXSearchViewController.m in Sources */,
+				B5D7C22018040CDA00410E48 /* CMXNetwork.m in Sources */,
+				8F5229A4187A1122008F83C0 /* SMXMLDocument.m in Sources */,
+				8FD6AA1817E6889700CD4020 /* CMXShapeView.m in Sources */,
+				B529EB7218325488007828DA /* CMXLaunchViewController.m in Sources */,
+				B5DDA5E017CBB2F600C7F3CA /* CMXMapView.m in Sources */,
+				B595EA8717D482B4002ED04D /* CMXPath.m in Sources */,
+				B5D627C8183A2F6A005E0F3C /* CMXMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FE1B0D417E13DAA0072985B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FE1B0D517E13DAA0072985B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F7252BD187FAC7A007B6271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F7252BE187FAC7A007B6271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FE1B0D917E13DAA0072985B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(PROJECT_DIR)/../3rdParty/Facebook\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMXKit/CMXKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PROJECT_DIR)/../3rdParty/AFNetworking/AFNetworking\"",
+					"\"$(PROJECT_DIR)/../3rdParty/JASidePanels/JASidePanels/Source\"",
+					"\"$(PROJECT_DIR)/../3rdParty/Reachability\"",
+					"\"$(PROJECT_DIR)/../3rdParty/SMCalloutView\"",
+					"\"$(PROJECT_DIR)/../3rdParty/Toast/Toast/Toast\"",
+				);
+				INFOPLIST_FILE = "CMXKit/CMXKit-Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64 x86_64 i386";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8FE1B0DA17E13DAA0072985B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(PROJECT_DIR)/../3rdParty/Facebook\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMXKit/CMXKit-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PROJECT_DIR)/../3rdParty/AFNetworking/AFNetworking\"",
+					"\"$(PROJECT_DIR)/../3rdParty/JASidePanels/JASidePanels/Source\"",
+					"\"$(PROJECT_DIR)/../3rdParty/Reachability\"",
+					"\"$(PROJECT_DIR)/../3rdParty/SMCalloutView\"",
+					"\"$(PROJECT_DIR)/../3rdParty/Toast/Toast/Toast\"",
+				);
+				INFOPLIST_FILE = "CMXKit/CMXKit-Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64 x86_64 i386";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		B5C2F9D017B8F6A100C150AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5C2F9D117B8F6A100C150AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5C2F9D317B8F6A100C150AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/CMX.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/../3rdParty/Facebook\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMX/CMX-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2/**",
+					"\"$(PROJECT_DIR)/../3rdParty/AFNetworking/AFNetworking\"",
+					"\"$(PROJECT_DIR)/../3rdParty/JASidePanels/JASidePanels/Source\"",
+					"\"$(PROJECT_DIR)/../3rdParty/Reachability\"",
+					"\"$(PROJECT_DIR)/../3rdParty/SMCalloutView\"",
+					"\"$(PROJECT_DIR)/../3rdParty/Toast/Toast/Toast\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		B5C2F9D417B8F6A100C150AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/CMX.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/../3rdParty/Facebook\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMX/CMX-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2/**",
+					"\"$(PROJECT_DIR)/../3rdParty/AFNetworking/AFNetworking\"",
+					"\"$(PROJECT_DIR)/../3rdParty/JASidePanels/JASidePanels/Source\"",
+					"\"$(PROJECT_DIR)/../3rdParty/Reachability\"",
+					"\"$(PROJECT_DIR)/../3rdParty/SMCalloutView\"",
+					"\"$(PROJECT_DIR)/../3rdParty/Toast/Toast/Toast\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F7252BC187FAC7A007B6271 /* Build configuration list for PBXAggregateTarget "CMX.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7252BD187FAC7A007B6271 /* Debug */,
+				8F7252BE187FAC7A007B6271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE1B0D817E13DAA0072985B /* Build configuration list for PBXNativeTarget "CMX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE1B0D917E13DAA0072985B /* Debug */,
+				8FE1B0DA17E13DAA0072985B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C2F9BF17B8F6A100C150AD /* Build configuration list for PBXProject "CMX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C2F9D017B8F6A100C150AD /* Debug */,
+				B5C2F9D117B8F6A100C150AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C2F9D217B8F6A100C150AD /* Build configuration list for PBXNativeTarget "CMX_dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C2F9D317B8F6A100C150AD /* Debug */,
+				B5C2F9D417B8F6A100C150AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5C2F9BC17B8F6A100C150AD /* Project object */;
+}

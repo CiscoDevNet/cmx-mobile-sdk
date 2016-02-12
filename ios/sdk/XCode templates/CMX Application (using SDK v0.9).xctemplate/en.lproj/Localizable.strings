@@ -1,0 +1,34 @@
+"CMX Error Alert Title" = "Error";
+"CMX Warning Alert Title" = "Warning";
+"CMX Information Alert Title" = "Information";
+"CMX Notification Alert Title" = "Notification";
+
+"CMX OK Button" = "OK";
+"CMX Cancel Button" = "Cancel";
+"CMX Yes Button" = "Yes";
+"CMX No Button" = "No";
+
+"CMX Loading Message" = "Loading...";
+"CMX Posting Location Feedback Question" = "Is it your right location ?";
+"CMX Posting Location Feedback Message" = "Posting...";
+
+"CMX Invalid Configuration" = "Invalid configuration. Please check your application settings";
+"CMX Notifications Registering Error" = "An error occured during push notifications registering. Try to restart the application later.";
+"CMX Registering Error" = "An error occured during registering. The geolocation feature will be disabled until next launch.";
+"CMX Registering Error, Not Connected To CMX Wi-Fi" = "An error occured during registering because you're not connected to venue's Wi-Fi. The geolocation feature will be disabled until you're connected.";
+
+"CMX Venues & Floors Section Title" = "Venues & Floors";
+"CMX Miscellaneous Section Title" = "Miscellaneous";
+
+"CMX Current Location Menu Item" = "Current location : %@";
+"CMX Not Available Location Menu Item" = "not available";
+"CMX Settings Menu Item" = "Settings";
+
+"CMX Search Placeholder" = "Search on %@";
+
+"CMX Poi Controller Title" = "Information";
+
+"CMX Check In Title" = "Check in";
+"CMX Facebook" = "Facebook";
+"CMX Twitter" = "Twitter";
+"CMX Check In Tweet" = "I was here";

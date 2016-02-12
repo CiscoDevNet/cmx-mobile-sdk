@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>923B46D7-9183-4118-8432-0820E1773D2A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CMX</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>128C4E6F-F281-40A8-86FA-2B115D1BFCD9</key>
+		<string>http://projects.myorpheo.com/git/cmx/ios.git</string>
+		<key>9758F2FE-C1B8-400F-B2B2-4CC460C94F0F</key>
+		<string>https://github.com/AFNetworking/AFNetworking.git</string>
+		<key>E709BF6F-6D93-4C88-85C3-475D3328256F</key>
+		<string>https://github.com/gotosleep/JASidePanels.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CMX.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>128C4E6F-F281-40A8-86FA-2B115D1BFCD9</key>
+		<string>..</string>
+		<key>9758F2FE-C1B8-400F-B2B2-4CC460C94F0F</key>
+		<string>../3rdParty/AFNetworking</string>
+		<key>E709BF6F-6D93-4C88-85C3-475D3328256F</key>
+		<string>../3rdParty/JASidePanels</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://projects.myorpheo.com/git/cmx/ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>128C4E6F-F281-40A8-86FA-2B115D1BFCD9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9758F2FE-C1B8-400F-B2B2-4CC460C94F0F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AFNetworking</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>128C4E6F-F281-40A8-86FA-2B115D1BFCD9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E709BF6F-6D93-4C88-85C3-475D3328256F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JASidePanels</string>
+		</dict>
+	</array>
+</dict>
+</plist>

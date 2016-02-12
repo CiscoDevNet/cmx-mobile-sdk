@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXPoiViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXPoiViewController</TokenIdentifier>
+			<Abstract type="html">Controller that displays information about a poi.</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoiViewController/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Controller delegate.</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXPoiViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoiViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Controller delegate.</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXPoiViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoiViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Controller delegate.</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXPoiViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoiViewController/setPoiImageView:</TokenIdentifier>
+			<Abstract type="html">Poi logo</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) IBOutlet UIImageView *poiImageView</Declaration>
+			
+			
+			<Anchor>//api/name/poiImageView</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoiViewController/poiImageView</TokenIdentifier>
+			<Abstract type="html">Poi logo</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) IBOutlet UIImageView *poiImageView</Declaration>
+			
+			
+			<Anchor>//api/name/poiImageView</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoiViewController/poiImageView</TokenIdentifier>
+			<Abstract type="html">Poi logo</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) IBOutlet UIImageView *poiImageView</Declaration>
+			
+			
+			<Anchor>//api/name/poiImageView</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoiViewController/setPoiTitleLabel:</TokenIdentifier>
+			<Abstract type="html">Poi name</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) IBOutlet UILabel *poiTitleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/poiTitleLabel</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoiViewController/poiTitleLabel</TokenIdentifier>
+			<Abstract type="html">Poi name</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) IBOutlet UILabel *poiTitleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/poiTitleLabel</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoiViewController/poiTitleLabel</TokenIdentifier>
+			<Abstract type="html">Poi name</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) IBOutlet UILabel *poiTitleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/poiTitleLabel</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoiViewController/initWithPoi:image:</TokenIdentifier>
+			<Abstract type="html">Initialize the controller with given poi and his image representation.</Abstract>
+			<DeclaredIn>CMXPoiViewController.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithPoi:(CMXPoi *)poi image:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>poi</Name>
+					<Abstract type="html">A poi object</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">Poi&apos;s image</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The instance of the controller.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithPoi:image:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

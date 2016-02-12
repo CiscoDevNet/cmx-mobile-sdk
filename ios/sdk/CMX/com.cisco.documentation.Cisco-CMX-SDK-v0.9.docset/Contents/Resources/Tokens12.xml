@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXMapCoordinate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXMapCoordinate</TokenIdentifier>
+			<Abstract type="html">Define 2 dimensional coordinate in map.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapCoordinate/setX:</TokenIdentifier>
+			<Abstract type="html">X coordinate of the point.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapCoordinate/x</TokenIdentifier>
+			<Abstract type="html">X coordinate of the point.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXMapCoordinate/x</TokenIdentifier>
+			<Abstract type="html">X coordinate of the point.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapCoordinate/setY:</TokenIdentifier>
+			<Abstract type="html">Y coordinate of the point.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapCoordinate/y</TokenIdentifier>
+			<Abstract type="html">Y coordinate of the point.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXMapCoordinate/y</TokenIdentifier>
+			<Abstract type="html">Y coordinate of the point.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapCoordinate/setUnit:</TokenIdentifier>
+			<Abstract type="html">Unit of the coordinate.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CMXUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapCoordinate/unit</TokenIdentifier>
+			<Abstract type="html">Unit of the coordinate.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CMXUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXMapCoordinate/unit</TokenIdentifier>
+			<Abstract type="html">Unit of the coordinate.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CMXUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXMapCoordinate/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Alloc and init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>+ (CMXMapCoordinate *)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new object.</Abstract></ReturnValue>
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapCoordinate/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current instance object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapCoordinate/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html">Returns The dictionary representation of the current object.</Abstract>
+			<DeclaredIn>CMXMapCoordinate.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			<ReturnValue><Abstract type="html">The dictionary representation of the current object.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

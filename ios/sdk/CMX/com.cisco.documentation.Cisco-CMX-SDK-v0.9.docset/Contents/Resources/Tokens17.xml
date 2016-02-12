@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXPoi.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXPoi</TokenIdentifier>
+			<Abstract type="html">Define a Point Of Interest.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">Unique identifier of the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/identifier</TokenIdentifier>
+			<Abstract type="html">Unique identifier of the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoi/identifier</TokenIdentifier>
+			<Abstract type="html">Unique identifier of the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/setName:</TokenIdentifier>
+			<Abstract type="html">Name of the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/name</TokenIdentifier>
+			<Abstract type="html">Name of the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoi/name</TokenIdentifier>
+			<Abstract type="html">Name of the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/setVenueId:</TokenIdentifier>
+			<Abstract type="html">Id of the venue where the poi is located.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *venueId</Declaration>
+			
+			
+			<Anchor>//api/name/venueId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/venueId</TokenIdentifier>
+			<Abstract type="html">Id of the venue where the poi is located.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *venueId</Declaration>
+			
+			
+			<Anchor>//api/name/venueId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoi/venueId</TokenIdentifier>
+			<Abstract type="html">Id of the venue where the poi is located.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *venueId</Declaration>
+			
+			
+			<Anchor>//api/name/venueId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/setFloorId:</TokenIdentifier>
+			<Abstract type="html">Id of the floor where the poi is located.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *floorId</Declaration>
+			
+			
+			<Anchor>//api/name/floorId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/floorId</TokenIdentifier>
+			<Abstract type="html">Id of the floor where the poi is located.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *floorId</Declaration>
+			
+			
+			<Anchor>//api/name/floorId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoi/floorId</TokenIdentifier>
+			<Abstract type="html">Id of the floor where the poi is located.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *floorId</Declaration>
+			
+			
+			<Anchor>//api/name/floorId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/setPoints:</TokenIdentifier>
+			<Abstract type="html">Area (array of @see CMXPoint representing the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *points</Declaration>
+			
+			
+			<Anchor>//api/name/points</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/points</TokenIdentifier>
+			<Abstract type="html">Area (array of @see CMXPoint representing the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *points</Declaration>
+			
+			
+			<Anchor>//api/name/points</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoi/points</TokenIdentifier>
+			<Abstract type="html">Area (array of @see CMXPoint representing the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *points</Declaration>
+			
+			
+			<Anchor>//api/name/points</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/setImageType:</TokenIdentifier>
+			<Abstract type="html">Image type of the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *imageType</Declaration>
+			
+			
+			<Anchor>//api/name/imageType</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/imageType</TokenIdentifier>
+			<Abstract type="html">Image type of the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *imageType</Declaration>
+			
+			
+			<Anchor>//api/name/imageType</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoi/imageType</TokenIdentifier>
+			<Abstract type="html">Image type of the poi.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *imageType</Declaration>
+			
+			
+			<Anchor>//api/name/imageType</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/setFacebookPlaceId:</TokenIdentifier>
+			<Abstract type="html">Place id in Facebook Graph API.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *facebookPlaceId</Declaration>
+			
+			
+			<Anchor>//api/name/facebookPlaceId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/facebookPlaceId</TokenIdentifier>
+			<Abstract type="html">Place id in Facebook Graph API.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *facebookPlaceId</Declaration>
+			
+			
+			<Anchor>//api/name/facebookPlaceId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoi/facebookPlaceId</TokenIdentifier>
+			<Abstract type="html">Place id in Facebook Graph API.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *facebookPlaceId</Declaration>
+			
+			
+			<Anchor>//api/name/facebookPlaceId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/setTwitterPlaceId:</TokenIdentifier>
+			<Abstract type="html">Place id in Twitter.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *twitterPlaceId</Declaration>
+			
+			
+			<Anchor>//api/name/twitterPlaceId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/twitterPlaceId</TokenIdentifier>
+			<Abstract type="html">Place id in Twitter.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *twitterPlaceId</Declaration>
+			
+			
+			<Anchor>//api/name/twitterPlaceId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXPoi/twitterPlaceId</TokenIdentifier>
+			<Abstract type="html">Place id in Twitter.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *twitterPlaceId</Declaration>
+			
+			
+			<Anchor>//api/name/twitterPlaceId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXPoi/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Alloc and init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>+ (CMXPoi *)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new object.</Abstract></ReturnValue>
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current instance object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXPoi/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html">Returns The dictionary representation of the current object.</Abstract>
+			<DeclaredIn>CMXPoi.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			<ReturnValue><Abstract type="html">The dictionary representation of the current object.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

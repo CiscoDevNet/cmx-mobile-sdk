@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/CMXWifiConnectionMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/CMXWifiConnectionMode</TokenIdentifier>
+			<Abstract type="html">Defines Wi-fi connection modes</Abstract>
+			<DeclaredIn>CMXWifiConnectionMode.h</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AUTO</TokenIdentifier>
+            <Abstract type="html">Auto connection mode
+     </Abstract>
+            <Declaration>AUTO</Declaration>
+            
+            <DeclaredIn>CMXWifiConnectionMode.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MANUAL</TokenIdentifier>
+            <Abstract type="html">Manual connection mode
+     </Abstract>
+            <Declaration>MANUAL</Declaration>
+            
+            <DeclaredIn>CMXWifiConnectionMode.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PROMPT</TokenIdentifier>
+            <Abstract type="html">Prompt connection mode
+     </Abstract>
+            <Declaration>PROMPT</Declaration>
+            
+            <DeclaredIn>CMXWifiConnectionMode.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+	</File>
+</Tokens>

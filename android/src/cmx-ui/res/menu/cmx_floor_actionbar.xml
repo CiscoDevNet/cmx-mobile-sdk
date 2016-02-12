@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CMX="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        CMX:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="@string/cmx_menu_refresh"/>
+    
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="50"
+        android:showAsAction="never"
+        android:title="@string/action_feedback"/>
+    
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_action_search"
+        CMX:showAsAction="always"
+        android:title="@string/cmx_menu_search"
+        android:visible="true"
+        android:orderInCategory="20" />
+<!--     CMX:actionViewClass="android.support.v7.widget.SearchView" -->
+    
+</menu>

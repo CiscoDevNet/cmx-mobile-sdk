@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cmx_poi_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    tools:context="com.cisco.cmx.ui.CMXShareActivity"
+    android:orientation="vertical">
+   
+    <LinearLayout
+        android:id="@+id/cmx_poi_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:background="@drawable/stroke_background"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+	    
+        <ImageView 
+	        android:id="@+id/cmx_poi_title_image" 
+	        android:layout_width="50dp" 
+	        android:layout_height="50dp"  
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="center"
+	        android:scaleType="fitXY" 
+	        tools:ignore="ContentDescription">
+    	</ImageView>
+    
+	    <TextView 
+	        android:id="@+id/cmx_poi_title" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:gravity="center_vertical" 
+	        android:layout_gravity="center"
+	        android:textSize="16sp" 
+	        android:textStyle="normal"
+	        android:layout_marginLeft="10dp"
+	        android:textColor="#000000">
+	    </TextView>
+        
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/cmx_poi_action_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/stroke_background"
+	    android:baselineAligned="false"
+	    android:gravity="center"
+	    android:orientation="horizontal"
+	    android:padding="8dp"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp"
+	    android:weightSum="1" >
+    	
+		<LinearLayout
+		    android:id="@+id/cmx_poi_goto_layout"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="0.5"
+		    android:orientation="vertical" >
+
+	        <ImageButton 
+		        android:id="@+id/cmx_poi_goto_button" 
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"  
+		        android:src="@drawable/ic_action_goto" 
+		        android:adjustViewBounds="true"
+		        android:gravity="center" 
+		        android:layout_gravity="center"
+		        tools:ignore="ContentDescription"
+		        android:scaleType="fitXY" >
+	    	</ImageButton>
+
+    		<TextView
+    		    android:id="@+id/cmx_poi_goto_title"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_gravity="center"
+    		    android:gravity="center"
+    		    android:text="@string/cmx_poi_goto_button"
+    		    android:textColor="#000000"
+    		    android:textSize="13sp"
+    		    android:textStyle="normal" >
+
+    		</TextView>
+        </LinearLayout>
+    
+        
+	</LinearLayout>
+     
+    <TextView 
+        android:id="@+id/cmx_poi_description_title" 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="0.40"
+        android:gravity="center_vertical" 
+        android:textSize="16sp" 
+        android:textStyle="normal"
+        android:text="@string/cmx_poi_description"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="@drawable/stroke_background">
+    </TextView>
+	    
+    <TextView 
+        android:id="@+id/cmx_poi_more_infos_title" 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="0.25"
+        android:gravity="center_vertical" 
+        android:textSize="16sp" 
+        android:textStyle="normal"
+        android:text="@string/cmx_poi_more_info"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="@drawable/stroke_background">
+    </TextView>
+    
+    <com.facebook.widget.LoginButton
+        android:id="@+id/cmx_poi_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        facebook:confirm_logout="false"
+        facebook:fetch_user_info="true"
+        android:visibility="invisible"
+        />
+
+ </LinearLayout>

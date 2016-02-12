@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXMapView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXMapView</TokenIdentifier>
+			<Abstract type="html">View that displays pois/path on map with zoom/scrolling.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/setMapDelegate:</TokenIdentifier>
+			<Abstract type="html">Map delegate.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXMapViewDelegate&gt; mapDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mapDelegate</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/mapDelegate</TokenIdentifier>
+			<Abstract type="html">Map delegate.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXMapViewDelegate&gt; mapDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mapDelegate</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXMapView/mapDelegate</TokenIdentifier>
+			<Abstract type="html">Map delegate.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXMapViewDelegate&gt; mapDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mapDelegate</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/setupWithMapImage:mapDimension:</TokenIdentifier>
+			<Abstract type="html">Setup the view with map infos.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)setupWithMapImage:(UIImage *)mapImage mapDimension:(CMXDimension *)dimension</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mapImage</Name>
+					<Abstract type="html">Image of the map.</Abstract>
+				</Parameter><Parameter>
+					<Name>dimension</Name>
+					<Abstract type="html">Dimension of the map.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setupWithMapImage:mapDimension:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/showPOI:withImage:</TokenIdentifier>
+			<Abstract type="html">Display a poi on map.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)showPOI:(CMXPoi *)poi withImage:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>poi</Name>
+					<Abstract type="html">Poi to display</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">Image to display for the poi</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showPOI:withImage:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/showPath:withColor:lineWith:targetImage:</TokenIdentifier>
+			<Abstract type="html">Show navigation path on map. Set nil to path parameter to clear the current path.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)showPath:(CMXPath *)path withColor:(UIColor *)color lineWith:(NSUInteger)lineWidth targetImage:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>path</Name>
+					<Abstract type="html">Path to display.</Abstract>
+				</Parameter><Parameter>
+					<Name>color</Name>
+					<Abstract type="html">Color of the path.</Abstract>
+				</Parameter><Parameter>
+					<Name>lineWidth</Name>
+					<Abstract type="html">Width of the line.</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">Image representing the target destination.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showPath:withColor:lineWith:targetImage:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/showUserLocation:withImage:</TokenIdentifier>
+			<Abstract type="html">Display user location on map.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)showUserLocation:(CMXClientLocation *)userLocation withImage:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>userLocation</Name>
+					<Abstract type="html">User location on map.</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">Image representing user on map.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showUserLocation:withImage:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/showUserLocation:withOrientation:image:</TokenIdentifier>
+			<Abstract type="html">Display user location with orientation on map.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)showUserLocation:(CMXClientLocation *)userLocation withOrientation:(float)orientation image:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>userLocation</Name>
+					<Abstract type="html">User location on the map.</Abstract>
+				</Parameter><Parameter>
+					<Name>orientation</Name>
+					<Abstract type="html">Orientation of the user (in degrees)</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">Image representing the user on map.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showUserLocation:withOrientation:image:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/centerOnPoi:animated:</TokenIdentifier>
+			<Abstract type="html">Center the map on given poi.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)centerOnPoi:(CMXPoi *)poi animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>poi</Name>
+					<Abstract type="html">Poi to center.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">YES if animated, NO otherwise.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/centerOnPoi:animated:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/cleanMapView</TokenIdentifier>
+			<Abstract type="html">Remove all displayed pois</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanMapView</Declaration>
+			
+			
+			<Anchor>//api/name/cleanMapView</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/updateMinMaxZoomScales</TokenIdentifier>
+			<Abstract type="html">Update minimum and maximum zoom scales depending of the view size.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)updateMinMaxZoomScales</Declaration>
+			
+			
+			<Anchor>//api/name/updateMinMaxZoomScales</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/displayCalloutOnPoi:animated:</TokenIdentifier>
+			<Abstract type="html">Display a callout view on selected poi.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)displayCalloutOnPoi:(CMXPoi *)poi animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>poi</Name>
+					<Abstract type="html">Selected poi.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">YES if animated, NO otherwise.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/displayCalloutOnPoi:animated:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/cleanLocationFeedback</TokenIdentifier>
+			<Abstract type="html">Remove location feedback view from the map view.</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanLocationFeedback</Declaration>
+			
+			
+			<Anchor>//api/name/cleanLocationFeedback</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXMapView/setLocationFeedbackImage:</TokenIdentifier>
+			<Abstract type="html">Set the image used by the feedback mode</Abstract>
+			<DeclaredIn>CMXMapView.h</DeclaredIn>
+			
+			<Declaration>- (void)setLocationFeedbackImage:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">image representing the location feedback on the map.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLocationFeedbackImage:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

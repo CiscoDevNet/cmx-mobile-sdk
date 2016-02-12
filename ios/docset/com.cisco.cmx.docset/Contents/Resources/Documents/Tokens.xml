@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/centerMapOnUserLocation</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Center th map on user location or load maps app</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/centerMapOnUserLocation //apple_ref/c/data/centerMapOnUserLocation //apple_ref/c/clconst/centerMapOnUserLocation " machineGenerated="true" --&gt;&lt;span class="var"&gt;centerMapOnUserLocation&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/centerOnPOI:</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Center the map on given POI</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/centerOnPOI //apple_ref/c/clm/centerOnPOI //apple_ref/c/intfcm/centerOnPOI //apple_ref/c/intfm/centerOnPOI //apple_ref/c/func/centerOnPOI //apple_ref/c/ftmplt/centerOnPOI //apple_ref/c/defn/centerOnPOI //apple_ref/c/macro/centerOnPOI //apple_ref/doc/anysymbol/centerOnPOI" machineGenerated="true" --&gt;&lt;span class="function"&gt;centerOnPOI&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXPOI //apple_ref/c/tdef/CMXPOI //apple_ref/c/tag/CMXPOI //apple_ref/c/struct/CMXPOI //apple_ref/c/intf/CMXPOI //apple_ref/doc/anysymbol/CMXPOI" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPOI&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/poi //apple_ref/c/data/poi //apple_ref/c/clconst/poi " machineGenerated="true" --&gt;&lt;span class="var"&gt;poi&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/cleanMapView</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Remove all displayed pois</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/cleanMapView //apple_ref/c/data/cleanMapView //apple_ref/c/clconst/cleanMapView " machineGenerated="true" --&gt;&lt;span class="var"&gt;cleanMapView&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/connectionModeToString</TokenIdentifier>
+    <Path>CMXWifiConnectionMode_h/index.html</Path>
+    <Abstract>Convert connection mode value to string
+representation.</Abstract>
+    <Declaration>&lt;!-- a logicalPath="//apple_ref/c/cl/NSString //apple_ref/c/tdef/NSString //apple_ref/c/tag/NSString //apple_ref/c/struct/NSString //apple_ref/c/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/connectionModeToString //apple_ref/c/clm/connectionModeToString //apple_ref/c/intfcm/connectionModeToString //apple_ref/c/intfm/connectionModeToString //apple_ref/c/func/connectionModeToString //apple_ref/c/ftmplt/connectionModeToString //apple_ref/c/defn/connectionModeToString //apple_ref/c/macro/connectionModeToString //apple_ref/doc/anysymbol/connectionModeToString" machineGenerated="true" --&gt;&lt;span class="function"&gt;connectionModeToString&lt;/span&gt;&lt;!-- /a --&gt;(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/CMXWifiConnectionMode //apple_ref/c/tdef/CMXWifiConnectionMode //apple_ref/c/tag/CMXWifiConnectionMode //apple_ref/c/struct/CMXWifiConnectionMode //apple_ref/c/intf/CMXWifiConnectionMode //apple_ref/doc/anysymbol/CMXWifiConnectionMode" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXWifiConnectionMode&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="param"&gt;mode&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/displayCalloutOnPoi:</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Display a callout view with on selected poi.</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/displayCalloutOnPoi //apple_ref/c/clm/displayCalloutOnPoi //apple_ref/c/intfcm/displayCalloutOnPoi //apple_ref/c/intfm/displayCalloutOnPoi //apple_ref/c/func/displayCalloutOnPoi //apple_ref/c/ftmplt/displayCalloutOnPoi //apple_ref/c/defn/displayCalloutOnPoi //apple_ref/c/macro/displayCalloutOnPoi //apple_ref/doc/anysymbol/displayCalloutOnPoi" machineGenerated="true" --&gt;&lt;span class="function"&gt;displayCalloutOnPoi&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXPOI //apple_ref/c/tdef/CMXPOI //apple_ref/c/tag/CMXPOI //apple_ref/c/struct/CMXPOI //apple_ref/c/intf/CMXPOI //apple_ref/doc/anysymbol/CMXPOI" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPOI&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/poi //apple_ref/c/data/poi //apple_ref/c/clconst/poi " machineGenerated="true" --&gt;&lt;span class="var"&gt;poi&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/id</TokenIdentifier>
+    <Path>CMXMenuViewController_h/index.html</Path>
+    <Abstract>TreeTableViewController delegate</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/id //apple_ref/c/tdef/id //apple_ref/c/tag/id //apple_ref/c/struct/id //apple_ref/c/intf/id //apple_ref/doc/anysymbol/id" machineGenerated="true" --&gt;&lt;span class="type"&gt;id&lt;/span&gt;&lt;!-- /a --&gt;&amp;lt;&lt;span class="template"&gt;CMXMenuViewControllerDelegate&lt;/span&gt;&amp;gt; &lt;!-- a logicalPath="//apple_ref/c/econst/delegate //apple_ref/c/data/delegate //apple_ref/c/clconst/delegate " machineGenerated="true" --&gt;&lt;span class="var"&gt;delegate&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/initWithFloor:ofVenue:</TokenIdentifier>
+    <Path>CMXFloorViewController_h/index.html</Path>
+    <Abstract>Initialize the controller with an object containing floor informations and an object containing venue informations.</Abstract>
+    <Declaration>- (&lt;!-- a logicalPath="//apple_ref/c/cl/id //apple_ref/c/tdef/id //apple_ref/c/tag/id //apple_ref/c/struct/id //apple_ref/c/intf/id //apple_ref/doc/anysymbol/id" machineGenerated="true" --&gt;&lt;span class="type"&gt;id&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/initWithFloor //apple_ref/c/clm/initWithFloor //apple_ref/c/intfcm/initWithFloor //apple_ref/c/intfm/initWithFloor //apple_ref/c/func/initWithFloor //apple_ref/c/ftmplt/initWithFloor //apple_ref/c/defn/initWithFloor //apple_ref/c/macro/initWithFloor //apple_ref/doc/anysymbol/initWithFloor" machineGenerated="true" --&gt;&lt;span class="function"&gt;initWithFloor&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXFloor //apple_ref/c/tdef/CMXFloor //apple_ref/c/tag/CMXFloor //apple_ref/c/struct/CMXFloor //apple_ref/c/intf/CMXFloor //apple_ref/doc/anysymbol/CMXFloor" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXFloor&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;floor&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/ofVenue //apple_ref/c/clm/ofVenue //apple_ref/c/intfcm/ofVenue //apple_ref/c/intfm/ofVenue //apple_ref/c/func/ofVenue //apple_ref/c/ftmplt/ofVenue //apple_ref/c/defn/ofVenue //apple_ref/c/macro/ofVenue //apple_ref/doc/anysymbol/ofVenue" machineGenerated="true" --&gt;&lt;span class="function"&gt;ofVenue&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXVenue //apple_ref/c/tdef/CMXVenue //apple_ref/c/tag/CMXVenue //apple_ref/c/struct/CMXVenue //apple_ref/c/intf/CMXVenue //apple_ref/doc/anysymbol/CMXVenue" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXVenue&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/venue //apple_ref/c/data/venue //apple_ref/c/clconst/venue " machineGenerated="true" --&gt;&lt;span class="var"&gt;venue&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/initWithPoi:image:</TokenIdentifier>
+    <Path>CMXPoiViewController_h/index.html</Path>
+    <Abstract>Initialize the controller with given poi and his image representation</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/id //apple_ref/c/tdef/id //apple_ref/c/tag/id //apple_ref/c/struct/id //apple_ref/c/intf/id //apple_ref/doc/anysymbol/id" machineGenerated="true" --&gt;&lt;span class="type"&gt;id&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/initWithPoi //apple_ref/c/clm/initWithPoi //apple_ref/c/intfcm/initWithPoi //apple_ref/c/intfm/initWithPoi //apple_ref/c/func/initWithPoi //apple_ref/c/ftmplt/initWithPoi //apple_ref/c/defn/initWithPoi //apple_ref/c/macro/initWithPoi //apple_ref/doc/anysymbol/initWithPoi" machineGenerated="true" --&gt;&lt;span class="function"&gt;initWithPoi&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXPOI //apple_ref/c/tdef/CMXPOI //apple_ref/c/tag/CMXPOI //apple_ref/c/struct/CMXPOI //apple_ref/c/intf/CMXPOI //apple_ref/doc/anysymbol/CMXPOI" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPOI&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;poi&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/image //apple_ref/c/clm/image //apple_ref/c/intfcm/image //apple_ref/c/intfm/image //apple_ref/c/func/image //apple_ref/c/ftmplt/image //apple_ref/c/defn/image //apple_ref/c/macro/image //apple_ref/doc/anysymbol/image" machineGenerated="true" --&gt;&lt;span class="function"&gt;image&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/UIImage //apple_ref/c/tdef/UIImage //apple_ref/c/tag/UIImage //apple_ref/c/struct/UIImage //apple_ref/c/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/image //apple_ref/c/data/image //apple_ref/c/clconst/image " machineGenerated="true" --&gt;&lt;span class="var"&gt;image&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/initWithVenueID:andFloorID:</TokenIdentifier>
+    <Path>CMXPoiListViewController_h/index.html</Path>
+    <Abstract>Initialize the controller the current venue ID.</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/id //apple_ref/c/tdef/id //apple_ref/c/tag/id //apple_ref/c/struct/id //apple_ref/c/intf/id //apple_ref/doc/anysymbol/id" machineGenerated="true" --&gt;&lt;span class="type"&gt;id&lt;/span&gt;&lt;!-- /a --&gt;) &lt;!-- a logicalPath="//apple_ref/c/instm/initWithVenueID //apple_ref/c/clm/initWithVenueID //apple_ref/c/intfcm/initWithVenueID //apple_ref/c/intfm/initWithVenueID //apple_ref/c/func/initWithVenueID //apple_ref/c/ftmplt/initWithVenueID //apple_ref/c/defn/initWithVenueID //apple_ref/c/macro/initWithVenueID //apple_ref/doc/anysymbol/initWithVenueID" machineGenerated="true" --&gt;&lt;span class="function"&gt;initWithVenueID&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/NSString //apple_ref/c/tdef/NSString //apple_ref/c/tag/NSString //apple_ref/c/struct/NSString //apple_ref/c/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;venueID&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/andFloorID //apple_ref/c/clm/andFloorID //apple_ref/c/intfcm/andFloorID //apple_ref/c/intfm/andFloorID //apple_ref/c/func/andFloorID //apple_ref/c/ftmplt/andFloorID //apple_ref/c/defn/andFloorID //apple_ref/c/macro/andFloorID //apple_ref/doc/anysymbol/andFloorID" machineGenerated="true" --&gt;&lt;span class="function"&gt;andFloorID&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/NSString //apple_ref/c/tdef/NSString //apple_ref/c/tag/NSString //apple_ref/c/struct/NSString //apple_ref/c/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/floorID //apple_ref/c/data/floorID //apple_ref/c/clconst/floorID " machineGenerated="true" --&gt;&lt;span class="var"&gt;floorID&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/loadingViewInView:withTitle:</TokenIdentifier>
+    <Path>CMXLoadingView_h/index.html</Path>
+    <Abstract>Creates and adds a loading view.</Abstract>
+    <Declaration>+ (&lt;!-- a logicalPath="//apple_ref/c/cl/id //apple_ref/c/tdef/id //apple_ref/c/tag/id //apple_ref/c/struct/id //apple_ref/c/intf/id //apple_ref/doc/anysymbol/id" machineGenerated="true" --&gt;&lt;span class="type"&gt;id&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/loadingViewInView //apple_ref/c/clm/loadingViewInView //apple_ref/c/intfcm/loadingViewInView //apple_ref/c/intfm/loadingViewInView //apple_ref/c/func/loadingViewInView //apple_ref/c/ftmplt/loadingViewInView //apple_ref/c/defn/loadingViewInView //apple_ref/c/macro/loadingViewInView //apple_ref/doc/anysymbol/loadingViewInView" machineGenerated="true" --&gt;&lt;span class="function"&gt;loadingViewInView&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/UIView //apple_ref/c/tdef/UIView //apple_ref/c/tag/UIView //apple_ref/c/struct/UIView //apple_ref/c/intf/UIView //apple_ref/doc/anysymbol/UIView" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIView&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;superView&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/withTitle //apple_ref/c/clm/withTitle //apple_ref/c/intfcm/withTitle //apple_ref/c/intfm/withTitle //apple_ref/c/func/withTitle //apple_ref/c/ftmplt/withTitle //apple_ref/c/defn/withTitle //apple_ref/c/macro/withTitle //apple_ref/doc/anysymbol/withTitle" machineGenerated="true" --&gt;&lt;span class="function"&gt;withTitle&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/NSString //apple_ref/c/tdef/NSString //apple_ref/c/tag/NSString //apple_ref/c/struct/NSString //apple_ref/c/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/title //apple_ref/c/data/title //apple_ref/c/clconst/title " machineGenerated="true" --&gt;&lt;span class="var"&gt;title&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/onDataLoaded</TokenIdentifier>
+    <Path>CMXLaunchViewController_h/index.html</Path>
+    <Abstract>Block called when all data are loaded. The block
+takes 5 arguments : - the list of venue, - the list
+of floor ordered by venue id - the user location</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;copy&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;(^&lt;!-- a logicalPath="//apple_ref/c/instm/onDataLoaded //apple_ref/c/clm/onDataLoaded //apple_ref/c/intfcm/onDataLoaded //apple_ref/c/intfm/onDataLoaded //apple_ref/c/func/onDataLoaded //apple_ref/c/ftmplt/onDataLoaded //apple_ref/c/defn/onDataLoaded //apple_ref/c/macro/onDataLoaded //apple_ref/doc/anysymbol/onDataLoaded" machineGenerated="true" --&gt;&lt;span class="function"&gt;onDataLoaded&lt;/span&gt;&lt;!-- /a --&gt;)(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/NSArray //apple_ref/c/tdef/NSArray //apple_ref/c/tag/NSArray //apple_ref/c/struct/NSArray //apple_ref/c/intf/NSArray //apple_ref/doc/anysymbol/NSArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSArray&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;span class="param"&gt;venues&lt;/span&gt;,
+    &lt;!-- a logicalPath="//apple_ref/c/cl/NSDictionary //apple_ref/c/tdef/NSDictionary //apple_ref/c/tag/NSDictionary //apple_ref/c/struct/NSDictionary //apple_ref/c/intf/NSDictionary //apple_ref/doc/anysymbol/NSDictionary" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSDictionary&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;span class="param"&gt;floorByVenueId&lt;/span&gt;,
+    &lt;!-- a logicalPath="//apple_ref/c/cl/CMXClientLocation //apple_ref/c/tdef/CMXClientLocation //apple_ref/c/tag/CMXClientLocation //apple_ref/c/struct/CMXClientLocation //apple_ref/c/intf/CMXClientLocation //apple_ref/doc/anysymbol/CMXClientLocation" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXClientLocation&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;span class="param"&gt;userLocation&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/onDisclosureBtnClicked</TokenIdentifier>
+    <Path>CMXFloorViewController_h/index.html</Path>
+    <Abstract>Called when the user tap on a callout disclosue button.</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;copy&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;(^&lt;!-- a logicalPath="//apple_ref/c/instm/onDisclosureBtnClicked //apple_ref/c/clm/onDisclosureBtnClicked //apple_ref/c/intfcm/onDisclosureBtnClicked //apple_ref/c/intfm/onDisclosureBtnClicked //apple_ref/c/func/onDisclosureBtnClicked //apple_ref/c/ftmplt/onDisclosureBtnClicked //apple_ref/c/defn/onDisclosureBtnClicked //apple_ref/c/macro/onDisclosureBtnClicked //apple_ref/doc/anysymbol/onDisclosureBtnClicked" machineGenerated="true" --&gt;&lt;span class="function"&gt;onDisclosureBtnClicked&lt;/span&gt;&lt;!-- /a --&gt;)(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/CMXPOI //apple_ref/c/tdef/CMXPOI //apple_ref/c/tag/CMXPOI //apple_ref/c/struct/CMXPOI //apple_ref/c/intf/CMXPOI //apple_ref/doc/anysymbol/CMXPOI" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPOI&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;span class="param"&gt;poi&lt;/span&gt;,
+    &lt;!-- a logicalPath="//apple_ref/c/cl/UIImage //apple_ref/c/tdef/UIImage //apple_ref/c/tag/UIImage //apple_ref/c/struct/UIImage //apple_ref/c/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;span class="param"&gt;poiImage&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/onDisclosureSelected</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Block called when a diclosure is selected. The
+block takes one argument : the selected poi image.</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;copy&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;(^&lt;!-- a logicalPath="//apple_ref/c/instm/onDisclosureSelected //apple_ref/c/clm/onDisclosureSelected //apple_ref/c/intfcm/onDisclosureSelected //apple_ref/c/intfm/onDisclosureSelected //apple_ref/c/func/onDisclosureSelected //apple_ref/c/ftmplt/onDisclosureSelected //apple_ref/c/defn/onDisclosureSelected //apple_ref/c/macro/onDisclosureSelected //apple_ref/doc/anysymbol/onDisclosureSelected" machineGenerated="true" --&gt;&lt;span class="function"&gt;onDisclosureSelected&lt;/span&gt;&lt;!-- /a --&gt;)(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/UIImage //apple_ref/c/tdef/UIImage //apple_ref/c/tag/UIImage //apple_ref/c/struct/UIImage //apple_ref/c/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/onGoToBlock</TokenIdentifier>
+    <Path>CMXPoiViewController_h/index.html</Path>
+    <Abstract>Block called when go to button is clicked. The
+block takes one argument : the selected poi object.</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;copy&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;(^&lt;!-- a logicalPath="//apple_ref/c/instm/onGoToBlock //apple_ref/c/clm/onGoToBlock //apple_ref/c/intfcm/onGoToBlock //apple_ref/c/intfm/onGoToBlock //apple_ref/c/func/onGoToBlock //apple_ref/c/ftmplt/onGoToBlock //apple_ref/c/defn/onGoToBlock //apple_ref/c/macro/onGoToBlock //apple_ref/doc/anysymbol/onGoToBlock" machineGenerated="true" --&gt;&lt;span class="function"&gt;onGoToBlock&lt;/span&gt;&lt;!-- /a --&gt;)(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/CMXPOI //apple_ref/c/tdef/CMXPOI //apple_ref/c/tag/CMXPOI //apple_ref/c/struct/CMXPOI //apple_ref/c/intf/CMXPOI //apple_ref/doc/anysymbol/CMXPOI" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPOI&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/onPoiSelected</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Block called when a poi is selected. The block
+takes one argument : the selected poi identifier.</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;copy&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;(^&lt;!-- a logicalPath="//apple_ref/c/instm/onPoiSelected //apple_ref/c/clm/onPoiSelected //apple_ref/c/intfcm/onPoiSelected //apple_ref/c/intfm/onPoiSelected //apple_ref/c/func/onPoiSelected //apple_ref/c/ftmplt/onPoiSelected //apple_ref/c/defn/onPoiSelected //apple_ref/c/macro/onPoiSelected //apple_ref/doc/anysymbol/onPoiSelected" machineGenerated="true" --&gt;&lt;span class="function"&gt;onPoiSelected&lt;/span&gt;&lt;!-- /a --&gt;)(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/NSString //apple_ref/c/tdef/NSString //apple_ref/c/tag/NSString //apple_ref/c/struct/NSString //apple_ref/c/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/onSearchBtnTap</TokenIdentifier>
+    <Path>CMXFloorViewController_h/index.html</Path>
+    <Abstract>Called when the user tap on search btn.</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;copy&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;(^&lt;!-- a logicalPath="//apple_ref/c/instm/onSearchBtnTap //apple_ref/c/clm/onSearchBtnTap //apple_ref/c/intfcm/onSearchBtnTap //apple_ref/c/intfm/onSearchBtnTap //apple_ref/c/func/onSearchBtnTap //apple_ref/c/ftmplt/onSearchBtnTap //apple_ref/c/defn/onSearchBtnTap //apple_ref/c/macro/onSearchBtnTap //apple_ref/doc/anysymbol/onSearchBtnTap" machineGenerated="true" --&gt;&lt;span class="function"&gt;onSearchBtnTap&lt;/span&gt;&lt;!-- /a --&gt;)(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/CMXVenue //apple_ref/c/tdef/CMXVenue //apple_ref/c/tag/CMXVenue //apple_ref/c/struct/CMXVenue //apple_ref/c/intf/CMXVenue //apple_ref/doc/anysymbol/CMXVenue" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXVenue&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;span class="param"&gt;currentVenue&lt;/span&gt;,
+    &lt;!-- a logicalPath="//apple_ref/c/cl/CMXFloor //apple_ref/c/tdef/CMXFloor //apple_ref/c/tag/CMXFloor //apple_ref/c/struct/CMXFloor //apple_ref/c/intf/CMXFloor //apple_ref/doc/anysymbol/CMXFloor" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXFloor&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;span class="param"&gt;floor&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/pathWithRoundRect</TokenIdentifier>
+    <Path>CMXLoadingView_m/index.html</Path>
+    <Abstract>Creates a CGPathRect with a round rect of the given
+radius.</Abstract>
+    <Declaration>&lt;!-- a logicalPath="//apple_ref/occ/cl/CGPathRef //apple_ref/occ/tdef/CGPathRef //apple_ref/occ/tag/CGPathRef //apple_ref/occ/struct/CGPathRef //apple_ref/occ/intf/CGPathRef //apple_ref/doc/anysymbol/CGPathRef" machineGenerated="true" --&gt;&lt;span class="type"&gt;CGPathRef&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/pathWithRoundRect //apple_ref/occ/clm/pathWithRoundRect //apple_ref/occ/intfcm/pathWithRoundRect //apple_ref/occ/intfm/pathWithRoundRect //apple_ref/occ/func/pathWithRoundRect //apple_ref/occ/ftmplt/pathWithRoundRect //apple_ref/occ/defn/pathWithRoundRect //apple_ref/occ/macro/pathWithRoundRect //apple_ref/doc/anysymbol/pathWithRoundRect" machineGenerated="true" --&gt;&lt;span class="function"&gt;pathWithRoundRect&lt;/span&gt;&lt;!-- /a --&gt;(
+    &lt;!-- a logicalPath="//apple_ref/occ/cl/CGRect //apple_ref/occ/tdef/CGRect //apple_ref/occ/tag/CGRect //apple_ref/occ/struct/CGRect //apple_ref/occ/intf/CGRect //apple_ref/doc/anysymbol/CGRect" machineGenerated="true" --&gt;&lt;span class="type"&gt;CGRect&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="param"&gt;rect&lt;/span&gt;,
+    &lt;!-- a logicalPath="//apple_ref/occ/cl/CGFloat //apple_ref/occ/tdef/CGFloat //apple_ref/occ/tag/CGFloat //apple_ref/occ/struct/CGFloat //apple_ref/occ/intf/CGFloat //apple_ref/doc/anysymbol/CGFloat" machineGenerated="true" --&gt;&lt;span class="type"&gt;CGFloat&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="param"&gt;cornerRadius&lt;/span&gt;) </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/property</TokenIdentifier>
+    <Path>CMXBannerViewController_h/index.html</Path>
+    <Abstract>Image view that displays banners.</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/IBOutlet //apple_ref/c/tdef/IBOutlet //apple_ref/c/tag/IBOutlet //apple_ref/c/struct/IBOutlet //apple_ref/c/intf/IBOutlet //apple_ref/doc/anysymbol/IBOutlet" machineGenerated="true" --&gt;&lt;span class="type"&gt;IBOutlet&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/c/cl/UIImageView //apple_ref/c/tdef/UIImageView //apple_ref/c/tag/UIImageView //apple_ref/c/struct/UIImageView //apple_ref/c/intf/UIImageView //apple_ref/doc/anysymbol/UIImageView" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImageView&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/c/econst/imageView //apple_ref/c/data/imageView //apple_ref/c/clconst/imageView " machineGenerated="true" --&gt;&lt;span class="var"&gt;imageView&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/property_DONTLINK_1</TokenIdentifier>
+    <Path>CMXPoiListViewController_h/index.html</Path>
+    <Abstract>Search text field</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/UITextField //apple_ref/c/tdef/UITextField //apple_ref/c/tag/UITextField //apple_ref/c/struct/UITextField //apple_ref/c/intf/UITextField //apple_ref/doc/anysymbol/UITextField" machineGenerated="true" --&gt;&lt;span class="type"&gt;UITextField&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/c/econst/searchTextField //apple_ref/c/data/searchTextField //apple_ref/c/clconst/searchTextField " machineGenerated="true" --&gt;&lt;span class="var"&gt;searchTextField&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/property_DONTLINK_3</TokenIdentifier>
+    <Path>CMXPoiViewController_h/index.html</Path>
+    <Abstract>POI Name</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/IBOutlet //apple_ref/c/tdef/IBOutlet //apple_ref/c/tag/IBOutlet //apple_ref/c/struct/IBOutlet //apple_ref/c/intf/IBOutlet //apple_ref/doc/anysymbol/IBOutlet" machineGenerated="true" --&gt;&lt;span class="type"&gt;IBOutlet&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/c/cl/UILabel //apple_ref/c/tdef/UILabel //apple_ref/c/tag/UILabel //apple_ref/c/struct/UILabel //apple_ref/c/intf/UILabel //apple_ref/doc/anysymbol/UILabel" machineGenerated="true" --&gt;&lt;span class="type"&gt;UILabel&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/c/econst/poiTitleLabel //apple_ref/c/data/poiTitleLabel //apple_ref/c/clconst/poiTitleLabel " machineGenerated="true" --&gt;&lt;span class="var"&gt;poiTitleLabel&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/removeView</TokenIdentifier>
+    <Path>CMXLoadingView_h/index.html</Path>
+    <Abstract>Remove the loading view from the superview, with animation.</Abstract>
+    <Declaration>- (&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/removeView //apple_ref/c/data/removeView //apple_ref/c/clconst/removeView " machineGenerated="true" --&gt;&lt;span class="var"&gt;removeView&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/setBannerImages:imageDuration:</TokenIdentifier>
+    <Path>CMXBannerViewController_h/index.html</Path>
+    <Abstract>Set banner images to display</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/setBannerImages //apple_ref/c/clm/setBannerImages //apple_ref/c/intfcm/setBannerImages //apple_ref/c/intfm/setBannerImages //apple_ref/c/func/setBannerImages //apple_ref/c/ftmplt/setBannerImages //apple_ref/c/defn/setBannerImages //apple_ref/c/macro/setBannerImages //apple_ref/doc/anysymbol/setBannerImages" machineGenerated="true" --&gt;&lt;span class="function"&gt;setBannerImages&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/NSArray //apple_ref/c/tdef/NSArray //apple_ref/c/tag/NSArray //apple_ref/c/struct/NSArray //apple_ref/c/intf/NSArray //apple_ref/doc/anysymbol/NSArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSArray&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;images&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/imageDuration //apple_ref/c/clm/imageDuration //apple_ref/c/intfcm/imageDuration //apple_ref/c/intfm/imageDuration //apple_ref/c/func/imageDuration //apple_ref/c/ftmplt/imageDuration //apple_ref/c/defn/imageDuration //apple_ref/c/macro/imageDuration //apple_ref/doc/anysymbol/imageDuration" machineGenerated="true" --&gt;&lt;span class="function"&gt;imageDuration&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CGFloat //apple_ref/c/tdef/CGFloat //apple_ref/c/tag/CGFloat //apple_ref/c/struct/CGFloat //apple_ref/c/intf/CGFloat //apple_ref/doc/anysymbol/CGFloat" machineGenerated="true" --&gt;&lt;span class="type"&gt;CGFloat&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/duration //apple_ref/c/data/duration //apple_ref/c/clconst/duration " machineGenerated="true" --&gt;&lt;span class="var"&gt;duration&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/setupWithMapImage:mapDimension:</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>setup the view with map infos</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/setupWithMapImage //apple_ref/c/clm/setupWithMapImage //apple_ref/c/intfcm/setupWithMapImage //apple_ref/c/intfm/setupWithMapImage //apple_ref/c/func/setupWithMapImage //apple_ref/c/ftmplt/setupWithMapImage //apple_ref/c/defn/setupWithMapImage //apple_ref/c/macro/setupWithMapImage //apple_ref/doc/anysymbol/setupWithMapImage" machineGenerated="true" --&gt;&lt;span class="function"&gt;setupWithMapImage&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/UIImage //apple_ref/c/tdef/UIImage //apple_ref/c/tag/UIImage //apple_ref/c/struct/UIImage //apple_ref/c/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;mapImage&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/mapDimension //apple_ref/c/clm/mapDimension //apple_ref/c/intfcm/mapDimension //apple_ref/c/intfm/mapDimension //apple_ref/c/func/mapDimension //apple_ref/c/ftmplt/mapDimension //apple_ref/c/defn/mapDimension //apple_ref/c/macro/mapDimension //apple_ref/doc/anysymbol/mapDimension" machineGenerated="true" --&gt;&lt;span class="function"&gt;mapDimension&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXDimension //apple_ref/c/tdef/CMXDimension //apple_ref/c/tag/CMXDimension //apple_ref/c/struct/CMXDimension //apple_ref/c/intf/CMXDimension //apple_ref/doc/anysymbol/CMXDimension" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXDimension&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/dimension //apple_ref/c/data/dimension //apple_ref/c/clconst/dimension " machineGenerated="true" --&gt;&lt;span class="var"&gt;dimension&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/showMapForPoi</TokenIdentifier>
+    <Path>CMXPoiListViewController_h/index.html</Path>
+    <Abstract>Block called when a poi is selected. The block
+takes one argument : the selected poi</Abstract>
+    <Declaration>@&lt;!-- a logicalPath="//apple_ref/c/instm/property //apple_ref/c/clm/property //apple_ref/c/intfcm/property //apple_ref/c/intfm/property //apple_ref/c/func/property //apple_ref/c/ftmplt/property //apple_ref/c/defn/property //apple_ref/c/macro/property //apple_ref/doc/anysymbol/property" machineGenerated="true" --&gt;&lt;span class="function"&gt;property&lt;/span&gt;&lt;!-- /a --&gt; (
+    &lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;copy&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;(^&lt;!-- a logicalPath="//apple_ref/c/instm/showMapForPoi //apple_ref/c/clm/showMapForPoi //apple_ref/c/intfcm/showMapForPoi //apple_ref/c/intfm/showMapForPoi //apple_ref/c/func/showMapForPoi //apple_ref/c/ftmplt/showMapForPoi //apple_ref/c/defn/showMapForPoi //apple_ref/c/macro/showMapForPoi //apple_ref/doc/anysymbol/showMapForPoi" machineGenerated="true" --&gt;&lt;span class="function"&gt;showMapForPoi&lt;/span&gt;&lt;!-- /a --&gt;)(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/CMXPOI //apple_ref/c/tdef/CMXPOI //apple_ref/c/tag/CMXPOI //apple_ref/c/struct/CMXPOI //apple_ref/c/intf/CMXPOI //apple_ref/doc/anysymbol/CMXPOI" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPOI&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/showPOI:withImage:</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Show a poi on map</Abstract>
+    <Declaration>- (&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/showPOI //apple_ref/c/clm/showPOI //apple_ref/c/intfcm/showPOI //apple_ref/c/intfm/showPOI //apple_ref/c/func/showPOI //apple_ref/c/ftmplt/showPOI //apple_ref/c/defn/showPOI //apple_ref/c/macro/showPOI //apple_ref/doc/anysymbol/showPOI" machineGenerated="true" --&gt;&lt;span class="function"&gt;showPOI&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXPOI //apple_ref/c/tdef/CMXPOI //apple_ref/c/tag/CMXPOI //apple_ref/c/struct/CMXPOI //apple_ref/c/intf/CMXPOI //apple_ref/doc/anysymbol/CMXPOI" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPOI&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;poi&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/withImage //apple_ref/c/clm/withImage //apple_ref/c/intfcm/withImage //apple_ref/c/intfm/withImage //apple_ref/c/func/withImage //apple_ref/c/ftmplt/withImage //apple_ref/c/defn/withImage //apple_ref/c/macro/withImage //apple_ref/doc/anysymbol/withImage" machineGenerated="true" --&gt;&lt;span class="function"&gt;withImage&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/UIImage //apple_ref/c/tdef/UIImage //apple_ref/c/tag/UIImage //apple_ref/c/struct/UIImage //apple_ref/c/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/image //apple_ref/c/data/image //apple_ref/c/clconst/image " machineGenerated="true" --&gt;&lt;span class="var"&gt;image&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/showPath:withColor:lineWith:targetImage:</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Show navigation path on map. Set nil to path parameter to clear the current path.</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/showPath //apple_ref/c/clm/showPath //apple_ref/c/intfcm/showPath //apple_ref/c/intfm/showPath //apple_ref/c/func/showPath //apple_ref/c/ftmplt/showPath //apple_ref/c/defn/showPath //apple_ref/c/macro/showPath //apple_ref/doc/anysymbol/showPath" machineGenerated="true" --&gt;&lt;span class="function"&gt;showPath&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXPath //apple_ref/c/tdef/CMXPath //apple_ref/c/tag/CMXPath //apple_ref/c/struct/CMXPath //apple_ref/c/intf/CMXPath //apple_ref/doc/anysymbol/CMXPath" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPath&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;path&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/withColor //apple_ref/c/clm/withColor //apple_ref/c/intfcm/withColor //apple_ref/c/intfm/withColor //apple_ref/c/func/withColor //apple_ref/c/ftmplt/withColor //apple_ref/c/defn/withColor //apple_ref/c/macro/withColor //apple_ref/doc/anysymbol/withColor" machineGenerated="true" --&gt;&lt;span class="function"&gt;withColor&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/UIColor //apple_ref/c/tdef/UIColor //apple_ref/c/tag/UIColor //apple_ref/c/struct/UIColor //apple_ref/c/intf/UIColor //apple_ref/doc/anysymbol/UIColor" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIColor&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;color&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/c/instm/lineWith //apple_ref/c/clm/lineWith //apple_ref/c/intfcm/lineWith //apple_ref/c/intfm/lineWith //apple_ref/c/func/lineWith //apple_ref/c/ftmplt/lineWith //apple_ref/c/defn/lineWith //apple_ref/c/macro/lineWith //apple_ref/doc/anysymbol/lineWith" machineGenerated="true" --&gt;&lt;span class="function"&gt;lineWith&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/NSUInteger //apple_ref/c/tdef/NSUInteger //apple_ref/c/tag/NSUInteger //apple_ref/c/struct/NSUInteger //apple_ref/c/intf/NSUInteger //apple_ref/doc/anysymbol/NSUInteger" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSUInteger&lt;/span&gt;&lt;!-- /a --&gt;)&lt;span class="param"&gt;lineWidth&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/targetImage //apple_ref/c/clm/targetImage //apple_ref/c/intfcm/targetImage //apple_ref/c/intfm/targetImage //apple_ref/c/func/targetImage //apple_ref/c/ftmplt/targetImage //apple_ref/c/defn/targetImage //apple_ref/c/macro/targetImage //apple_ref/doc/anysymbol/targetImage" machineGenerated="true" --&gt;&lt;span class="function"&gt;targetImage&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/UIImage //apple_ref/c/tdef/UIImage //apple_ref/c/tag/UIImage //apple_ref/c/struct/UIImage //apple_ref/c/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/image //apple_ref/c/data/image //apple_ref/c/clconst/image " machineGenerated="true" --&gt;&lt;span class="var"&gt;image&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/showPathToPoi:</TokenIdentifier>
+    <Path>CMXFloorViewController_h/index.html</Path>
+    <Abstract>Display the path to a given poi identifier</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/showPathToPoi //apple_ref/c/clm/showPathToPoi //apple_ref/c/intfcm/showPathToPoi //apple_ref/c/intfm/showPathToPoi //apple_ref/c/func/showPathToPoi //apple_ref/c/ftmplt/showPathToPoi //apple_ref/c/defn/showPathToPoi //apple_ref/c/macro/showPathToPoi //apple_ref/doc/anysymbol/showPathToPoi" machineGenerated="true" --&gt;&lt;span class="function"&gt;showPathToPoi&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/NSString //apple_ref/c/tdef/NSString //apple_ref/c/tag/NSString //apple_ref/c/struct/NSString //apple_ref/c/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/poiIdentifier //apple_ref/c/data/poiIdentifier //apple_ref/c/clconst/poiIdentifier " machineGenerated="true" --&gt;&lt;span class="var"&gt;poiIdentifier&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/showUserLocation:withImage:</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Display user location on map</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/showUserLocation //apple_ref/c/clm/showUserLocation //apple_ref/c/intfcm/showUserLocation //apple_ref/c/intfm/showUserLocation //apple_ref/c/func/showUserLocation //apple_ref/c/ftmplt/showUserLocation //apple_ref/c/defn/showUserLocation //apple_ref/c/macro/showUserLocation //apple_ref/doc/anysymbol/showUserLocation" machineGenerated="true" --&gt;&lt;span class="function"&gt;showUserLocation&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXClientLocation //apple_ref/c/tdef/CMXClientLocation //apple_ref/c/tag/CMXClientLocation //apple_ref/c/struct/CMXClientLocation //apple_ref/c/intf/CMXClientLocation //apple_ref/doc/anysymbol/CMXClientLocation" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXClientLocation&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;userLocation&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/c/instm/withImage //apple_ref/c/clm/withImage //apple_ref/c/intfcm/withImage //apple_ref/c/intfm/withImage //apple_ref/c/func/withImage //apple_ref/c/ftmplt/withImage //apple_ref/c/defn/withImage //apple_ref/c/macro/withImage //apple_ref/doc/anysymbol/withImage" machineGenerated="true" --&gt;&lt;span class="function"&gt;withImage&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/UIImage //apple_ref/c/tdef/UIImage //apple_ref/c/tag/UIImage //apple_ref/c/struct/UIImage //apple_ref/c/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/image //apple_ref/c/data/image //apple_ref/c/clconst/image " machineGenerated="true" --&gt;&lt;span class="var"&gt;image&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/showUserLocation:withOrientation:image:</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Display user location with orientation on map</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/showUserLocation //apple_ref/c/clm/showUserLocation //apple_ref/c/intfcm/showUserLocation //apple_ref/c/intfm/showUserLocation //apple_ref/c/func/showUserLocation //apple_ref/c/ftmplt/showUserLocation //apple_ref/c/defn/showUserLocation //apple_ref/c/macro/showUserLocation //apple_ref/doc/anysymbol/showUserLocation" machineGenerated="true" --&gt;&lt;span class="function"&gt;showUserLocation&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXClientLocation //apple_ref/c/tdef/CMXClientLocation //apple_ref/c/tag/CMXClientLocation //apple_ref/c/struct/CMXClientLocation //apple_ref/c/intf/CMXClientLocation //apple_ref/doc/anysymbol/CMXClientLocation" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXClientLocation&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;userLocation&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/c/instm/withOrientation //apple_ref/c/clm/withOrientation //apple_ref/c/intfcm/withOrientation //apple_ref/c/intfm/withOrientation //apple_ref/c/func/withOrientation //apple_ref/c/ftmplt/withOrientation //apple_ref/c/defn/withOrientation //apple_ref/c/macro/withOrientation //apple_ref/doc/anysymbol/withOrientation" machineGenerated="true" --&gt;&lt;span class="function"&gt;withOrientation&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/float //apple_ref/c/tdef/float //apple_ref/c/tag/float //apple_ref/c/struct/float //apple_ref/c/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt;)&lt;span class="param"&gt;orientation&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/image //apple_ref/c/clm/image //apple_ref/c/intfcm/image //apple_ref/c/intfm/image //apple_ref/c/func/image //apple_ref/c/ftmplt/image //apple_ref/c/defn/image //apple_ref/c/macro/image //apple_ref/doc/anysymbol/image" machineGenerated="true" --&gt;&lt;span class="function"&gt;image&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/UIImage //apple_ref/c/tdef/UIImage //apple_ref/c/tag/UIImage //apple_ref/c/struct/UIImage //apple_ref/c/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/image //apple_ref/c/data/image //apple_ref/c/clconst/image " machineGenerated="true" --&gt;&lt;span class="var"&gt;image&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/stringToConnectionMode</TokenIdentifier>
+    <Path>CMXWifiConnectionMode_h/index.html</Path>
+    <Abstract>Convert string representation to connection mode.</Abstract>
+    <Declaration>&lt;!-- a logicalPath="//apple_ref/c/cl/CMXWifiConnectionMode //apple_ref/c/tdef/CMXWifiConnectionMode //apple_ref/c/tag/CMXWifiConnectionMode //apple_ref/c/struct/CMXWifiConnectionMode //apple_ref/c/intf/CMXWifiConnectionMode //apple_ref/doc/anysymbol/CMXWifiConnectionMode" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXWifiConnectionMode&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/stringToConnectionMode //apple_ref/c/clm/stringToConnectionMode //apple_ref/c/intfcm/stringToConnectionMode //apple_ref/c/intfm/stringToConnectionMode //apple_ref/c/func/stringToConnectionMode //apple_ref/c/ftmplt/stringToConnectionMode //apple_ref/c/defn/stringToConnectionMode //apple_ref/c/macro/stringToConnectionMode //apple_ref/doc/anysymbol/stringToConnectionMode" machineGenerated="true" --&gt;&lt;span class="function"&gt;stringToConnectionMode&lt;/span&gt;&lt;!-- /a --&gt;(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/NSString //apple_ref/c/tdef/NSString //apple_ref/c/tag/NSString //apple_ref/c/struct/NSString //apple_ref/c/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;span class="param"&gt;string&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/stringToUnit</TokenIdentifier>
+    <Path>CMXUnit_h/index.html</Path>
+    <Abstract>Convert string representation to unit.</Abstract>
+    <Declaration>&lt;!-- a logicalPath="//apple_ref/c/cl/CMXUnit //apple_ref/c/tdef/CMXUnit //apple_ref/c/tag/CMXUnit //apple_ref/c/struct/CMXUnit //apple_ref/c/intf/CMXUnit //apple_ref/doc/anysymbol/CMXUnit" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXUnit&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/stringToUnit //apple_ref/c/clm/stringToUnit //apple_ref/c/intfcm/stringToUnit //apple_ref/c/intfm/stringToUnit //apple_ref/c/func/stringToUnit //apple_ref/c/ftmplt/stringToUnit //apple_ref/c/defn/stringToUnit //apple_ref/c/macro/stringToUnit //apple_ref/doc/anysymbol/stringToUnit" machineGenerated="true" --&gt;&lt;span class="function"&gt;stringToUnit&lt;/span&gt;&lt;!-- /a --&gt;(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/NSString //apple_ref/c/tdef/NSString //apple_ref/c/tag/NSString //apple_ref/c/struct/NSString //apple_ref/c/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;span class="param"&gt;string&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/unitToString</TokenIdentifier>
+    <Path>CMXUnit_h/index.html</Path>
+    <Abstract>Convert unit value to string representation.</Abstract>
+    <Declaration>&lt;!-- a logicalPath="//apple_ref/c/cl/NSString //apple_ref/c/tdef/NSString //apple_ref/c/tag/NSString //apple_ref/c/struct/NSString //apple_ref/c/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/unitToString //apple_ref/c/clm/unitToString //apple_ref/c/intfcm/unitToString //apple_ref/c/intfm/unitToString //apple_ref/c/func/unitToString //apple_ref/c/ftmplt/unitToString //apple_ref/c/defn/unitToString //apple_ref/c/macro/unitToString //apple_ref/doc/anysymbol/unitToString" machineGenerated="true" --&gt;&lt;span class="function"&gt;unitToString&lt;/span&gt;&lt;!-- /a --&gt;(
+    &lt;!-- a logicalPath="//apple_ref/c/cl/CMXUnit //apple_ref/c/tdef/CMXUnit //apple_ref/c/tag/CMXUnit //apple_ref/c/struct/CMXUnit //apple_ref/c/intf/CMXUnit //apple_ref/doc/anysymbol/CMXUnit" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXUnit&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="param"&gt;unit&lt;/span&gt;);  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/updateControllerWithFloor:ofVenue:</TokenIdentifier>
+    <Path>CMXFloorViewController_h/index.html</Path>
+    <Abstract>Update the controller and the map with an object containing floor informations and an object containing venue informations.</Abstract>
+    <Declaration>- (&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/c/instm/updateControllerWithFloor //apple_ref/c/clm/updateControllerWithFloor //apple_ref/c/intfcm/updateControllerWithFloor //apple_ref/c/intfm/updateControllerWithFloor //apple_ref/c/func/updateControllerWithFloor //apple_ref/c/ftmplt/updateControllerWithFloor //apple_ref/c/defn/updateControllerWithFloor //apple_ref/c/macro/updateControllerWithFloor //apple_ref/doc/anysymbol/updateControllerWithFloor" machineGenerated="true" --&gt;&lt;span class="function"&gt;updateControllerWithFloor&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXFloor //apple_ref/c/tdef/CMXFloor //apple_ref/c/tag/CMXFloor //apple_ref/c/struct/CMXFloor //apple_ref/c/intf/CMXFloor //apple_ref/doc/anysymbol/CMXFloor" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXFloor&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;floor&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/c/instm/ofVenue //apple_ref/c/clm/ofVenue //apple_ref/c/intfcm/ofVenue //apple_ref/c/intfm/ofVenue //apple_ref/c/func/ofVenue //apple_ref/c/ftmplt/ofVenue //apple_ref/c/defn/ofVenue //apple_ref/c/macro/ofVenue //apple_ref/doc/anysymbol/ofVenue" machineGenerated="true" --&gt;&lt;span class="function"&gt;ofVenue&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/c/cl/CMXVenue //apple_ref/c/tdef/CMXVenue //apple_ref/c/tag/CMXVenue //apple_ref/c/struct/CMXVenue //apple_ref/c/intf/CMXVenue //apple_ref/doc/anysymbol/CMXVenue" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXVenue&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/c/econst/venue //apple_ref/c/data/venue //apple_ref/c/clconst/venue " machineGenerated="true" --&gt;&lt;span class="var"&gt;venue&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/func/updateMinMaxZoomScales</TokenIdentifier>
+    <Path>CMXMapView_h/index.html</Path>
+    <Abstract>Update minimum and maximum zoom scales depending of the view size.</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;) &lt;!-- a logicalPath="//apple_ref/c/econst/updateMinMaxZoomScales //apple_ref/c/data/updateMinMaxZoomScales //apple_ref/c/clconst/updateMinMaxZoomScales " machineGenerated="true" --&gt;&lt;span class="var"&gt;updateMinMaxZoomScales&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/accessoryImage</TokenIdentifier>
+    <Path>CMXPoiListViewController_m/index.html</Path>
+    <Abstract>Direction image (accessory view)</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/UIImage //apple_ref/occ/tdef/UIImage //apple_ref/occ/tag/UIImage //apple_ref/occ/struct/UIImage //apple_ref/occ/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/accessoryImage //apple_ref/occ/data/accessoryImage //apple_ref/occ/clconst/accessoryImage " machineGenerated="true" --&gt;&lt;span class="var"&gt;accessoryImage&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/activePoiIdentifier</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Active poi identifier.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/activePoiIdentifier //apple_ref/occ/data/activePoiIdentifier //apple_ref/occ/clconst/activePoiIdentifier " machineGenerated="true" --&gt;&lt;span class="var"&gt;activePoiIdentifier&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/bannerViewController</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>CMXBannerViewController *</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXBannerViewController //apple_ref/occ/tdef/CMXBannerViewController //apple_ref/occ/tag/CMXBannerViewController //apple_ref/occ/struct/CMXBannerViewController //apple_ref/occ/intf/CMXBannerViewController //apple_ref/doc/anysymbol/CMXBannerViewController" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXBannerViewController&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/bannerViewController //apple_ref/occ/data/bannerViewController //apple_ref/occ/clconst/bannerViewController " machineGenerated="true" --&gt;&lt;span class="var"&gt;bannerViewController&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/calloutView</TokenIdentifier>
+    <Path>CMXMapView_m/index.html</Path>
+    <Abstract>CalloutView called on poi click</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/SMCalloutView //apple_ref/occ/tdef/SMCalloutView //apple_ref/occ/tag/SMCalloutView //apple_ref/occ/struct/SMCalloutView //apple_ref/occ/intf/SMCalloutView //apple_ref/doc/anysymbol/SMCalloutView" machineGenerated="true" --&gt;&lt;span class="type"&gt;SMCalloutView&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/calloutView //apple_ref/occ/data/calloutView //apple_ref/occ/clconst/calloutView " machineGenerated="true" --&gt;&lt;span class="var"&gt;calloutView&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/floor</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Floor model</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXFloor //apple_ref/occ/tdef/CMXFloor //apple_ref/occ/tag/CMXFloor //apple_ref/occ/struct/CMXFloor //apple_ref/occ/intf/CMXFloor //apple_ref/doc/anysymbol/CMXFloor" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXFloor&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/floor //apple_ref/occ/data/floor //apple_ref/occ/clconst/floor " machineGenerated="true" --&gt;&lt;span class="var"&gt;floor&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/floorID</TokenIdentifier>
+    <Path>CMXPoiListViewController_m/index.html</Path>
+    <Abstract>Floor identifier</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/floorID //apple_ref/occ/data/floorID //apple_ref/occ/clconst/floorID " machineGenerated="true" --&gt;&lt;span class="var"&gt;floorID&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/floorViewcontroller</TokenIdentifier>
+    <Path>CMXSlidingViewController_m/index.html</Path>
+    <Abstract>Central view controller</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXFloorViewController //apple_ref/occ/tdef/CMXFloorViewController //apple_ref/occ/tag/CMXFloorViewController //apple_ref/occ/struct/CMXFloorViewController //apple_ref/occ/intf/CMXFloorViewController //apple_ref/doc/anysymbol/CMXFloorViewController" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXFloorViewController&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/floorViewcontroller //apple_ref/occ/data/floorViewcontroller //apple_ref/occ/clconst/floorViewcontroller " machineGenerated="true" --&gt;&lt;span class="var"&gt;floorViewcontroller&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/floorsByVenueId</TokenIdentifier>
+    <Path>CMXLaunchViewController_m/index.html</Path>
+    <Abstract>Floors by venue Id.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSDictionary //apple_ref/occ/tdef/NSDictionary //apple_ref/occ/tag/NSDictionary //apple_ref/occ/struct/NSDictionary //apple_ref/occ/intf/NSDictionary //apple_ref/doc/anysymbol/NSDictionary" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSDictionary&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/floorsByVenueId //apple_ref/occ/data/floorsByVenueId //apple_ref/occ/clconst/floorsByVenueId " machineGenerated="true" --&gt;&lt;span class="var"&gt;floorsByVenueId&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/httpsConnectionManager</TokenIdentifier>
+    <Path>CMXClient_m/index.html</Path>
+    <Abstract>Request Manager for HTTPS connection</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/AFHTTPClient //apple_ref/occ/tdef/AFHTTPClient //apple_ref/occ/tag/AFHTTPClient //apple_ref/occ/struct/AFHTTPClient //apple_ref/occ/intf/AFHTTPClient //apple_ref/doc/anysymbol/AFHTTPClient" machineGenerated="true" --&gt;&lt;span class="type"&gt;AFHTTPClient&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/httpsConnectionManager //apple_ref/occ/data/httpsConnectionManager //apple_ref/occ/clconst/httpsConnectionManager " machineGenerated="true" --&gt;&lt;span class="var"&gt;httpsConnectionManager&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/image</TokenIdentifier>
+    <Path>CMXPoiViewController_m/index.html</Path>
+    <Abstract>Poi image</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/UIImage //apple_ref/occ/tdef/UIImage //apple_ref/occ/tag/UIImage //apple_ref/occ/struct/UIImage //apple_ref/occ/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/image //apple_ref/occ/data/image //apple_ref/occ/clconst/image " machineGenerated="true" --&gt;&lt;span class="var"&gt;image&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/internetReach</TokenIdentifier>
+    <Path>CMXClient_m/index.html</Path>
+    <Abstract>Network reachability</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/Reachability //apple_ref/occ/tdef/Reachability //apple_ref/occ/tag/Reachability //apple_ref/occ/struct/Reachability //apple_ref/occ/intf/Reachability //apple_ref/doc/anysymbol/Reachability" machineGenerated="true" --&gt;&lt;span class="type"&gt;Reachability&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/internetReach //apple_ref/occ/data/internetReach //apple_ref/occ/clconst/internetReach " machineGenerated="true" --&gt;&lt;span class="var"&gt;internetReach&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/lastZoneID</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Last zoneId</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/lastZoneID //apple_ref/occ/data/lastZoneID //apple_ref/occ/clconst/lastZoneID " machineGenerated="true" --&gt;&lt;span class="var"&gt;lastZoneID&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/loadingIndicatorView</TokenIdentifier>
+    <Path>CMXLaunchViewController_m/index.html</Path>
+    <Abstract>Loading indicator.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/IBOutlet //apple_ref/occ/tdef/IBOutlet //apple_ref/occ/tag/IBOutlet //apple_ref/occ/struct/IBOutlet //apple_ref/occ/intf/IBOutlet //apple_ref/doc/anysymbol/IBOutlet" machineGenerated="true" --&gt;&lt;span class="type"&gt;IBOutlet&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/cl/UIActivityIndicatorView //apple_ref/occ/tdef/UIActivityIndicatorView //apple_ref/occ/tag/UIActivityIndicatorView //apple_ref/occ/struct/UIActivityIndicatorView //apple_ref/occ/intf/UIActivityIndicatorView //apple_ref/doc/anysymbol/UIActivityIndicatorView" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIActivityIndicatorView&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/loadingIndicatorView //apple_ref/occ/data/loadingIndicatorView //apple_ref/occ/clconst/loadingIndicatorView " machineGenerated="true" --&gt;&lt;span class="var"&gt;loadingIndicatorView&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/locationManager</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Location Manager</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CLLocationManager //apple_ref/occ/tdef/CLLocationManager //apple_ref/occ/tag/CLLocationManager //apple_ref/occ/struct/CLLocationManager //apple_ref/occ/intf/CLLocationManager //apple_ref/doc/anysymbol/CLLocationManager" machineGenerated="true" --&gt;&lt;span class="type"&gt;CLLocationManager&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/locationManager //apple_ref/occ/data/locationManager //apple_ref/occ/clconst/locationManager " machineGenerated="true" --&gt;&lt;span class="var"&gt;locationManager&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/mapDimension</TokenIdentifier>
+    <Path>CMXMapView_m/index.html</Path>
+    <Abstract>Map dimension. Used to convert world coordinates
+into image frame</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXDimension //apple_ref/occ/tdef/CMXDimension //apple_ref/occ/tag/CMXDimension //apple_ref/occ/struct/CMXDimension //apple_ref/occ/intf/CMXDimension //apple_ref/doc/anysymbol/CMXDimension" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXDimension&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/mapDimension //apple_ref/occ/data/mapDimension //apple_ref/occ/clconst/mapDimension " machineGenerated="true" --&gt;&lt;span class="var"&gt;mapDimension&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/mapView</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Map view.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXMapView //apple_ref/occ/tdef/CMXMapView //apple_ref/occ/tag/CMXMapView //apple_ref/occ/struct/CMXMapView //apple_ref/occ/intf/CMXMapView //apple_ref/doc/anysymbol/CMXMapView" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXMapView&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/mapView //apple_ref/occ/data/mapView //apple_ref/occ/clconst/mapView " machineGenerated="true" --&gt;&lt;span class="var"&gt;mapView&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/model</TokenIdentifier>
+    <Path>CMXPoiViewController_m/index.html</Path>
+    <Abstract>Current poi model</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXPOI //apple_ref/occ/tdef/CMXPOI //apple_ref/occ/tag/CMXPOI //apple_ref/occ/struct/CMXPOI //apple_ref/occ/intf/CMXPOI //apple_ref/doc/anysymbol/CMXPOI" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPOI&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/model //apple_ref/occ/data/model //apple_ref/occ/clconst/model " machineGenerated="true" --&gt;&lt;span class="var"&gt;model&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/operationQueue</TokenIdentifier>
+    <Path>CMXClient_m/index.html</Path>
+    <Abstract>operations queue (for data downloading)</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSOperationQueue //apple_ref/occ/tdef/NSOperationQueue //apple_ref/occ/tag/NSOperationQueue //apple_ref/occ/struct/NSOperationQueue //apple_ref/occ/intf/NSOperationQueue //apple_ref/doc/anysymbol/NSOperationQueue" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSOperationQueue&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/operationQueue //apple_ref/occ/data/operationQueue //apple_ref/occ/clconst/operationQueue " machineGenerated="true" --&gt;&lt;span class="var"&gt;operationQueue&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/optiosViewController</TokenIdentifier>
+    <Path>CMXSlidingViewController_m/index.html</Path>
+    <Abstract>left view controller</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXMenuViewController //apple_ref/occ/tdef/CMXMenuViewController //apple_ref/occ/tag/CMXMenuViewController //apple_ref/occ/struct/CMXMenuViewController //apple_ref/occ/intf/CMXMenuViewController //apple_ref/doc/anysymbol/CMXMenuViewController" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXMenuViewController&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/optiosViewController //apple_ref/occ/data/optiosViewController //apple_ref/occ/clconst/optiosViewController " machineGenerated="true" --&gt;&lt;span class="var"&gt;optiosViewController&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/pathLayerView</TokenIdentifier>
+    <Path>CMXMapView_m/index.html</Path>
+    <Abstract>View holding the navigation path.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;weak&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXShapeView //apple_ref/occ/tdef/CMXShapeView //apple_ref/occ/tag/CMXShapeView //apple_ref/occ/struct/CMXShapeView //apple_ref/occ/intf/CMXShapeView //apple_ref/doc/anysymbol/CMXShapeView" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXShapeView&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/pathLayerView //apple_ref/occ/data/pathLayerView //apple_ref/occ/clconst/pathLayerView " machineGenerated="true" --&gt;&lt;span class="var"&gt;pathLayerView&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/pathLineWidth</TokenIdentifier>
+    <Path>CMXMapView_m/index.html</Path>
+    <Abstract>Line width of the navigation path.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSUInteger //apple_ref/occ/tdef/NSUInteger //apple_ref/occ/tag/NSUInteger //apple_ref/occ/struct/NSUInteger //apple_ref/occ/intf/NSUInteger //apple_ref/doc/anysymbol/NSUInteger" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSUInteger&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/pathLineWidth //apple_ref/occ/data/pathLineWidth //apple_ref/occ/clconst/pathLineWidth " machineGenerated="true" --&gt;&lt;span class="var"&gt;pathLineWidth&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/poiDescriptionViewController</TokenIdentifier>
+    <Path>CMXSlidingViewController_m/index.html</Path>
+    <Abstract></Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXPoiViewController //apple_ref/occ/tdef/CMXPoiViewController //apple_ref/occ/tag/CMXPoiViewController //apple_ref/occ/struct/CMXPoiViewController //apple_ref/occ/intf/CMXPoiViewController //apple_ref/doc/anysymbol/CMXPoiViewController" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPoiViewController&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/poiDescriptionViewController //apple_ref/occ/data/poiDescriptionViewController //apple_ref/occ/clconst/poiDescriptionViewController " machineGenerated="true" --&gt;&lt;span class="var"&gt;poiDescriptionViewController&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/poiIdTarget</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Poi identifier of the active target</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/poiIdTarget //apple_ref/occ/data/poiIdTarget //apple_ref/occ/clconst/poiIdTarget " machineGenerated="true" --&gt;&lt;span class="var"&gt;poiIdTarget&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/poiIdentifier</TokenIdentifier>
+    <Path>CMXMapView_m/index.html</Path>
+    <Abstract>Poi identifier</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/poiIdentifier //apple_ref/occ/data/poiIdentifier //apple_ref/occ/clconst/poiIdentifier " machineGenerated="true" --&gt;&lt;span class="var"&gt;poiIdentifier&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/pois</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Pois of the floor (key = poi identifier).</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSDictionary //apple_ref/occ/tdef/NSDictionary //apple_ref/occ/tag/NSDictionary //apple_ref/occ/struct/NSDictionary //apple_ref/occ/intf/NSDictionary //apple_ref/doc/anysymbol/NSDictionary" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSDictionary&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/pois //apple_ref/occ/data/pois //apple_ref/occ/clconst/pois " machineGenerated="true" --&gt;&lt;span class="var"&gt;pois&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/poisImages</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Images of the pois (key = poi identifier).</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSMutableDictionary //apple_ref/occ/tdef/NSMutableDictionary //apple_ref/occ/tag/NSMutableDictionary //apple_ref/occ/struct/NSMutableDictionary //apple_ref/occ/intf/NSMutableDictionary //apple_ref/doc/anysymbol/NSMutableDictionary" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSMutableDictionary&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/poisImages //apple_ref/occ/data/poisImages //apple_ref/occ/clconst/poisImages " machineGenerated="true" --&gt;&lt;span class="var"&gt;poisImages&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/reloadButton</TokenIdentifier>
+    <Path>CMXLaunchViewController_m/index.html</Path>
+    <Abstract>Reload bouton.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/IBOutlet //apple_ref/occ/tdef/IBOutlet //apple_ref/occ/tag/IBOutlet //apple_ref/occ/struct/IBOutlet //apple_ref/occ/intf/IBOutlet //apple_ref/doc/anysymbol/IBOutlet" machineGenerated="true" --&gt;&lt;span class="type"&gt;IBOutlet&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/cl/UIButton //apple_ref/occ/tdef/UIButton //apple_ref/occ/tag/UIButton //apple_ref/occ/struct/UIButton //apple_ref/occ/intf/UIButton //apple_ref/doc/anysymbol/UIButton" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIButton&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/reloadButton //apple_ref/occ/data/reloadButton //apple_ref/occ/clconst/reloadButton " machineGenerated="true" --&gt;&lt;span class="var"&gt;reloadButton&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/removeNotificationsDidFailToRegisterObserver</TokenIdentifier>
+    <Path>CMXLaunchViewController_m/index.html</Path>
+    <Abstract>Notification observer.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/id //apple_ref/occ/tdef/id //apple_ref/occ/tag/id //apple_ref/occ/struct/id //apple_ref/occ/intf/id //apple_ref/doc/anysymbol/id" machineGenerated="true" --&gt;&lt;span class="type"&gt;id&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/removeNotificationsDidFailToRegisterObserver //apple_ref/occ/data/removeNotificationsDidFailToRegisterObserver //apple_ref/occ/clconst/removeNotificationsDidFailToRegisterObserver " machineGenerated="true" --&gt;&lt;span class="var"&gt;removeNotificationsDidFailToRegisterObserver&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/removeNotificationsDidRegisterObserver</TokenIdentifier>
+    <Path>CMXLaunchViewController_m/index.html</Path>
+    <Abstract>Notification observer.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/id //apple_ref/occ/tdef/id //apple_ref/occ/tag/id //apple_ref/occ/struct/id //apple_ref/occ/intf/id //apple_ref/doc/anysymbol/id" machineGenerated="true" --&gt;&lt;span class="type"&gt;id&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/removeNotificationsDidRegisterObserver //apple_ref/occ/data/removeNotificationsDidRegisterObserver //apple_ref/occ/clconst/removeNotificationsDidRegisterObserver " machineGenerated="true" --&gt;&lt;span class="var"&gt;removeNotificationsDidRegisterObserver&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/rootImageSize</TokenIdentifier>
+    <Path>CMXMapView_m/index.html</Path>
+    <Abstract>Backgroup map size.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CGSize //apple_ref/occ/tdef/CGSize //apple_ref/occ/tag/CGSize //apple_ref/occ/struct/CGSize //apple_ref/occ/intf/CGSize //apple_ref/doc/anysymbol/CGSize" machineGenerated="true" --&gt;&lt;span class="type"&gt;CGSize&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/rootImageSize //apple_ref/occ/data/rootImageSize //apple_ref/occ/clconst/rootImageSize " machineGenerated="true" --&gt;&lt;span class="var"&gt;rootImageSize&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/rootImageView</TokenIdentifier>
+    <Path>CMXMapView_m/index.html</Path>
+    <Abstract>Background map.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/UIImageView //apple_ref/occ/tdef/UIImageView //apple_ref/occ/tag/UIImageView //apple_ref/occ/struct/UIImageView //apple_ref/occ/intf/UIImageView //apple_ref/doc/anysymbol/UIImageView" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImageView&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/rootImageView //apple_ref/occ/data/rootImageView //apple_ref/occ/clconst/rootImageView " machineGenerated="true" --&gt;&lt;span class="var"&gt;rootImageView&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/searchPoiListViewController</TokenIdentifier>
+    <Path>CMXSlidingViewController_m/index.html</Path>
+    <Abstract>search view controller</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXPoiListViewController //apple_ref/occ/tdef/CMXPoiListViewController //apple_ref/occ/tag/CMXPoiListViewController //apple_ref/occ/struct/CMXPoiListViewController //apple_ref/occ/intf/CMXPoiListViewController //apple_ref/doc/anysymbol/CMXPoiListViewController" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPoiListViewController&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/searchPoiListViewController //apple_ref/occ/data/searchPoiListViewController //apple_ref/occ/clconst/searchPoiListViewController " machineGenerated="true" --&gt;&lt;span class="var"&gt;searchPoiListViewController&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/searchResult</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Last search result.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSArray //apple_ref/occ/tdef/NSArray //apple_ref/occ/tag/NSArray //apple_ref/occ/struct/NSArray //apple_ref/occ/intf/NSArray //apple_ref/doc/anysymbol/NSArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSArray&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/searchResult //apple_ref/occ/data/searchResult //apple_ref/occ/clconst/searchResult " machineGenerated="true" --&gt;&lt;span class="var"&gt;searchResult&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/selectedPoiImage</TokenIdentifier>
+    <Path>CMXMapView_m/index.html</Path>
+    <Abstract>selected poi image</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/UIImage //apple_ref/occ/tdef/UIImage //apple_ref/occ/tag/UIImage //apple_ref/occ/struct/UIImage //apple_ref/occ/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/selectedPoiImage //apple_ref/occ/data/selectedPoiImage //apple_ref/occ/clconst/selectedPoiImage " machineGenerated="true" --&gt;&lt;span class="var"&gt;selectedPoiImage&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/shouldShowNavBar</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Poi identifier of the active target</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/BOOL //apple_ref/occ/tdef/BOOL //apple_ref/occ/tag/BOOL //apple_ref/occ/struct/BOOL //apple_ref/occ/intf/BOOL //apple_ref/doc/anysymbol/BOOL" machineGenerated="true" --&gt;&lt;span class="type"&gt;BOOL&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/shouldShowNavBar //apple_ref/occ/data/shouldShowNavBar //apple_ref/occ/clconst/shouldShowNavBar " machineGenerated="true" --&gt;&lt;span class="var"&gt;shouldShowNavBar&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/svgToUImage</TokenIdentifier>
+    <Path>CMXClient_m/index.html</Path>
+    <Abstract>convert svg to uiimage</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/SvgToUIImage //apple_ref/occ/tdef/SvgToUIImage //apple_ref/occ/tag/SvgToUIImage //apple_ref/occ/struct/SvgToUIImage //apple_ref/occ/intf/SvgToUIImage //apple_ref/doc/anysymbol/SvgToUIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;SvgToUIImage&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/svgToUImage //apple_ref/occ/data/svgToUImage //apple_ref/occ/clconst/svgToUImage " machineGenerated="true" --&gt;&lt;span class="var"&gt;svgToUImage&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/treeViewModel</TokenIdentifier>
+    <Path>CMXMenuViewController_m/index.html</Path>
+    <Abstract>tree view model</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSMutableArray //apple_ref/occ/tdef/NSMutableArray //apple_ref/occ/tag/NSMutableArray //apple_ref/occ/struct/NSMutableArray //apple_ref/occ/intf/NSMutableArray //apple_ref/doc/anysymbol/NSMutableArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSMutableArray&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/treeViewModel //apple_ref/occ/data/treeViewModel //apple_ref/occ/clconst/treeViewModel " machineGenerated="true" --&gt;&lt;span class="var"&gt;treeViewModel&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/userImageView</TokenIdentifier>
+    <Path>CMXMapView_m/index.html</Path>
+    <Abstract>User image view. *</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/UIImageView //apple_ref/occ/tdef/UIImageView //apple_ref/occ/tag/UIImageView //apple_ref/occ/struct/UIImageView //apple_ref/occ/intf/UIImageView //apple_ref/doc/anysymbol/UIImageView" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImageView&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/userImageView //apple_ref/occ/data/userImageView //apple_ref/occ/clconst/userImageView " machineGenerated="true" --&gt;&lt;span class="var"&gt;userImageView&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/userLocation</TokenIdentifier>
+    <Path>CMXLaunchViewController_m/index.html</Path>
+    <Abstract>The User Location.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXClientLocation //apple_ref/occ/tdef/CMXClientLocation //apple_ref/occ/tag/CMXClientLocation //apple_ref/occ/struct/CMXClientLocation //apple_ref/occ/intf/CMXClientLocation //apple_ref/doc/anysymbol/CMXClientLocation" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXClientLocation&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/userLocation //apple_ref/occ/data/userLocation //apple_ref/occ/clconst/userLocation " machineGenerated="true" --&gt;&lt;span class="var"&gt;userLocation&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/venue</TokenIdentifier>
+    <Path>CMXFloorViewController_m/index.html</Path>
+    <Abstract>Venue model</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXVenue //apple_ref/occ/tdef/CMXVenue //apple_ref/occ/tag/CMXVenue //apple_ref/occ/struct/CMXVenue //apple_ref/occ/intf/CMXVenue //apple_ref/doc/anysymbol/CMXVenue" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXVenue&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/venue //apple_ref/occ/data/venue //apple_ref/occ/clconst/venue " machineGenerated="true" --&gt;&lt;span class="var"&gt;venue&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/venueID</TokenIdentifier>
+    <Path>CMXPoiListViewController_m/index.html</Path>
+    <Abstract>Venue identifier</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/venueID //apple_ref/occ/data/venueID //apple_ref/occ/clconst/venueID " machineGenerated="true" --&gt;&lt;span class="var"&gt;venueID&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/venues</TokenIdentifier>
+    <Path>CMXLaunchViewController_m/index.html</Path>
+    <Abstract>Venues Array.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSArray //apple_ref/occ/tdef/NSArray //apple_ref/occ/tag/NSArray //apple_ref/occ/struct/NSArray //apple_ref/occ/intf/NSArray //apple_ref/doc/anysymbol/NSArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSArray&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/venues //apple_ref/occ/data/venues //apple_ref/occ/clconst/venues " machineGenerated="true" --&gt;&lt;span class="var"&gt;venues&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/x</TokenIdentifier>
+    <Path>CMXPoint_m/index.html</Path>
+    <Abstract>X coordinate of the point</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/x //apple_ref/occ/data/x //apple_ref/occ/clconst/x " machineGenerated="true" --&gt;&lt;span class="var"&gt;x&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/instp/y</TokenIdentifier>
+    <Path>CMXPoint_m/index.html</Path>
+    <Abstract>Y coordinate of the point</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/y //apple_ref/occ/data/y //apple_ref/occ/clconst/y " machineGenerated="true" --&gt;&lt;span class="var"&gt;y&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/tdef/CMXUnit</TokenIdentifier>
+    <Path>CMXUnit_h/index.html</Path>
+    <Abstract>Defines unit type.</Abstract>
+    <Declaration>&lt;span class="keyword"&gt;typedef&lt;/span&gt; &lt;span class="keyword"&gt;enum&lt;/span&gt; { 
+    &lt;!-- a logicalPath="//apple_ref/c/econst/FEET //apple_ref/c/data/FEET //apple_ref/c/clconst/FEET " machineGenerated="true" --&gt;&lt;span class="var"&gt;FEET&lt;/span&gt;&lt;!-- /a --&gt;,  
+} &lt;!-- a logicalPath="//apple_ref/c/econst/CMXUnit //apple_ref/c/data/CMXUnit //apple_ref/c/clconst/CMXUnit " machineGenerated="true" --&gt;&lt;span class="var"&gt;CMXUnit&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/c/tdef/CMXWifiConnectionMode</TokenIdentifier>
+    <Path>CMXWifiConnectionMode_h/index.html</Path>
+    <Abstract>Defines connection mode.</Abstract>
+    <Declaration>&lt;span class="keyword"&gt;typedef&lt;/span&gt; &lt;span class="keyword"&gt;enum&lt;/span&gt; { 
+    &lt;!-- a logicalPath="//apple_ref/c/econst/AUTO //apple_ref/c/data/AUTO //apple_ref/c/clconst/AUTO " machineGenerated="true" --&gt;&lt;span class="var"&gt;AUTO&lt;/span&gt;&lt;!-- /a --&gt;, 
+    &lt;!-- a logicalPath="//apple_ref/c/econst/MANUAL //apple_ref/c/data/MANUAL //apple_ref/c/clconst/MANUAL " machineGenerated="true" --&gt;&lt;span class="var"&gt;MANUAL&lt;/span&gt;&lt;!-- /a --&gt;, 
+    &lt;!-- a logicalPath="//apple_ref/c/econst/PROMPT //apple_ref/c/data/PROMPT //apple_ref/c/clconst/PROMPT " machineGenerated="true" --&gt;&lt;span class="var"&gt;PROMPT&lt;/span&gt;&lt;!-- /a --&gt; 
+} &lt;!-- a logicalPath="//apple_ref/c/econst/CMXWifiConnectionMode //apple_ref/c/data/CMXWifiConnectionMode //apple_ref/c/clconst/CMXWifiConnectionMode " machineGenerated="true" --&gt;&lt;span class="var"&gt;CMXWifiConnectionMode&lt;/span&gt;&lt;!-- /a --&gt;;  </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXClient</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Client that manages data loading &amp; network
+connexions</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXClientConfiguration</TokenIdentifier>
+    <Path>CMXClientConfiguration_h/Classes/CMXClientConfiguration/index.html</Path>
+    <Abstract>Configuration for the CMX client</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXClientLocation</TokenIdentifier>
+    <Path>CMXClientLocation_h/Classes/CMXClientLocation/index.html</Path>
+    <Abstract>Define location informations of the client</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXDimension</TokenIdentifier>
+    <Path>CMXDimension_h/Classes/CMXDimension/index.html</Path>
+    <Abstract>Defines 2 dimensional dimensions</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXFloor</TokenIdentifier>
+    <Path>CMXFloor_h/Classes/CMXFloor/index.html</Path>
+    <Abstract>Define information about a floor</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXMap</TokenIdentifier>
+    <Path>CMXMap_h/Classes/CMXMap/index.html</Path>
+    <Abstract>Define information about a map</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXMapCoordinate</TokenIdentifier>
+    <Path>CMXMapCoordinate_h/Classes/CMXMapCoordinate/index.html</Path>
+    <Abstract>Define 2 dimensional coordinate in map</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXNetwork</TokenIdentifier>
+    <Path>CMXNetwork_h/Classes/CMXNetwork/index.html</Path>
+    <Abstract>Define a network.</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXPOI</TokenIdentifier>
+    <Path>CMXPOI_h/Classes/CMXPOI/index.html</Path>
+    <Abstract>Define a Poinf Of Interest</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXPath</TokenIdentifier>
+    <Path>CMXPath_h/Classes/CMXPath/index.html</Path>
+    <Abstract>Define a navigation path made of 2D points</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXPoint</TokenIdentifier>
+    <Path>CMXPoint_h/Classes/CMXPoint/index.html</Path>
+    <Abstract>Define a 2 dimensional point</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXShapeView</TokenIdentifier>
+    <Path>CMXShapeView_h/Classes/CMXShapeView/index.html</Path>
+    <Abstract>Internal view subclasse that manages a
+CAShapeLayer. Used to draw navigation path.</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/cl/CMXVenue</TokenIdentifier>
+    <Path>CMXVenue_h/Classes/CMXVenue/index.html</Path>
+    <Abstract>Define a venue</Abstract>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/initWithConfiguration:</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Initializes and returns a newly allocated view object with the specified configuration</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/id //apple_ref/occ/tdef/id //apple_ref/occ/tag/id //apple_ref/occ/struct/id //apple_ref/occ/intf/id //apple_ref/doc/anysymbol/id" machineGenerated="true" --&gt;&lt;span class="type"&gt;id&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/initWithConfiguration //apple_ref/occ/clm/CMXClient/initWithConfiguration //apple_ref/occ/intfcm/CMXClient/initWithConfiguration //apple_ref/occ/intfm/CMXClient/initWithConfiguration //apple_ref/occ/func/initWithConfiguration //apple_ref/occ/ftmplt/CMXClient/initWithConfiguration //apple_ref/occ/defn/initWithConfiguration //apple_ref/occ/macro/initWithConfiguration //apple_ref/doc/anysymbol/initWithConfiguration" machineGenerated="true" --&gt;&lt;span class="function"&gt;initWithConfiguration&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/CMXClientConfiguration //apple_ref/occ/tdef/CMXClientConfiguration //apple_ref/occ/tag/CMXClientConfiguration //apple_ref/occ/struct/CMXClientConfiguration //apple_ref/occ/intf/CMXClientConfiguration //apple_ref/doc/anysymbol/CMXClientConfiguration" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXClientConfiguration&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/configuration //apple_ref/occ/data/CMXClient/configuration //apple_ref/occ/data/configuration //apple_ref/occ/clconst/CMXClient/configuration " machineGenerated="true" --&gt;&lt;span class="var"&gt;configuration&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/isCMXWifiConnected</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Check if device is connected to CMX Wifi (i.e the SSID name in the configuration)</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/bool //apple_ref/occ/tdef/bool //apple_ref/occ/tag/bool //apple_ref/occ/struct/bool //apple_ref/occ/intf/bool //apple_ref/doc/anysymbol/bool" machineGenerated="true" --&gt;&lt;span class="type"&gt;bool&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/isCMXWifiConnected //apple_ref/occ/data/CMXClient/isCMXWifiConnected //apple_ref/occ/data/isCMXWifiConnected //apple_ref/occ/clconst/CMXClient/isCMXWifiConnected " machineGenerated="true" --&gt;&lt;span class="var"&gt;isCMXWifiConnected&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/isWifiConnected</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Indicates whether network connectivity exists and it is possible to establish connections and pass data.</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/bool //apple_ref/occ/tdef/bool //apple_ref/occ/tag/bool //apple_ref/occ/struct/bool //apple_ref/occ/intf/bool //apple_ref/doc/anysymbol/bool" machineGenerated="true" --&gt;&lt;span class="type"&gt;bool&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/isWifiConnected //apple_ref/occ/data/CMXClient/isWifiConnected //apple_ref/occ/data/isWifiConnected //apple_ref/occ/clconst/CMXClient/isWifiConnected " machineGenerated="true" --&gt;&lt;span class="var"&gt;isWifiConnected&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadFloor:start:completion:failure:</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Load floor</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/loadFloor //apple_ref/occ/clm/CMXClient/loadFloor //apple_ref/occ/intfcm/CMXClient/loadFloor //apple_ref/occ/intfm/CMXClient/loadFloor //apple_ref/occ/func/loadFloor //apple_ref/occ/ftmplt/CMXClient/loadFloor //apple_ref/occ/defn/loadFloor //apple_ref/occ/macro/loadFloor //apple_ref/doc/anysymbol/loadFloor" machineGenerated="true" --&gt;&lt;span class="function"&gt;loadFloor&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;floorId&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/start //apple_ref/occ/clm/CMXClient/start //apple_ref/occ/intfcm/CMXClient/start //apple_ref/occ/intfm/CMXClient/start //apple_ref/occ/func/start //apple_ref/occ/ftmplt/CMXClient/start //apple_ref/occ/defn/start //apple_ref/occ/macro/start //apple_ref/doc/anysymbol/start" machineGenerated="true" --&gt;&lt;span class="function"&gt;start&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/StartBlock //apple_ref/occ/tdef/StartBlock //apple_ref/occ/tag/StartBlock //apple_ref/occ/struct/StartBlock //apple_ref/occ/intf/StartBlock //apple_ref/doc/anysymbol/StartBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;StartBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;span class="param"&gt;start&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/completion //apple_ref/occ/clm/CMXClient/completion //apple_ref/occ/intfcm/CMXClient/completion //apple_ref/occ/intfm/CMXClient/completion //apple_ref/occ/func/completion //apple_ref/occ/ftmplt/CMXClient/completion //apple_ref/occ/defn/completion //apple_ref/occ/macro/completion //apple_ref/doc/anysymbol/completion" machineGenerated="true" --&gt;&lt;span class="function"&gt;completion&lt;/span&gt;&lt;!-- /a --&gt;:(void (^) (&lt;!-- a logicalPath="//apple_ref/occ/cl/CMXMap //apple_ref/occ/tdef/CMXMap //apple_ref/occ/tag/CMXMap //apple_ref/occ/struct/CMXMap //apple_ref/occ/intf/CMXMap //apple_ref/doc/anysymbol/CMXMap" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXMap&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/cl/floor //apple_ref/occ/tdef/floor //apple_ref/occ/tag/floor //apple_ref/occ/struct/floor //apple_ref/occ/intf/floor //apple_ref/doc/anysymbol/floor" machineGenerated="true" --&gt;&lt;span class="type"&gt;floor&lt;/span&gt;&lt;!-- /a --&gt;))&lt;span class="param"&gt;completion&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/failure //apple_ref/occ/clm/CMXClient/failure //apple_ref/occ/intfcm/CMXClient/failure //apple_ref/occ/intfm/CMXClient/failure //apple_ref/occ/func/failure //apple_ref/occ/ftmplt/CMXClient/failure //apple_ref/occ/defn/failure //apple_ref/occ/macro/failure //apple_ref/doc/anysymbol/failure" machineGenerated="true" --&gt;&lt;span class="function"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/FailureBlock //apple_ref/occ/tdef/FailureBlock //apple_ref/occ/tag/FailureBlock //apple_ref/occ/struct/FailureBlock //apple_ref/occ/intf/FailureBlock //apple_ref/doc/anysymbol/FailureBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;FailureBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/failure //apple_ref/occ/data/CMXClient/failure //apple_ref/occ/data/failure //apple_ref/occ/clconst/CMXClient/failure " machineGenerated="true" --&gt;&lt;span class="var"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadFloorImage:start:completion:failure:</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Load image of the given floor</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/loadFloorImage //apple_ref/occ/clm/CMXClient/loadFloorImage //apple_ref/occ/intfcm/CMXClient/loadFloorImage //apple_ref/occ/intfm/CMXClient/loadFloorImage //apple_ref/occ/func/loadFloorImage //apple_ref/occ/ftmplt/CMXClient/loadFloorImage //apple_ref/occ/defn/loadFloorImage //apple_ref/occ/macro/loadFloorImage //apple_ref/doc/anysymbol/loadFloorImage" machineGenerated="true" --&gt;&lt;span class="function"&gt;loadFloorImage&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;floorId&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/start //apple_ref/occ/clm/CMXClient/start //apple_ref/occ/intfcm/CMXClient/start //apple_ref/occ/intfm/CMXClient/start //apple_ref/occ/func/start //apple_ref/occ/ftmplt/CMXClient/start //apple_ref/occ/defn/start //apple_ref/occ/macro/start //apple_ref/doc/anysymbol/start" machineGenerated="true" --&gt;&lt;span class="function"&gt;start&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/StartBlock //apple_ref/occ/tdef/StartBlock //apple_ref/occ/tag/StartBlock //apple_ref/occ/struct/StartBlock //apple_ref/occ/intf/StartBlock //apple_ref/doc/anysymbol/StartBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;StartBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;span class="param"&gt;start&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/completion //apple_ref/occ/clm/CMXClient/completion //apple_ref/occ/intfcm/CMXClient/completion //apple_ref/occ/intfm/CMXClient/completion //apple_ref/occ/func/completion //apple_ref/occ/ftmplt/CMXClient/completion //apple_ref/occ/defn/completion //apple_ref/occ/macro/completion //apple_ref/doc/anysymbol/completion" machineGenerated="true" --&gt;&lt;span class="function"&gt;completion&lt;/span&gt;&lt;!-- /a --&gt;:(void (^) (&lt;!-- a logicalPath="//apple_ref/occ/cl/UIImage //apple_ref/occ/tdef/UIImage //apple_ref/occ/tag/UIImage //apple_ref/occ/struct/UIImage //apple_ref/occ/intf/UIImage //apple_ref/doc/anysymbol/UIImage" machineGenerated="true" --&gt;&lt;span class="type"&gt;UIImage&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/cl/image //apple_ref/occ/tdef/image //apple_ref/occ/tag/image //apple_ref/occ/struct/image //apple_ref/occ/intf/image //apple_ref/doc/anysymbol/image" machineGenerated="true" --&gt;&lt;span class="type"&gt;image&lt;/span&gt;&lt;!-- /a --&gt;))&lt;span class="param"&gt;completion&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/failure //apple_ref/occ/clm/CMXClient/failure //apple_ref/occ/intfcm/CMXClient/failure //apple_ref/occ/intfm/CMXClient/failure //apple_ref/occ/func/failure //apple_ref/occ/ftmplt/CMXClient/failure //apple_ref/occ/defn/failure //apple_ref/occ/macro/failure //apple_ref/doc/anysymbol/failure" machineGenerated="true" --&gt;&lt;span class="function"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/FailureBlock //apple_ref/occ/tdef/FailureBlock //apple_ref/occ/tag/FailureBlock //apple_ref/occ/struct/FailureBlock //apple_ref/occ/intf/FailureBlock //apple_ref/doc/anysymbol/FailureBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;FailureBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/failure //apple_ref/occ/data/CMXClient/failure //apple_ref/occ/data/failure //apple_ref/occ/clconst/CMXClient/failure " machineGenerated="true" --&gt;&lt;span class="var"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadMapsWithStart:completion:failure:</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Load informations for all maps of the venue</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/loadMapsWithStart //apple_ref/occ/clm/CMXClient/loadMapsWithStart //apple_ref/occ/intfcm/CMXClient/loadMapsWithStart //apple_ref/occ/intfm/CMXClient/loadMapsWithStart //apple_ref/occ/func/loadMapsWithStart //apple_ref/occ/ftmplt/CMXClient/loadMapsWithStart //apple_ref/occ/defn/loadMapsWithStart //apple_ref/occ/macro/loadMapsWithStart //apple_ref/doc/anysymbol/loadMapsWithStart" machineGenerated="true" --&gt;&lt;span class="function"&gt;loadMapsWithStart&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/StartBlock //apple_ref/occ/tdef/StartBlock //apple_ref/occ/tag/StartBlock //apple_ref/occ/struct/StartBlock //apple_ref/occ/intf/StartBlock //apple_ref/doc/anysymbol/StartBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;StartBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;span class="param"&gt;start&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/completion //apple_ref/occ/clm/CMXClient/completion //apple_ref/occ/intfcm/CMXClient/completion //apple_ref/occ/intfm/CMXClient/completion //apple_ref/occ/func/completion //apple_ref/occ/ftmplt/CMXClient/completion //apple_ref/occ/defn/completion //apple_ref/occ/macro/completion //apple_ref/doc/anysymbol/completion" machineGenerated="true" --&gt;&lt;span class="function"&gt;completion&lt;/span&gt;&lt;!-- /a --&gt;:(void (^) (&lt;!-- a logicalPath="//apple_ref/occ/cl/NSArray //apple_ref/occ/tdef/NSArray //apple_ref/occ/tag/NSArray //apple_ref/occ/struct/NSArray //apple_ref/occ/intf/NSArray //apple_ref/doc/anysymbol/NSArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSArray&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/cl/maps //apple_ref/occ/tdef/maps //apple_ref/occ/tag/maps //apple_ref/occ/struct/maps //apple_ref/occ/intf/maps //apple_ref/doc/anysymbol/maps" machineGenerated="true" --&gt;&lt;span class="type"&gt;maps&lt;/span&gt;&lt;!-- /a --&gt;))&lt;span class="param"&gt;completion&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/failure //apple_ref/occ/clm/CMXClient/failure //apple_ref/occ/intfcm/CMXClient/failure //apple_ref/occ/intfm/CMXClient/failure //apple_ref/occ/func/failure //apple_ref/occ/ftmplt/CMXClient/failure //apple_ref/occ/defn/failure //apple_ref/occ/macro/failure //apple_ref/doc/anysymbol/failure" machineGenerated="true" --&gt;&lt;span class="function"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/FailureBlock //apple_ref/occ/tdef/FailureBlock //apple_ref/occ/tag/FailureBlock //apple_ref/occ/struct/FailureBlock //apple_ref/occ/intf/FailureBlock //apple_ref/doc/anysymbol/FailureBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;FailureBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/failure //apple_ref/occ/data/CMXClient/failure //apple_ref/occ/data/failure //apple_ref/occ/clconst/CMXClient/failure " machineGenerated="true" --&gt;&lt;span class="var"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadPathForPoi:start:completion:failure:</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Load path for a given POI with completion block</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/loadPathForPoi //apple_ref/occ/clm/CMXClient/loadPathForPoi //apple_ref/occ/intfcm/CMXClient/loadPathForPoi //apple_ref/occ/intfm/CMXClient/loadPathForPoi //apple_ref/occ/func/loadPathForPoi //apple_ref/occ/ftmplt/CMXClient/loadPathForPoi //apple_ref/occ/defn/loadPathForPoi //apple_ref/occ/macro/loadPathForPoi //apple_ref/doc/anysymbol/loadPathForPoi" machineGenerated="true" --&gt;&lt;span class="function"&gt;loadPathForPoi&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;poiId&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/start //apple_ref/occ/clm/CMXClient/start //apple_ref/occ/intfcm/CMXClient/start //apple_ref/occ/intfm/CMXClient/start //apple_ref/occ/func/start //apple_ref/occ/ftmplt/CMXClient/start //apple_ref/occ/defn/start //apple_ref/occ/macro/start //apple_ref/doc/anysymbol/start" machineGenerated="true" --&gt;&lt;span class="function"&gt;start&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/StartBlock //apple_ref/occ/tdef/StartBlock //apple_ref/occ/tag/StartBlock //apple_ref/occ/struct/StartBlock //apple_ref/occ/intf/StartBlock //apple_ref/doc/anysymbol/StartBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;StartBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;span class="param"&gt;start&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/completion //apple_ref/occ/clm/CMXClient/completion //apple_ref/occ/intfcm/CMXClient/completion //apple_ref/occ/intfm/CMXClient/completion //apple_ref/occ/func/completion //apple_ref/occ/ftmplt/CMXClient/completion //apple_ref/occ/defn/completion //apple_ref/occ/macro/completion //apple_ref/doc/anysymbol/completion" machineGenerated="true" --&gt;&lt;span class="function"&gt;completion&lt;/span&gt;&lt;!-- /a --&gt;:(void (^)(&lt;!-- a logicalPath="//apple_ref/occ/cl/CMXPath //apple_ref/occ/tdef/CMXPath //apple_ref/occ/tag/CMXPath //apple_ref/occ/struct/CMXPath //apple_ref/occ/intf/CMXPath //apple_ref/doc/anysymbol/CMXPath" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXPath&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/cl/path //apple_ref/occ/tdef/path //apple_ref/occ/tag/path //apple_ref/occ/struct/path //apple_ref/occ/intf/path //apple_ref/doc/anysymbol/path" machineGenerated="true" --&gt;&lt;span class="type"&gt;path&lt;/span&gt;&lt;!-- /a --&gt;))&lt;span class="param"&gt;completion&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/failure //apple_ref/occ/clm/CMXClient/failure //apple_ref/occ/intfcm/CMXClient/failure //apple_ref/occ/intfm/CMXClient/failure //apple_ref/occ/func/failure //apple_ref/occ/ftmplt/CMXClient/failure //apple_ref/occ/defn/failure //apple_ref/occ/macro/failure //apple_ref/doc/anysymbol/failure" machineGenerated="true" --&gt;&lt;span class="function"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/FailureBlock //apple_ref/occ/tdef/FailureBlock //apple_ref/occ/tag/FailureBlock //apple_ref/occ/struct/FailureBlock //apple_ref/occ/intf/FailureBlock //apple_ref/doc/anysymbol/FailureBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;FailureBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/failure //apple_ref/occ/data/CMXClient/failure //apple_ref/occ/data/failure //apple_ref/occ/clconst/CMXClient/failure " machineGenerated="true" --&gt;&lt;span class="var"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadPoisForFloor:start:completion:failure:</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Load pois for a given floor with completion block</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/loadPoisForFloor //apple_ref/occ/clm/CMXClient/loadPoisForFloor //apple_ref/occ/intfcm/CMXClient/loadPoisForFloor //apple_ref/occ/intfm/CMXClient/loadPoisForFloor //apple_ref/occ/func/loadPoisForFloor //apple_ref/occ/ftmplt/CMXClient/loadPoisForFloor //apple_ref/occ/defn/loadPoisForFloor //apple_ref/occ/macro/loadPoisForFloor //apple_ref/doc/anysymbol/loadPoisForFloor" machineGenerated="true" --&gt;&lt;span class="function"&gt;loadPoisForFloor&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;floorId&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/start //apple_ref/occ/clm/CMXClient/start //apple_ref/occ/intfcm/CMXClient/start //apple_ref/occ/intfm/CMXClient/start //apple_ref/occ/func/start //apple_ref/occ/ftmplt/CMXClient/start //apple_ref/occ/defn/start //apple_ref/occ/macro/start //apple_ref/doc/anysymbol/start" machineGenerated="true" --&gt;&lt;span class="function"&gt;start&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/StartBlock //apple_ref/occ/tdef/StartBlock //apple_ref/occ/tag/StartBlock //apple_ref/occ/struct/StartBlock //apple_ref/occ/intf/StartBlock //apple_ref/doc/anysymbol/StartBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;StartBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;span class="param"&gt;start&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/completion //apple_ref/occ/clm/CMXClient/completion //apple_ref/occ/intfcm/CMXClient/completion //apple_ref/occ/intfm/CMXClient/completion //apple_ref/occ/func/completion //apple_ref/occ/ftmplt/CMXClient/completion //apple_ref/occ/defn/completion //apple_ref/occ/macro/completion //apple_ref/doc/anysymbol/completion" machineGenerated="true" --&gt;&lt;span class="function"&gt;completion&lt;/span&gt;&lt;!-- /a --&gt;:(void (^)(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSArray //apple_ref/occ/tdef/NSArray //apple_ref/occ/tag/NSArray //apple_ref/occ/struct/NSArray //apple_ref/occ/intf/NSArray //apple_ref/doc/anysymbol/NSArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSArray&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/cl/pois //apple_ref/occ/tdef/pois //apple_ref/occ/tag/pois //apple_ref/occ/struct/pois //apple_ref/occ/intf/pois //apple_ref/doc/anysymbol/pois" machineGenerated="true" --&gt;&lt;span class="type"&gt;pois&lt;/span&gt;&lt;!-- /a --&gt;))&lt;span class="param"&gt;completion&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/failure //apple_ref/occ/clm/CMXClient/failure //apple_ref/occ/intfcm/CMXClient/failure //apple_ref/occ/intfm/CMXClient/failure //apple_ref/occ/func/failure //apple_ref/occ/ftmplt/CMXClient/failure //apple_ref/occ/defn/failure //apple_ref/occ/macro/failure //apple_ref/doc/anysymbol/failure" machineGenerated="true" --&gt;&lt;span class="function"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/FailureBlock //apple_ref/occ/tdef/FailureBlock //apple_ref/occ/tag/FailureBlock //apple_ref/occ/struct/FailureBlock //apple_ref/occ/intf/FailureBlock //apple_ref/doc/anysymbol/FailureBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;FailureBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/failure //apple_ref/occ/data/CMXClient/failure //apple_ref/occ/data/failure //apple_ref/occ/clconst/CMXClient/failure " machineGenerated="true" --&gt;&lt;span class="var"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadPoisWithStart:completion:failure:</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Load all pois of the venue</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/loadPoisWithStart //apple_ref/occ/clm/CMXClient/loadPoisWithStart //apple_ref/occ/intfcm/CMXClient/loadPoisWithStart //apple_ref/occ/intfm/CMXClient/loadPoisWithStart //apple_ref/occ/func/loadPoisWithStart //apple_ref/occ/ftmplt/CMXClient/loadPoisWithStart //apple_ref/occ/defn/loadPoisWithStart //apple_ref/occ/macro/loadPoisWithStart //apple_ref/doc/anysymbol/loadPoisWithStart" machineGenerated="true" --&gt;&lt;span class="function"&gt;loadPoisWithStart&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/StartBlock //apple_ref/occ/tdef/StartBlock //apple_ref/occ/tag/StartBlock //apple_ref/occ/struct/StartBlock //apple_ref/occ/intf/StartBlock //apple_ref/doc/anysymbol/StartBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;StartBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;span class="param"&gt;start&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/completion //apple_ref/occ/clm/CMXClient/completion //apple_ref/occ/intfcm/CMXClient/completion //apple_ref/occ/intfm/CMXClient/completion //apple_ref/occ/func/completion //apple_ref/occ/ftmplt/CMXClient/completion //apple_ref/occ/defn/completion //apple_ref/occ/macro/completion //apple_ref/doc/anysymbol/completion" machineGenerated="true" --&gt;&lt;span class="function"&gt;completion&lt;/span&gt;&lt;!-- /a --&gt;:(void (^)(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSArray //apple_ref/occ/tdef/NSArray //apple_ref/occ/tag/NSArray //apple_ref/occ/struct/NSArray //apple_ref/occ/intf/NSArray //apple_ref/doc/anysymbol/NSArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSArray&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/cl/pois //apple_ref/occ/tdef/pois //apple_ref/occ/tag/pois //apple_ref/occ/struct/pois //apple_ref/occ/intf/pois //apple_ref/doc/anysymbol/pois" machineGenerated="true" --&gt;&lt;span class="type"&gt;pois&lt;/span&gt;&lt;!-- /a --&gt;))&lt;span class="param"&gt;completion&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/failure //apple_ref/occ/clm/CMXClient/failure //apple_ref/occ/intfcm/CMXClient/failure //apple_ref/occ/intfm/CMXClient/failure //apple_ref/occ/func/failure //apple_ref/occ/ftmplt/CMXClient/failure //apple_ref/occ/defn/failure //apple_ref/occ/macro/failure //apple_ref/doc/anysymbol/failure" machineGenerated="true" --&gt;&lt;span class="function"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/FailureBlock //apple_ref/occ/tdef/FailureBlock //apple_ref/occ/tag/FailureBlock //apple_ref/occ/struct/FailureBlock //apple_ref/occ/intf/FailureBlock //apple_ref/doc/anysymbol/FailureBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;FailureBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/failure //apple_ref/occ/data/CMXClient/failure //apple_ref/occ/data/failure //apple_ref/occ/clconst/CMXClient/failure " machineGenerated="true" --&gt;&lt;span class="var"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/loadQueryForKeywords:start:completion:failure:</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Search POIs for given keywords</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/loadQueryForKeywords //apple_ref/occ/clm/CMXClient/loadQueryForKeywords //apple_ref/occ/intfcm/CMXClient/loadQueryForKeywords //apple_ref/occ/intfm/CMXClient/loadQueryForKeywords //apple_ref/occ/func/loadQueryForKeywords //apple_ref/occ/ftmplt/CMXClient/loadQueryForKeywords //apple_ref/occ/defn/loadQueryForKeywords //apple_ref/occ/macro/loadQueryForKeywords //apple_ref/doc/anysymbol/loadQueryForKeywords" machineGenerated="true" --&gt;&lt;span class="function"&gt;loadQueryForKeywords&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;keywords&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/start //apple_ref/occ/clm/CMXClient/start //apple_ref/occ/intfcm/CMXClient/start //apple_ref/occ/intfm/CMXClient/start //apple_ref/occ/func/start //apple_ref/occ/ftmplt/CMXClient/start //apple_ref/occ/defn/start //apple_ref/occ/macro/start //apple_ref/doc/anysymbol/start" machineGenerated="true" --&gt;&lt;span class="function"&gt;start&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/StartBlock //apple_ref/occ/tdef/StartBlock //apple_ref/occ/tag/StartBlock //apple_ref/occ/struct/StartBlock //apple_ref/occ/intf/StartBlock //apple_ref/doc/anysymbol/StartBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;StartBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;span class="param"&gt;start&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/completion //apple_ref/occ/clm/CMXClient/completion //apple_ref/occ/intfcm/CMXClient/completion //apple_ref/occ/intfm/CMXClient/completion //apple_ref/occ/func/completion //apple_ref/occ/ftmplt/CMXClient/completion //apple_ref/occ/defn/completion //apple_ref/occ/macro/completion //apple_ref/doc/anysymbol/completion" machineGenerated="true" --&gt;&lt;span class="function"&gt;completion&lt;/span&gt;&lt;!-- /a --&gt;:(void (^)(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSMutableArray //apple_ref/occ/tdef/NSMutableArray //apple_ref/occ/tag/NSMutableArray //apple_ref/occ/struct/NSMutableArray //apple_ref/occ/intf/NSMutableArray //apple_ref/doc/anysymbol/NSMutableArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSMutableArray&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/cl/pois //apple_ref/occ/tdef/pois //apple_ref/occ/tag/pois //apple_ref/occ/struct/pois //apple_ref/occ/intf/pois //apple_ref/doc/anysymbol/pois" machineGenerated="true" --&gt;&lt;span class="type"&gt;pois&lt;/span&gt;&lt;!-- /a --&gt;))&lt;span class="param"&gt;completion&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/failure //apple_ref/occ/clm/CMXClient/failure //apple_ref/occ/intfcm/CMXClient/failure //apple_ref/occ/intfm/CMXClient/failure //apple_ref/occ/func/failure //apple_ref/occ/ftmplt/CMXClient/failure //apple_ref/occ/defn/failure //apple_ref/occ/macro/failure //apple_ref/doc/anysymbol/failure" machineGenerated="true" --&gt;&lt;span class="function"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/FailureBlock //apple_ref/occ/tdef/FailureBlock //apple_ref/occ/tag/FailureBlock //apple_ref/occ/struct/FailureBlock //apple_ref/occ/intf/FailureBlock //apple_ref/doc/anysymbol/FailureBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;FailureBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/failure //apple_ref/occ/data/CMXClient/failure //apple_ref/occ/data/failure //apple_ref/occ/clconst/CMXClient/failure " machineGenerated="true" --&gt;&lt;span class="var"&gt;failure&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClient/retrieveUserLocationDidstart:onUpdate:onFailureBlock:</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>Retrieve user Location</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --&gt;&lt;span class="type"&gt;void&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/retrieveUserLocationDidstart //apple_ref/occ/clm/CMXClient/retrieveUserLocationDidstart //apple_ref/occ/intfcm/CMXClient/retrieveUserLocationDidstart //apple_ref/occ/intfm/CMXClient/retrieveUserLocationDidstart //apple_ref/occ/func/retrieveUserLocationDidstart //apple_ref/occ/ftmplt/CMXClient/retrieveUserLocationDidstart //apple_ref/occ/defn/retrieveUserLocationDidstart //apple_ref/occ/macro/retrieveUserLocationDidstart //apple_ref/doc/anysymbol/retrieveUserLocationDidstart" machineGenerated="true" --&gt;&lt;span class="function"&gt;retrieveUserLocationDidstart&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/StartBlock //apple_ref/occ/tdef/StartBlock //apple_ref/occ/tag/StartBlock //apple_ref/occ/struct/StartBlock //apple_ref/occ/intf/StartBlock //apple_ref/doc/anysymbol/StartBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;StartBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;span class="param"&gt;didStartBlock&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/onUpdate //apple_ref/occ/clm/CMXClient/onUpdate //apple_ref/occ/intfcm/CMXClient/onUpdate //apple_ref/occ/intfm/CMXClient/onUpdate //apple_ref/occ/func/onUpdate //apple_ref/occ/ftmplt/CMXClient/onUpdate //apple_ref/occ/defn/onUpdate //apple_ref/occ/macro/onUpdate //apple_ref/doc/anysymbol/onUpdate" machineGenerated="true" --&gt;&lt;span class="function"&gt;onUpdate&lt;/span&gt;&lt;!-- /a --&gt;:(BOOL (^) (&lt;!-- a logicalPath="//apple_ref/occ/cl/CMXClientLocation //apple_ref/occ/tdef/CMXClientLocation //apple_ref/occ/tag/CMXClientLocation //apple_ref/occ/struct/CMXClientLocation //apple_ref/occ/intf/CMXClientLocation //apple_ref/doc/anysymbol/CMXClientLocation" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXClientLocation&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/cl/clientLocation //apple_ref/occ/tdef/clientLocation //apple_ref/occ/tag/clientLocation //apple_ref/occ/struct/clientLocation //apple_ref/occ/intf/clientLocation //apple_ref/doc/anysymbol/clientLocation" machineGenerated="true" --&gt;&lt;span class="type"&gt;clientLocation&lt;/span&gt;&lt;!-- /a --&gt;))&lt;span class="param"&gt;completionBlock&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClient/onFailureBlock //apple_ref/occ/clm/CMXClient/onFailureBlock //apple_ref/occ/intfcm/CMXClient/onFailureBlock //apple_ref/occ/intfm/CMXClient/onFailureBlock //apple_ref/occ/func/onFailureBlock //apple_ref/occ/ftmplt/CMXClient/onFailureBlock //apple_ref/occ/defn/onFailureBlock //apple_ref/occ/macro/onFailureBlock //apple_ref/doc/anysymbol/onFailureBlock" machineGenerated="true" --&gt;&lt;span class="function"&gt;onFailureBlock&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/FailureBlock //apple_ref/occ/tdef/FailureBlock //apple_ref/occ/tag/FailureBlock //apple_ref/occ/struct/FailureBlock //apple_ref/occ/intf/FailureBlock //apple_ref/doc/anysymbol/FailureBlock" machineGenerated="true" --&gt;&lt;span class="type"&gt;FailureBlock&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/failureBlock //apple_ref/occ/data/CMXClient/failureBlock //apple_ref/occ/data/failureBlock //apple_ref/occ/clconst/CMXClient/failureBlock " machineGenerated="true" --&gt;&lt;span class="var"&gt;failureBlock&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instm/CMXClientConfiguration/initWithVenueId:venueAddress:ssid:serverURL:andPollingInterval:</TokenIdentifier>
+    <Path>CMXClientConfiguration_h/Classes/CMXClientConfiguration/index.html</Path>
+    <Abstract>Initializes and returns a newly allocated view object with the specified parameters.</Abstract>
+    <Declaration>-(&lt;!-- a logicalPath="//apple_ref/occ/cl/id //apple_ref/occ/tdef/id //apple_ref/occ/tag/id //apple_ref/occ/struct/id //apple_ref/occ/intf/id //apple_ref/doc/anysymbol/id" machineGenerated="true" --&gt;&lt;span class="type"&gt;id&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClientConfiguration/initWithVenueId //apple_ref/occ/clm/CMXClientConfiguration/initWithVenueId //apple_ref/occ/intfcm/CMXClientConfiguration/initWithVenueId //apple_ref/occ/intfm/CMXClientConfiguration/initWithVenueId //apple_ref/occ/func/initWithVenueId //apple_ref/occ/ftmplt/CMXClientConfiguration/initWithVenueId //apple_ref/occ/defn/initWithVenueId //apple_ref/occ/macro/initWithVenueId //apple_ref/doc/anysymbol/initWithVenueId" machineGenerated="true" --&gt;&lt;span class="function"&gt;initWithVenueId&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;venueId&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClientConfiguration/venueAddress //apple_ref/occ/clm/CMXClientConfiguration/venueAddress //apple_ref/occ/intfcm/CMXClientConfiguration/venueAddress //apple_ref/occ/intfm/CMXClientConfiguration/venueAddress //apple_ref/occ/func/venueAddress //apple_ref/occ/ftmplt/CMXClientConfiguration/venueAddress //apple_ref/occ/defn/venueAddress //apple_ref/occ/macro/venueAddress //apple_ref/doc/anysymbol/venueAddress" machineGenerated="true" --&gt;&lt;span class="function"&gt;venueAddress&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;venueAddress&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClientConfiguration/ssid //apple_ref/occ/clm/CMXClientConfiguration/ssid //apple_ref/occ/intfcm/CMXClientConfiguration/ssid //apple_ref/occ/intfm/CMXClientConfiguration/ssid //apple_ref/occ/func/ssid //apple_ref/occ/ftmplt/CMXClientConfiguration/ssid //apple_ref/occ/defn/ssid //apple_ref/occ/macro/ssid //apple_ref/doc/anysymbol/ssid" machineGenerated="true" --&gt;&lt;span class="function"&gt;ssid&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;ssid&lt;/span&gt; &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClientConfiguration/serverURL //apple_ref/occ/clm/CMXClientConfiguration/serverURL //apple_ref/occ/intfcm/CMXClientConfiguration/serverURL //apple_ref/occ/intfm/CMXClientConfiguration/serverURL //apple_ref/occ/func/serverURL //apple_ref/occ/ftmplt/CMXClientConfiguration/serverURL //apple_ref/occ/defn/serverURL //apple_ref/occ/macro/serverURL //apple_ref/doc/anysymbol/serverURL" machineGenerated="true" --&gt;&lt;span class="function"&gt;serverURL&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSURL //apple_ref/occ/tdef/NSURL //apple_ref/occ/tag/NSURL //apple_ref/occ/struct/NSURL //apple_ref/occ/intf/NSURL //apple_ref/doc/anysymbol/NSURL" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSURL&lt;/span&gt;&lt;!-- /a --&gt;&lt;span class="type"&gt;*&lt;/span&gt;)&lt;span class="param"&gt;serverURL&lt;/span&gt; 
+        &lt;!-- a logicalPath="//apple_ref/occ/instm/CMXClientConfiguration/andPollingInterval //apple_ref/occ/clm/CMXClientConfiguration/andPollingInterval //apple_ref/occ/intfcm/CMXClientConfiguration/andPollingInterval //apple_ref/occ/intfm/CMXClientConfiguration/andPollingInterval //apple_ref/occ/func/andPollingInterval //apple_ref/occ/ftmplt/CMXClientConfiguration/andPollingInterval //apple_ref/occ/defn/andPollingInterval //apple_ref/occ/macro/andPollingInterval //apple_ref/doc/anysymbol/andPollingInterval" machineGenerated="true" --&gt;&lt;span class="function"&gt;andPollingInterval&lt;/span&gt;&lt;!-- /a --&gt;:(&lt;!-- a logicalPath="//apple_ref/occ/cl/NSInteger //apple_ref/occ/tdef/NSInteger //apple_ref/occ/tag/NSInteger //apple_ref/occ/struct/NSInteger //apple_ref/occ/intf/NSInteger //apple_ref/doc/anysymbol/NSInteger" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSInteger&lt;/span&gt;&lt;!-- /a --&gt;)&lt;!-- a logicalPath="//apple_ref/occ/econst/pollingInterval //apple_ref/occ/data/CMXClientConfiguration/pollingInterval //apple_ref/occ/data/pollingInterval //apple_ref/occ/clconst/CMXClientConfiguration/pollingInterval " machineGenerated="true" --&gt;&lt;span class="var"&gt;pollingInterval&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClient/configuration_DONTLINK_3</TokenIdentifier>
+    <Path>CMXClient_h/Classes/CMXClient/index.html</Path>
+    <Abstract>The client configuration</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXClientConfiguration //apple_ref/occ/tdef/CMXClientConfiguration //apple_ref/occ/tag/CMXClientConfiguration //apple_ref/occ/struct/CMXClientConfiguration //apple_ref/occ/intf/CMXClientConfiguration //apple_ref/doc/anysymbol/CMXClientConfiguration" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXClientConfiguration&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/configuration //apple_ref/occ/data/CMXClient/configuration //apple_ref/occ/data/configuration //apple_ref/occ/clconst/CMXClient/configuration " machineGenerated="true" --&gt;&lt;span class="var"&gt;configuration&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClientConfiguration/macAddress_DONTLINK_2</TokenIdentifier>
+    <Path>CMXClientConfiguration_h/Classes/CMXClientConfiguration/index.html</Path>
+    <Abstract>Mac Address</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/macAddress //apple_ref/occ/data/CMXClientConfiguration/macAddress //apple_ref/occ/data/macAddress //apple_ref/occ/clconst/CMXClientConfiguration/macAddress " machineGenerated="true" --&gt;&lt;span class="var"&gt;macAddress&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClientConfiguration/pollingInterval_DONTLINK_2</TokenIdentifier>
+    <Path>CMXClientConfiguration_h/Classes/CMXClientConfiguration/index.html</Path>
+    <Abstract>Polling interval</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSInteger //apple_ref/occ/tdef/NSInteger //apple_ref/occ/tag/NSInteger //apple_ref/occ/struct/NSInteger //apple_ref/occ/intf/NSInteger //apple_ref/doc/anysymbol/NSInteger" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSInteger&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/pollingInterval //apple_ref/occ/data/CMXClientConfiguration/pollingInterval //apple_ref/occ/data/pollingInterval //apple_ref/occ/clconst/CMXClientConfiguration/pollingInterval " machineGenerated="true" --&gt;&lt;span class="var"&gt;pollingInterval&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClientConfiguration/serverURL_DONTLINK_3</TokenIdentifier>
+    <Path>CMXClientConfiguration_h/Classes/CMXClientConfiguration/index.html</Path>
+    <Abstract>Server URL</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSURL //apple_ref/occ/tdef/NSURL //apple_ref/occ/tag/NSURL //apple_ref/occ/struct/NSURL //apple_ref/occ/intf/NSURL //apple_ref/doc/anysymbol/NSURL" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSURL&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/serverURL //apple_ref/occ/data/CMXClientConfiguration/serverURL //apple_ref/occ/data/serverURL //apple_ref/occ/clconst/CMXClientConfiguration/serverURL " machineGenerated="true" --&gt;&lt;span class="var"&gt;serverURL&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClientConfiguration/ssid_DONTLINK_2</TokenIdentifier>
+    <Path>CMXClientConfiguration_h/Classes/CMXClientConfiguration/index.html</Path>
+    <Abstract>SSID</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/ssid //apple_ref/occ/data/CMXClientConfiguration/ssid //apple_ref/occ/data/ssid //apple_ref/occ/clconst/CMXClientConfiguration/ssid " machineGenerated="true" --&gt;&lt;span class="var"&gt;ssid&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClientConfiguration/venueAddress_DONTLINK_2</TokenIdentifier>
+    <Path>CMXClientConfiguration_h/Classes/CMXClientConfiguration/index.html</Path>
+    <Abstract>Venue physical address</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/venueAddress //apple_ref/occ/data/CMXClientConfiguration/venueAddress //apple_ref/occ/data/venueAddress //apple_ref/occ/clconst/CMXClientConfiguration/venueAddress " machineGenerated="true" --&gt;&lt;span class="var"&gt;venueAddress&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClientConfiguration/venueId_DONTLINK_2</TokenIdentifier>
+    <Path>CMXClientConfiguration_h/Classes/CMXClientConfiguration/index.html</Path>
+    <Abstract>Venue ID</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/venueId //apple_ref/occ/data/CMXClientConfiguration/venueId //apple_ref/occ/data/venueId //apple_ref/occ/clconst/CMXClientConfiguration/venueId " machineGenerated="true" --&gt;&lt;span class="var"&gt;venueId&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClientLocation/deviceId_DONTLINK_3</TokenIdentifier>
+    <Path>CMXClientLocation_h/Classes/CMXClientLocation/index.html</Path>
+    <Abstract>Device ID</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/deviceId //apple_ref/occ/data/CMXClientLocation/deviceId //apple_ref/occ/data/deviceId //apple_ref/occ/clconst/CMXClientLocation/deviceId " machineGenerated="true" --&gt;&lt;span class="var"&gt;deviceId&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClientLocation/floorId_DONTLINK_3</TokenIdentifier>
+    <Path>CMXClientLocation_h/Classes/CMXClientLocation/index.html</Path>
+    <Abstract>Floor ID where the client is</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/floorId //apple_ref/occ/data/CMXClientLocation/floorId //apple_ref/occ/data/floorId //apple_ref/occ/clconst/CMXClientLocation/floorId " machineGenerated="true" --&gt;&lt;span class="var"&gt;floorId&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClientLocation/mapCoordinate_DONTLINK_3</TokenIdentifier>
+    <Path>CMXClientLocation_h/Classes/CMXClientLocation/index.html</Path>
+    <Abstract>Coordinate of the client</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXMapCoordinate //apple_ref/occ/tdef/CMXMapCoordinate //apple_ref/occ/tag/CMXMapCoordinate //apple_ref/occ/struct/CMXMapCoordinate //apple_ref/occ/intf/CMXMapCoordinate //apple_ref/doc/anysymbol/CMXMapCoordinate" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXMapCoordinate&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/mapCoordinate //apple_ref/occ/data/CMXClientLocation/mapCoordinate //apple_ref/occ/data/mapCoordinate //apple_ref/occ/clconst/CMXClientLocation/mapCoordinate " machineGenerated="true" --&gt;&lt;span class="var"&gt;mapCoordinate&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXClientLocation/venueId_DONTLINK_3</TokenIdentifier>
+    <Path>CMXClientLocation_h/Classes/CMXClientLocation/index.html</Path>
+    <Abstract>Venue ID where the client is</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/venueId //apple_ref/occ/data/CMXClientLocation/venueId //apple_ref/occ/data/venueId //apple_ref/occ/clconst/CMXClientLocation/venueId " machineGenerated="true" --&gt;&lt;span class="var"&gt;venueId&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXDimension/height_DONTLINK_3</TokenIdentifier>
+    <Path>CMXDimension_h/Classes/CMXDimension/index.html</Path>
+    <Abstract>Height</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/height //apple_ref/occ/data/CMXDimension/height //apple_ref/occ/data/height //apple_ref/occ/clconst/CMXDimension/height " machineGenerated="true" --&gt;&lt;span class="var"&gt;height&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXDimension/length_DONTLINK_3</TokenIdentifier>
+    <Path>CMXDimension_h/Classes/CMXDimension/index.html</Path>
+    <Abstract>Length</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/length //apple_ref/occ/data/CMXDimension/length //apple_ref/occ/data/length //apple_ref/occ/clconst/CMXDimension/length " machineGenerated="true" --&gt;&lt;span class="var"&gt;length&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXDimension/offsetX_DONTLINK_3</TokenIdentifier>
+    <Path>CMXDimension_h/Classes/CMXDimension/index.html</Path>
+    <Abstract>X offset in the map image</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/offsetX //apple_ref/occ/data/CMXDimension/offsetX //apple_ref/occ/data/offsetX //apple_ref/occ/clconst/CMXDimension/offsetX " machineGenerated="true" --&gt;&lt;span class="var"&gt;offsetX&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXDimension/offsetY_DONTLINK_3</TokenIdentifier>
+    <Path>CMXDimension_h/Classes/CMXDimension/index.html</Path>
+    <Abstract>Y offset in the map image</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/offsetY //apple_ref/occ/data/CMXDimension/offsetY //apple_ref/occ/data/offsetY //apple_ref/occ/clconst/CMXDimension/offsetY " machineGenerated="true" --&gt;&lt;span class="var"&gt;offsetY&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXDimension/unit_DONTLINK_3</TokenIdentifier>
+    <Path>CMXDimension_h/Classes/CMXDimension/index.html</Path>
+    <Abstract>Unit of height/length/width</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXUnit //apple_ref/occ/tdef/CMXUnit //apple_ref/occ/tag/CMXUnit //apple_ref/occ/struct/CMXUnit //apple_ref/occ/intf/CMXUnit //apple_ref/doc/anysymbol/CMXUnit" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXUnit&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/unit //apple_ref/occ/data/CMXDimension/unit //apple_ref/occ/data/unit //apple_ref/occ/clconst/CMXDimension/unit " machineGenerated="true" --&gt;&lt;span class="var"&gt;unit&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXDimension/width_DONTLINK_3</TokenIdentifier>
+    <Path>CMXDimension_h/Classes/CMXDimension/index.html</Path>
+    <Abstract>Width</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/width //apple_ref/occ/data/CMXDimension/width //apple_ref/occ/data/width //apple_ref/occ/clconst/CMXDimension/width " machineGenerated="true" --&gt;&lt;span class="var"&gt;width&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXFloor/dimension</TokenIdentifier>
+    <Path>CMXFloor_h/Classes/CMXFloor/index.html</Path>
+    <Abstract>Dimension of the floor</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXDimension //apple_ref/occ/tdef/CMXDimension //apple_ref/occ/tag/CMXDimension //apple_ref/occ/struct/CMXDimension //apple_ref/occ/intf/CMXDimension //apple_ref/doc/anysymbol/CMXDimension" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXDimension&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/dimension //apple_ref/occ/data/CMXFloor/dimension //apple_ref/occ/data/dimension //apple_ref/occ/clconst/CMXFloor/dimension " machineGenerated="true" --&gt;&lt;span class="var"&gt;dimension&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXFloor/floorId</TokenIdentifier>
+    <Path>CMXFloor_h/Classes/CMXFloor/index.html</Path>
+    <Abstract>Unique identifier of the floor</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/floorId //apple_ref/occ/data/CMXFloor/floorId //apple_ref/occ/data/floorId //apple_ref/occ/clconst/CMXFloor/floorId " machineGenerated="true" --&gt;&lt;span class="var"&gt;floorId&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXFloor/mapHierarchyString</TokenIdentifier>
+    <Path>CMXFloor_h/Classes/CMXFloor/index.html</Path>
+    <Abstract>Hierarchy of the floor</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/mapHierarchyString //apple_ref/occ/data/CMXFloor/mapHierarchyString //apple_ref/occ/data/mapHierarchyString //apple_ref/occ/clconst/CMXFloor/mapHierarchyString " machineGenerated="true" --&gt;&lt;span class="var"&gt;mapHierarchyString&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXFloor/name</TokenIdentifier>
+    <Path>CMXFloor_h/Classes/CMXFloor/index.html</Path>
+    <Abstract>Name of the floor</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/name //apple_ref/occ/data/CMXFloor/name //apple_ref/occ/data/name //apple_ref/occ/clconst/CMXFloor/name " machineGenerated="true" --&gt;&lt;span class="var"&gt;name&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXFloor/venueId</TokenIdentifier>
+    <Path>CMXFloor_h/Classes/CMXFloor/index.html</Path>
+    <Abstract>Venue id of the floor</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/venueId //apple_ref/occ/data/CMXFloor/venueId //apple_ref/occ/data/venueId //apple_ref/occ/clconst/CMXFloor/venueId " machineGenerated="true" --&gt;&lt;span class="var"&gt;venueId&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXMap/dimension_DONTLINK_2</TokenIdentifier>
+    <Path>CMXMap_h/Classes/CMXMap/index.html</Path>
+    <Abstract>Dimension of the map</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXDimension //apple_ref/occ/tdef/CMXDimension //apple_ref/occ/tag/CMXDimension //apple_ref/occ/struct/CMXDimension //apple_ref/occ/intf/CMXDimension //apple_ref/doc/anysymbol/CMXDimension" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXDimension&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/dimension //apple_ref/occ/data/CMXMap/dimension //apple_ref/occ/data/dimension //apple_ref/occ/clconst/CMXMap/dimension " machineGenerated="true" --&gt;&lt;span class="var"&gt;dimension&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXMap/floorId_DONTLINK_2</TokenIdentifier>
+    <Path>CMXMap_h/Classes/CMXMap/index.html</Path>
+    <Abstract>ID of the map</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/floorId //apple_ref/occ/data/CMXMap/floorId //apple_ref/occ/data/floorId //apple_ref/occ/clconst/CMXMap/floorId " machineGenerated="true" --&gt;&lt;span class="var"&gt;floorId&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXMap/mapHierarchyString_DONTLINK_2</TokenIdentifier>
+    <Path>CMXMap_h/Classes/CMXMap/index.html</Path>
+    <Abstract>Hierarchy of the map</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/mapHierarchyString //apple_ref/occ/data/CMXMap/mapHierarchyString //apple_ref/occ/data/mapHierarchyString //apple_ref/occ/clconst/CMXMap/mapHierarchyString " machineGenerated="true" --&gt;&lt;span class="var"&gt;mapHierarchyString&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXMap/name_DONTLINK_2</TokenIdentifier>
+    <Path>CMXMap_h/Classes/CMXMap/index.html</Path>
+    <Abstract>Name of the map</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/name //apple_ref/occ/data/CMXMap/name //apple_ref/occ/data/name //apple_ref/occ/clconst/CMXMap/name " machineGenerated="true" --&gt;&lt;span class="var"&gt;name&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXMap/venueId_DONTLINK_2</TokenIdentifier>
+    <Path>CMXMap_h/Classes/CMXMap/index.html</Path>
+    <Abstract>Venue ID of the map</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/venueId //apple_ref/occ/data/CMXMap/venueId //apple_ref/occ/data/venueId //apple_ref/occ/clconst/CMXMap/venueId " machineGenerated="true" --&gt;&lt;span class="var"&gt;venueId&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXMapCoordinate/unit_DONTLINK_3</TokenIdentifier>
+    <Path>CMXMapCoordinate_h/Classes/CMXMapCoordinate/index.html</Path>
+    <Abstract>Unit of the coordinate</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXUnit //apple_ref/occ/tdef/CMXUnit //apple_ref/occ/tag/CMXUnit //apple_ref/occ/struct/CMXUnit //apple_ref/occ/intf/CMXUnit //apple_ref/doc/anysymbol/CMXUnit" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXUnit&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/unit //apple_ref/occ/data/CMXMapCoordinate/unit //apple_ref/occ/data/unit //apple_ref/occ/clconst/CMXMapCoordinate/unit " machineGenerated="true" --&gt;&lt;span class="var"&gt;unit&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXMapCoordinate/x_DONTLINK_3</TokenIdentifier>
+    <Path>CMXMapCoordinate_h/Classes/CMXMapCoordinate/index.html</Path>
+    <Abstract>X coordinate</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/x //apple_ref/occ/data/CMXMapCoordinate/x //apple_ref/occ/data/x //apple_ref/occ/clconst/CMXMapCoordinate/x " machineGenerated="true" --&gt;&lt;span class="var"&gt;x&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXMapCoordinate/y_DONTLINK_3</TokenIdentifier>
+    <Path>CMXMapCoordinate_h/Classes/CMXMapCoordinate/index.html</Path>
+    <Abstract>Y coordinate</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/y //apple_ref/occ/data/CMXMapCoordinate/y //apple_ref/occ/data/y //apple_ref/occ/clconst/CMXMapCoordinate/y " machineGenerated="true" --&gt;&lt;span class="var"&gt;y&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXNetwork/password</TokenIdentifier>
+    <Path>CMXNetwork_h/Classes/CMXNetwork/index.html</Path>
+    <Abstract>Password of the network.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/password //apple_ref/occ/data/CMXNetwork/password //apple_ref/occ/data/password //apple_ref/occ/clconst/CMXNetwork/password " machineGenerated="true" --&gt;&lt;span class="var"&gt;password&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXNetwork/ssid</TokenIdentifier>
+    <Path>CMXNetwork_h/Classes/CMXNetwork/index.html</Path>
+    <Abstract>SSID of the network.</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/ssid //apple_ref/occ/data/CMXNetwork/ssid //apple_ref/occ/data/ssid //apple_ref/occ/clconst/CMXNetwork/ssid " machineGenerated="true" --&gt;&lt;span class="var"&gt;ssid&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXPOI/floorId_DONTLINK_3</TokenIdentifier>
+    <Path>CMXPOI_h/Classes/CMXPOI/index.html</Path>
+    <Abstract>Floor ID where the POI is located</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/floorId //apple_ref/occ/data/CMXPOI/floorId //apple_ref/occ/data/floorId //apple_ref/occ/clconst/CMXPOI/floorId " machineGenerated="true" --&gt;&lt;span class="var"&gt;floorId&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXPOI/identifier_DONTLINK_3</TokenIdentifier>
+    <Path>CMXPOI_h/Classes/CMXPOI/index.html</Path>
+    <Abstract>Unique identifier of the POI</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/identifier //apple_ref/occ/data/CMXPOI/identifier //apple_ref/occ/data/identifier //apple_ref/occ/clconst/CMXPOI/identifier " machineGenerated="true" --&gt;&lt;span class="var"&gt;identifier&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXPOI/name_DONTLINK_3</TokenIdentifier>
+    <Path>CMXPOI_h/Classes/CMXPOI/index.html</Path>
+    <Abstract>Name of the POI</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/name //apple_ref/occ/data/CMXPOI/name //apple_ref/occ/data/name //apple_ref/occ/clconst/CMXPOI/name " machineGenerated="true" --&gt;&lt;span class="var"&gt;name&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXPOI/points_DONTLINK_3</TokenIdentifier>
+    <Path>CMXPOI_h/Classes/CMXPOI/index.html</Path>
+    <Abstract>Area (array of</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/points //apple_ref/occ/data/CMXPOI/points //apple_ref/occ/data/points //apple_ref/occ/clconst/CMXPOI/points " machineGenerated="true" --&gt;&lt;span class="var"&gt;points&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXPOI/venueId_DONTLINK_3</TokenIdentifier>
+    <Path>CMXPOI_h/Classes/CMXPOI/index.html</Path>
+    <Abstract>Venue ID of the POI</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/venueId //apple_ref/occ/data/CMXPOI/venueId //apple_ref/occ/data/venueId //apple_ref/occ/clconst/CMXPOI/venueId " machineGenerated="true" --&gt;&lt;span class="var"&gt;venueId&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXPath/points_DONTLINK_3</TokenIdentifier>
+    <Path>CMXPath_h/Classes/CMXPath/index.html</Path>
+    <Abstract>Array of points (</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSArray //apple_ref/occ/tdef/NSArray //apple_ref/occ/tag/NSArray //apple_ref/occ/struct/NSArray //apple_ref/occ/intf/NSArray //apple_ref/doc/anysymbol/NSArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSArray&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/points //apple_ref/occ/data/CMXPath/points //apple_ref/occ/data/points //apple_ref/occ/clconst/CMXPath/points " machineGenerated="true" --&gt;&lt;span class="var"&gt;points&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXPoint/x_DONTLINK_3</TokenIdentifier>
+    <Path>CMXPoint_h/Classes/CMXPoint/index.html</Path>
+    <Abstract>X coordinate of the point</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/x //apple_ref/occ/data/CMXPoint/x //apple_ref/occ/data/x //apple_ref/occ/clconst/CMXPoint/x " machineGenerated="true" --&gt;&lt;span class="var"&gt;x&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXPoint/y_DONTLINK_3</TokenIdentifier>
+    <Path>CMXPoint_h/Classes/CMXPoint/index.html</Path>
+    <Abstract>Y coordinate of the point</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/float //apple_ref/occ/tdef/float //apple_ref/occ/tag/float //apple_ref/occ/struct/float //apple_ref/occ/intf/float //apple_ref/doc/anysymbol/float" machineGenerated="true" --&gt;&lt;span class="type"&gt;float&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/y //apple_ref/occ/data/CMXPoint/y //apple_ref/occ/data/y //apple_ref/occ/clconst/CMXPoint/y " machineGenerated="true" --&gt;&lt;span class="var"&gt;y&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXVenue/identifier</TokenIdentifier>
+    <Path>CMXVenue_h/Classes/CMXVenue/index.html</Path>
+    <Abstract>Unique identifier of the venue</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/identifier //apple_ref/occ/data/CMXVenue/identifier //apple_ref/occ/data/identifier //apple_ref/occ/clconst/CMXVenue/identifier " machineGenerated="true" --&gt;&lt;span class="var"&gt;identifier&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXVenue/locationUpdateInterval</TokenIdentifier>
+    <Path>CMXVenue_h/Classes/CMXVenue/index.html</Path>
+    <Abstract>Location update interval (in seconds)</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSUInteger //apple_ref/occ/tdef/NSUInteger //apple_ref/occ/tag/NSUInteger //apple_ref/occ/struct/NSUInteger //apple_ref/occ/intf/NSUInteger //apple_ref/doc/anysymbol/NSUInteger" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSUInteger&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/locationUpdateInterval //apple_ref/occ/data/CMXVenue/locationUpdateInterval //apple_ref/occ/data/locationUpdateInterval //apple_ref/occ/clconst/CMXVenue/locationUpdateInterval " machineGenerated="true" --&gt;&lt;span class="var"&gt;locationUpdateInterval&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXVenue/name</TokenIdentifier>
+    <Path>CMXVenue_h/Classes/CMXVenue/index.html</Path>
+    <Abstract>Name of the venue</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/name //apple_ref/occ/data/CMXVenue/name //apple_ref/occ/data/name //apple_ref/occ/clconst/CMXVenue/name " machineGenerated="true" --&gt;&lt;span class="var"&gt;name&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXVenue/preferredNetworks</TokenIdentifier>
+    <Path>CMXVenue_h/Classes/CMXVenue/index.html</Path>
+    <Abstract>Preferred networks of the venue</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSArray //apple_ref/occ/tdef/NSArray //apple_ref/occ/tag/NSArray //apple_ref/occ/struct/NSArray //apple_ref/occ/intf/NSArray //apple_ref/doc/anysymbol/NSArray" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSArray&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/preferredNetworks //apple_ref/occ/data/CMXVenue/preferredNetworks //apple_ref/occ/data/preferredNetworks //apple_ref/occ/clconst/CMXVenue/preferredNetworks " machineGenerated="true" --&gt;&lt;span class="var"&gt;preferredNetworks&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXVenue/streetAddress</TokenIdentifier>
+    <Path>CMXVenue_h/Classes/CMXVenue/index.html</Path>
+    <Abstract>Street address of the venue</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;strong&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --&gt;&lt;span class="type"&gt;NSString&lt;/span&gt;&lt;!-- /a --&gt; &lt;span class="type"&gt;*&lt;/span&gt;&lt;!-- a logicalPath="//apple_ref/occ/econst/streetAddress //apple_ref/occ/data/CMXVenue/streetAddress //apple_ref/occ/data/streetAddress //apple_ref/occ/clconst/CMXVenue/streetAddress " machineGenerated="true" --&gt;&lt;span class="var"&gt;streetAddress&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+<Token>
+    <TokenIdentifier>//apple_ref/occ/instp/CMXVenue/wifiMode</TokenIdentifier>
+    <Path>CMXVenue_h/Classes/CMXVenue/index.html</Path>
+    <Abstract>Wifi connection mode used for the venue</Abstract>
+    <Declaration>@property (&lt;span class="param"&gt;nonatomic&lt;/span&gt;,
+    &lt;span class="param"&gt;assign&lt;/span&gt;,
+    &lt;span class="param"&gt;readonly&lt;/span&gt;) &lt;!-- a logicalPath="//apple_ref/occ/cl/CMXWifiConnectionMode //apple_ref/occ/tdef/CMXWifiConnectionMode //apple_ref/occ/tag/CMXWifiConnectionMode //apple_ref/occ/struct/CMXWifiConnectionMode //apple_ref/occ/intf/CMXWifiConnectionMode //apple_ref/doc/anysymbol/CMXWifiConnectionMode" machineGenerated="true" --&gt;&lt;span class="type"&gt;CMXWifiConnectionMode&lt;/span&gt;&lt;!-- /a --&gt; &lt;!-- a logicalPath="//apple_ref/occ/econst/wifiMode //apple_ref/occ/data/CMXVenue/wifiMode //apple_ref/occ/data/wifiMode //apple_ref/occ/clconst/CMXVenue/wifiMode " machineGenerated="true" --&gt;&lt;span class="var"&gt;wifiMode&lt;/span&gt;&lt;!-- /a --&gt;; </Declaration>
+</Token>
+</Tokens>

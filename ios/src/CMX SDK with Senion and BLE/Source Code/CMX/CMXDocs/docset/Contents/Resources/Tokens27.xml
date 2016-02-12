@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CMXSearchViewControllerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CMXSearchViewControllerDelegate</TokenIdentifier>
+			<Abstract type="html">Delegate of search controller.</Abstract>
+			<DeclaredIn>CMXSearchViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CMXSearchViewControllerDelegate/searchViewController:didSelectPoi:</TokenIdentifier>
+			<Abstract type="html">Method called when a poi has been selected.</Abstract>
+			<DeclaredIn>CMXSearchViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)searchViewController:(CMXSearchViewController *)controller didSelectPoi:(CMXPoi *)poi</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controller</Name>
+					<Abstract type="html">Search controller.</Abstract>
+				</Parameter><Parameter>
+					<Name>poi</Name>
+					<Abstract type="html">Selected poi.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/searchViewController:didSelectPoi:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CMXSearchViewControllerDelegate/searchViewController:accessoryButtonTappedForPoi:</TokenIdentifier>
+			<Abstract type="html">Method call when accessory button of a poi has been tapped.</Abstract>
+			<DeclaredIn>CMXSearchViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)searchViewController:(CMXSearchViewController *)controller accessoryButtonTappedForPoi:(CMXPoi *)poi</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controller</Name>
+					<Abstract type="html">Search controller</Abstract>
+				</Parameter><Parameter>
+					<Name>poi</Name>
+					<Abstract type="html">Selected poi.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/searchViewController:accessoryButtonTappedForPoi:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

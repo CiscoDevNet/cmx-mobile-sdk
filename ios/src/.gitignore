@@ -1,0 +1,15 @@
+CMX/CMX.xcodeproj/xcuserdata
+CMX/build
+CMX/CMXKit.Framework
+CMX/CMXDocs
+CMX.xcworkspace/xcshareddata/xcdebugger
+CMX/CMXKitDocs
+CMX/CMX_devDocs
+CMXApp/CMXApp.xcodeproj/xcuserdata
+CMXApp/CMXApp.xcodeproj/project.xcworkspace/xcuserdata
+CMXApp/CMXApp.xcodeproj/project.xcworkspace/xcshareddata
+CMXApp/CMXApp/CMXApp.xcodeproj/xcuserdata
+CMXApp/CMXApp/CMXApp.xcodeproj/project.xcworkspace
+Distribution/3rdParty
+Distribution/CMX
+Distribution/XCode templates

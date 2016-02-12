@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXFloor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXFloor</TokenIdentifier>
+			<Abstract type="html">Define information about a floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloor/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">Unique identifier of this floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloor/identifier</TokenIdentifier>
+			<Abstract type="html">Unique identifier of this floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXFloor/identifier</TokenIdentifier>
+			<Abstract type="html">Unique identifier of this floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloor/setVenueId:</TokenIdentifier>
+			<Abstract type="html">Id of the venue holding this floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *venueId</Declaration>
+			
+			
+			<Anchor>//api/name/venueId</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloor/venueId</TokenIdentifier>
+			<Abstract type="html">Id of the venue holding this floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *venueId</Declaration>
+			
+			
+			<Anchor>//api/name/venueId</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXFloor/venueId</TokenIdentifier>
+			<Abstract type="html">Id of the venue holding this floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *venueId</Declaration>
+			
+			
+			<Anchor>//api/name/venueId</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloor/setDimension:</TokenIdentifier>
+			<Abstract type="html">Dimension of the floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXDimension *dimension</Declaration>
+			
+			
+			<Anchor>//api/name/dimension</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloor/dimension</TokenIdentifier>
+			<Abstract type="html">Dimension of the floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXDimension *dimension</Declaration>
+			
+			
+			<Anchor>//api/name/dimension</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXFloor/dimension</TokenIdentifier>
+			<Abstract type="html">Dimension of the floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMXDimension *dimension</Declaration>
+			
+			
+			<Anchor>//api/name/dimension</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloor/setName:</TokenIdentifier>
+			<Abstract type="html">Name of the floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloor/name</TokenIdentifier>
+			<Abstract type="html">Name of the floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXFloor/name</TokenIdentifier>
+			<Abstract type="html">Name of the floor.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMXFloor/modelObjectWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Alloc and init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>+ (CMXFloor *)modelObjectWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new object.</Abstract></ReturnValue>
+			<Anchor>//api/name/modelObjectWithDictionary:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloor/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Init an object from a dictionary representation.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">The dictionary representation of the object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current instance object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXFloor/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html">Returns The dictionary representation of the current object.</Abstract>
+			<DeclaredIn>CMXFloor.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			<ReturnValue><Abstract type="html">The dictionary representation of the current object.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

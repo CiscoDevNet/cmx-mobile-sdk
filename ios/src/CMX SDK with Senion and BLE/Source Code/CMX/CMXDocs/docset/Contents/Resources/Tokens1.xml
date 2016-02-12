@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXAppDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXAppDelegate</TokenIdentifier>
+			<Abstract type="html">Default application delegate.
+This implementation manages :</Abstract>
+			<DeclaredIn>CMXAppDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXAppDelegate/setWindow:</TokenIdentifier>
+			<Abstract type="html">Window used by the app.</Abstract>
+			<DeclaredIn>CMXAppDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) UIWindow *window</Declaration>
+			
+			
+			<Anchor>//api/name/window</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXAppDelegate/window</TokenIdentifier>
+			<Abstract type="html">Window used by the app.</Abstract>
+			<DeclaredIn>CMXAppDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) UIWindow *window</Declaration>
+			
+			
+			<Anchor>//api/name/window</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXAppDelegate/window</TokenIdentifier>
+			<Abstract type="html">Window used by the app.</Abstract>
+			<DeclaredIn>CMXAppDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) UIWindow *window</Declaration>
+			
+			
+			<Anchor>//api/name/window</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

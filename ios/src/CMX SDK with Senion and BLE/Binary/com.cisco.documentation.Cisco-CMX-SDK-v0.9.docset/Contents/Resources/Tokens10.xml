@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXLaunchViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXLaunchViewController</TokenIdentifier>
+			<Abstract type="html">Controller that loads data at launch.</Abstract>
+			<DeclaredIn>CMXLaunchViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXLaunchViewController/setOnDataLoaded:</TokenIdentifier>
+			<Abstract type="html">Block called when all data are loaded.
+The block takes 3 arguments :</Abstract>
+			<DeclaredIn>CMXLaunchViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSArray *venues , NSDictionary *floorsByVenueId , CMXClientLocation *userLocation ) onDataLoaded</Declaration>
+			
+			
+			<Anchor>//api/name/onDataLoaded</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXLaunchViewController/onDataLoaded</TokenIdentifier>
+			<Abstract type="html">Block called when all data are loaded.
+The block takes 3 arguments :</Abstract>
+			<DeclaredIn>CMXLaunchViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSArray *venues , NSDictionary *floorsByVenueId , CMXClientLocation *userLocation ) onDataLoaded</Declaration>
+			
+			
+			<Anchor>//api/name/onDataLoaded</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXLaunchViewController/onDataLoaded</TokenIdentifier>
+			<Abstract type="html">Block called when all data are loaded.
+The block takes 3 arguments :</Abstract>
+			<DeclaredIn>CMXLaunchViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSArray *venues , NSDictionary *floorsByVenueId , CMXClientLocation *userLocation ) onDataLoaded</Declaration>
+			
+			
+			<Anchor>//api/name/onDataLoaded</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

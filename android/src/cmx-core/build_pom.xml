@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="cmx-core" default="help">
+    <property name="target.dir" location="target"/>
+    <property name="doc.dir" location="target/doc"/>
+    <property name="doc.file" location="target/cmx-javadoc-${project.version}.zip"/>
+    <property name="cmxCore.dir" location="target/cmx-core"/>
+    <property name="cmxCore.file" location="target/cmx-core-${project.version}.zip"/>
+  
+    <target name="init" description="setup project directories and version information">
+        <mkdir dir="${doc.dir}"/>
+        <mkdir dir="${cmxCore.dir}"/>
+        <copy file="AndroidManifest.xml" tofile="AndroidManifest.xml_tmp" preservelastmodified="true" overwrite="false"/>
+        <replaceregexp file="AndroidManifest.xml" match="android:versionName=(.*)" replace='android:versionName="${project.version}" >' />
+    </target>
+    <target name="clean">
+        <delete dir="${target.dir}"/>
+        <ant antfile="build.xml" dir="." target="clean"/>
+    </target>
+    <target name="finish" description="finish reverting changes">
+    </target>
+    <target name="compile-debug">
+        <ant antfile="build.xml" dir="." target="debug"/>
+    </target>
+    <target name="compile-release">
+        <ant antfile="build.xml" dir="." target="release"/>
+    </target>
+    <target name="debug" depends="init,compile-debug" description="generate documentation">
+        <javadoc sourcepath="./src" destdir="${doc.dir}"/>
+        <copy file="bin/classes.jar" tofile="${cmxCore.dir}/cmx-core-${project.version}.jar" overwrite="true"/>
+        <copydir src="libs" dest="${cmxCore.dir}" forceoverwrite="true"/>
+        <zip destfile="${doc.file}">
+            <zipfileset dir="target/doc" prefix="javadoc"/>
+        </zip>
+        <move file="AndroidManifest.xml_tmp" tofile="AndroidManifest.xml" overwrite="true"/>
+    </target>
+    <target name="release" depends="init,compile-release" description="generate documentation">
+        <javadoc sourcepath="./src" destdir="${doc.dir}"/>
+        <copy file="bin/classes.jar" tofile="${cmxCore.dir}/cmx-core-${project.version}.jar" overwrite="true"/>
+        <copydir src="libs" dest="${cmxCore.dir}" forceoverwrite="true"/>
+        <zip destfile="${doc.file}">
+            <zipfileset dir="target/doc" prefix="javadoc"/>
+        </zip>
+        <move file="AndroidManifest.xml_tmp" tofile="AndroidManifest.xml" overwrite="true"/>
+    </target>
+    
+</project>

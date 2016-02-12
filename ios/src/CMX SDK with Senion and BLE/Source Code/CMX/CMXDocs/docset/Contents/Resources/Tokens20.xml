@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMXSearchViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMXSearchViewController</TokenIdentifier>
+			<Abstract type="html">Controller that manages a search widget and displays result of the search in a table.</Abstract>
+			<DeclaredIn>CMXSearchViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXSearchViewController/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Controller delegate.</Abstract>
+			<DeclaredIn>CMXSearchViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXSearchViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXSearchViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Controller delegate.</Abstract>
+			<DeclaredIn>CMXSearchViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXSearchViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMXSearchViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Controller delegate.</Abstract>
+			<DeclaredIn>CMXSearchViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;CMXSearchViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMXSearchViewController/initWithVenue:</TokenIdentifier>
+			<Abstract type="html">Initialize the controller with given venue. Search will be done only for this venue.</Abstract>
+			<DeclaredIn>CMXSearchViewController.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithVenue:(CMXVenue *)venue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>venue</Name>
+					<Abstract type="html">Venue object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Current instance</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithVenue:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

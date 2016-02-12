@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>Cisco CMX SDK v0.9</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+                
+				<Node>
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+				<Node>
+					<Name>Constants</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>CMXAppDelegate</Name>
+            <Path>Classes/CMXAppDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXAppDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXAppDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXAppDelegate.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="2" type="file" documentType="reference">
+            <Name>CMXBanner</Name>
+            <Path>Classes/CMXBanner.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXBanner.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXBanner.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXBanner.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXBanner.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXBanner.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="3" type="file" documentType="reference">
+            <Name>CMXBannerViewController</Name>
+            <Path>Classes/CMXBannerViewController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXBannerViewController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXBannerViewController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXBannerViewController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXBannerViewController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="4" type="file" documentType="reference">
+            <Name>CMXClient</Name>
+            <Path>Classes/CMXClient.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXClient.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXClient.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXClient.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXClient.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXClient.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="5" type="file" documentType="reference">
+            <Name>CMXClientConfiguration</Name>
+            <Path>Classes/CMXClientConfiguration.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXClientConfiguration.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXClientConfiguration.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXClientConfiguration.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXClientConfiguration.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="6" type="file" documentType="reference">
+            <Name>CMXClientLocation</Name>
+            <Path>Classes/CMXClientLocation.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXClientLocation.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXClientLocation.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXClientLocation.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXClientLocation.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXClientLocation.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="7" type="file" documentType="reference">
+            <Name>CMXDimension</Name>
+            <Path>Classes/CMXDimension.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXDimension.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXDimension.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXDimension.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXDimension.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXDimension.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="8" type="file" documentType="reference">
+            <Name>CMXFloor</Name>
+            <Path>Classes/CMXFloor.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXFloor.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXFloor.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXFloor.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXFloor.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXFloor.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="9" type="file" documentType="reference">
+            <Name>CMXFloorViewController</Name>
+            <Path>Classes/CMXFloorViewController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXFloorViewController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXFloorViewController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXFloorViewController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXFloorViewController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="10" type="file" documentType="reference">
+            <Name>CMXLaunchViewController</Name>
+            <Path>Classes/CMXLaunchViewController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXLaunchViewController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXLaunchViewController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXLaunchViewController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="11" type="file" documentType="reference">
+            <Name>CMXMainViewController</Name>
+            <Path>Classes/CMXMainViewController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXMainViewController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXMainViewController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXMainViewController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXMainViewController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="12" type="file" documentType="reference">
+            <Name>CMXMapCoordinate</Name>
+            <Path>Classes/CMXMapCoordinate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXMapCoordinate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXMapCoordinate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXMapCoordinate.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXMapCoordinate.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXMapCoordinate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="13" type="file" documentType="reference">
+            <Name>CMXMapView</Name>
+            <Path>Classes/CMXMapView.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXMapView.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXMapView.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXMapView.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXMapView.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="14" type="file" documentType="reference">
+            <Name>CMXMenuViewController</Name>
+            <Path>Classes/CMXMenuViewController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXMenuViewController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXMenuViewController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXMenuViewController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXMenuViewController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="15" type="file" documentType="reference">
+            <Name>CMXNetwork</Name>
+            <Path>Classes/CMXNetwork.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXNetwork.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXNetwork.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXNetwork.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXNetwork.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXNetwork.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="16" type="file" documentType="reference">
+            <Name>CMXPath</Name>
+            <Path>Classes/CMXPath.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXPath.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXPath.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXPath.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXPath.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="17" type="file" documentType="reference">
+            <Name>CMXPoi</Name>
+            <Path>Classes/CMXPoi.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXPoi.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXPoi.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXPoi.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXPoi.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXPoi.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="18" type="file" documentType="reference">
+            <Name>CMXPoiViewController</Name>
+            <Path>Classes/CMXPoiViewController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXPoiViewController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXPoiViewController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXPoiViewController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXPoiViewController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="19" type="file" documentType="reference">
+            <Name>CMXPoint</Name>
+            <Path>Classes/CMXPoint.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXPoint.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXPoint.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXPoint.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXPoint.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXPoint.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="20" type="file" documentType="reference">
+            <Name>CMXSearchViewController</Name>
+            <Path>Classes/CMXSearchViewController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXSearchViewController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXSearchViewController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXSearchViewController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXSearchViewController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="21" type="file" documentType="reference">
+            <Name>CMXSettingsViewController</Name>
+            <Path>Classes/CMXSettingsViewController.html</Path>
+            
+        </Node>
+		<Node id="22" type="file" documentType="reference">
+            <Name>CMXVenue</Name>
+            <Path>Classes/CMXVenue.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CMXVenue.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CMXVenue.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/CMXVenue.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXVenue.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CMXVenue.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+		
+        <Node id="23" type="file" documentType="reference">
+            <Name>CMXFloorViewControllerDelegate</Name>
+            <Path>Protocols/CMXFloorViewControllerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/CMXFloorViewControllerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/CMXFloorViewControllerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/CMXFloorViewControllerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="24" type="file" documentType="reference">
+            <Name>CMXMapViewDelegate</Name>
+            <Path>Protocols/CMXMapViewDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/CMXMapViewDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/CMXMapViewDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/CMXMapViewDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="25" type="file" documentType="reference">
+            <Name>CMXMenuViewControllerDelegate</Name>
+            <Path>Protocols/CMXMenuViewControllerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/CMXMenuViewControllerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/CMXMenuViewControllerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/CMXMenuViewControllerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="26" type="file" documentType="reference">
+            <Name>CMXPoiViewControllerDelegate</Name>
+            <Path>Protocols/CMXPoiViewControllerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/CMXPoiViewControllerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/CMXPoiViewControllerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/CMXPoiViewControllerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="27" type="file" documentType="reference">
+            <Name>CMXSearchViewControllerDelegate</Name>
+            <Path>Protocols/CMXSearchViewControllerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/CMXSearchViewControllerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/CMXSearchViewControllerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/CMXSearchViewControllerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+        <Node id="28" type="file" documentType="reference">
+            <Name>CMXUnit</Name>
+            <Path>Constants/CMXUnit.html</Path>
+            
+        </Node>
+		<Node id="29" type="file" documentType="reference">
+            <Name>CMXWifiConnectionMode</Name>
+            <Path>Constants/CMXWifiConnectionMode.html</Path>
+            
+        </Node>
+		
+	</Library>
+</DocSetNodes>

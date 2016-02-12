@@ -1,0 +1,957 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CMXMapView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Cisco CMX SDK v0.9 </a></h1>
+				<a id="developerHome" href="../index.html">Cisco</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CMXMapView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/mapDelegate">&nbsp;&nbsp;&nbsp;&nbsp;mapDelegate</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/centerOnPoi:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- centerOnPoi:animated:</option>
+	
+	<option value="//api/name/cleanLocationFeedback">&nbsp;&nbsp;&nbsp;&nbsp;- cleanLocationFeedback</option>
+	
+	<option value="//api/name/cleanMapView">&nbsp;&nbsp;&nbsp;&nbsp;- cleanMapView</option>
+	
+	<option value="//api/name/displayCalloutOnPoi:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- displayCalloutOnPoi:animated:</option>
+	
+	<option value="//api/name/setLocationFeedbackImage:">&nbsp;&nbsp;&nbsp;&nbsp;- setLocationFeedbackImage:</option>
+	
+	<option value="//api/name/setupWithMapImage:mapDimension:">&nbsp;&nbsp;&nbsp;&nbsp;- setupWithMapImage:mapDimension:</option>
+	
+	<option value="//api/name/showPOI:withImage:">&nbsp;&nbsp;&nbsp;&nbsp;- showPOI:withImage:</option>
+	
+	<option value="//api/name/showPath:withColor:lineWith:targetImage:">&nbsp;&nbsp;&nbsp;&nbsp;- showPath:withColor:lineWith:targetImage:</option>
+	
+	<option value="//api/name/showUserLocation:withImage:">&nbsp;&nbsp;&nbsp;&nbsp;- showUserLocation:withImage:</option>
+	
+	<option value="//api/name/showUserLocation:withOrientation:image:">&nbsp;&nbsp;&nbsp;&nbsp;- showUserLocation:withOrientation:image:</option>
+	
+	<option value="//api/name/updateMinMaxZoomScales">&nbsp;&nbsp;&nbsp;&nbsp;- updateMinMaxZoomScales</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mapDelegate">mapDelegate</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/centerOnPoi:animated:">centerOnPoi:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cleanLocationFeedback">cleanLocationFeedback</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cleanMapView">cleanMapView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/displayCalloutOnPoi:animated:">displayCalloutOnPoi:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setLocationFeedbackImage:">setLocationFeedbackImage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setupWithMapImage:mapDimension:">setupWithMapImage:mapDimension:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showPOI:withImage:">showPOI:withImage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showPath:withColor:lineWith:targetImage:">showPath:withColor:lineWith:targetImage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showUserLocation:withImage:">showUserLocation:withImage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showUserLocation:withOrientation:image:">showUserLocation:withOrientation:image:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateMinMaxZoomScales">updateMinMaxZoomScales</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CMXMapView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CMXMapView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIScrollView</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">UIScrollViewDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CMXMapView.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>View that displays pois/path on map with zoom/scrolling.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mapDelegate">&nbsp;&nbsp;mapDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setupWithMapImage:mapDimension:">&ndash;&nbsp;setupWithMapImage:mapDimension:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showPOI:withImage:">&ndash;&nbsp;showPOI:withImage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showPath:withColor:lineWith:targetImage:">&ndash;&nbsp;showPath:withColor:lineWith:targetImage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showUserLocation:withImage:">&ndash;&nbsp;showUserLocation:withImage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showUserLocation:withOrientation:image:">&ndash;&nbsp;showUserLocation:withOrientation:image:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/centerOnPoi:animated:">&ndash;&nbsp;centerOnPoi:animated:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cleanMapView">&ndash;&nbsp;cleanMapView</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateMinMaxZoomScales">&ndash;&nbsp;updateMinMaxZoomScales</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/displayCalloutOnPoi:animated:">&ndash;&nbsp;displayCalloutOnPoi:animated:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cleanLocationFeedback">&ndash;&nbsp;cleanLocationFeedback</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setLocationFeedbackImage:">&ndash;&nbsp;setLocationFeedbackImage:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/mapDelegate" title="mapDelegate"></a>
+	<h3 class="subsubtitle method-title">mapDelegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Map delegate.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;CMXMapViewDelegate&gt; mapDelegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/centerOnPoi:animated:" title="centerOnPoi:animated:"></a>
+	<h3 class="subsubtitle method-title">centerOnPoi:animated:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Center the map on given poi.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)centerOnPoi:(CMXPoi *)<em>poi</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>poi</em></dt>
+			<dd><p>Poi to center.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p>YES if animated, NO otherwise.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cleanLocationFeedback" title="cleanLocationFeedback"></a>
+	<h3 class="subsubtitle method-title">cleanLocationFeedback</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Remove location feedback view from the map view.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)cleanLocationFeedback</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cleanMapView" title="cleanMapView"></a>
+	<h3 class="subsubtitle method-title">cleanMapView</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Remove all displayed pois</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)cleanMapView</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/displayCalloutOnPoi:animated:" title="displayCalloutOnPoi:animated:"></a>
+	<h3 class="subsubtitle method-title">displayCalloutOnPoi:animated:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Display a callout view on selected poi.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)displayCalloutOnPoi:(CMXPoi *)<em>poi</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>poi</em></dt>
+			<dd><p>Selected poi.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p>YES if animated, NO otherwise.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setLocationFeedbackImage:" title="setLocationFeedbackImage:"></a>
+	<h3 class="subsubtitle method-title">setLocationFeedbackImage:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the image used by the feedback mode</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setLocationFeedbackImage:(UIImage *)<em>image</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>image</em></dt>
+			<dd><p>image representing the location feedback on the map.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setupWithMapImage:mapDimension:" title="setupWithMapImage:mapDimension:"></a>
+	<h3 class="subsubtitle method-title">setupWithMapImage:mapDimension:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Setup the view with map infos.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setupWithMapImage:(UIImage *)<em>mapImage</em> mapDimension:(CMXDimension *)<em>dimension</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>mapImage</em></dt>
+			<dd><p>Image of the map.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dimension</em></dt>
+			<dd><p>Dimension of the map.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showPOI:withImage:" title="showPOI:withImage:"></a>
+	<h3 class="subsubtitle method-title">showPOI:withImage:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Display a poi on map.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)showPOI:(CMXPoi *)<em>poi</em> withImage:(UIImage *)<em>image</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>poi</em></dt>
+			<dd><p>Poi to display</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>image</em></dt>
+			<dd><p>Image to display for the poi</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showPath:withColor:lineWith:targetImage:" title="showPath:withColor:lineWith:targetImage:"></a>
+	<h3 class="subsubtitle method-title">showPath:withColor:lineWith:targetImage:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Show navigation path on map. Set nil to path parameter to clear the current path.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)showPath:(CMXPath *)<em>path</em> withColor:(UIColor *)<em>color</em> lineWith:(NSUInteger)<em>lineWidth</em> targetImage:(UIImage *)<em>image</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>path</em></dt>
+			<dd><p>Path to display.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>color</em></dt>
+			<dd><p>Color of the path.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>lineWidth</em></dt>
+			<dd><p>Width of the line.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>image</em></dt>
+			<dd><p>Image representing the target destination.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showUserLocation:withImage:" title="showUserLocation:withImage:"></a>
+	<h3 class="subsubtitle method-title">showUserLocation:withImage:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Display user location on map.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)showUserLocation:(CMXClientLocation *)<em>userLocation</em> withImage:(UIImage *)<em>image</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>userLocation</em></dt>
+			<dd><p>User location on map.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>image</em></dt>
+			<dd><p>Image representing user on map.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showUserLocation:withOrientation:image:" title="showUserLocation:withOrientation:image:"></a>
+	<h3 class="subsubtitle method-title">showUserLocation:withOrientation:image:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Display user location with orientation on map.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)showUserLocation:(CMXClientLocation *)<em>userLocation</em> withOrientation:(float)<em>orientation</em> image:(UIImage *)<em>image</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>userLocation</em></dt>
+			<dd><p>User location on the map.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>orientation</em></dt>
+			<dd><p>Orientation of the user (in degrees)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>image</em></dt>
+			<dd><p>Image representing the user on map.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateMinMaxZoomScales" title="updateMinMaxZoomScales"></a>
+	<h3 class="subsubtitle method-title">updateMinMaxZoomScales</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Update minimum and maximum zoom scales depending of the view size.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)updateMinMaxZoomScales</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CMXMapView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Cisco. All rights reserved. (Last updated: 2014-02-28)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
